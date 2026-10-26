@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5ef4dfa50d9abfb4baa0e9eaf1c100d7
+guid: 68088e0297764094e970e964e3d2a000
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1619595243066064657
-    second: WhatsApp Image 2026-10-05 at 18.18.56_0
+      213: 8538734835328285091
+    second: neutraImageCen1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2026-10-05 at 18.18.56_0
+      name: neutraImageCen1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1376
-        height: 768
+        width: 1024
+        height: 571
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11f7dd6ea45f97610800000000000000
-      internalID: 1619595243066064657
+      spriteID: 3a9fef2b71eaf7670800000000000000
+      internalID: 8538734835328285091
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WhatsApp Image 2026-10-05 at 18.18.56_0: 1619595243066064657
+      neutraImageCen1_0: 8538734835328285091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -404,8 +404,9 @@ public class ControladorNarrativa : MonoBehaviour
         DadosCenario.Opcao opcao = quadro.opcoes[indice];
         proximoQuadroEscolhido = opcao.proximoQuadro;
 
-        if (textoQuadro != null)
-            textoQuadro.text = opcao.textoConsequencia;
+        // A consequência narrativa completa será exibida no quadro indicado por
+        // opcao.proximoQuadro quando o jogador clicar em Continuar.
+        // Não substituímos o texto do quadro inicial nesta etapa.
 
         if (botaoContinuar != null)
         {
@@ -499,8 +500,29 @@ public class ControladorNarrativa : MonoBehaviour
         }
         else
         {
-            // Quadros sem escolha seguem para o próximo quadro em sequência.
-            quadroAtual++;
+            // Quadros sem escolha podem seguir em sequência ou apontar para
+            // um quadro específico (por exemplo, para convergir os caminhos).
+            if (quadro.definirProximoQuadroManualmente)
+            {
+                int destino = quadro.proximoQuadroSemEscolha;
+
+                if (destino < 0 || destino > cenario.quadros.Length)
+                {
+                    Debug.LogError(
+                        "O quadro '" + quadro.titulo + "' tem Proximo Quadro Sem Escolha inválido: " + destino +
+                        ". Use um índice entre 0 e " + cenario.quadros.Length +
+                        " (o tamanho do array significa fim do cenário)."
+                    );
+                    return;
+                }
+
+                quadroAtual = destino;
+            }
+            else
+            {
+                // Com a opção desmarcada, mantém o comportamento antigo.
+                quadroAtual++;
+            }
         }
 
         MostrarQuadro();

@@ -24,6 +24,7 @@ public class DadosCenario : ScriptableObject
         [TextArea(2, 5)]
         public string textoConsequencia;
 
+        [Tooltip("Índice do quadro que será exibido quando o jogador confirmar esta opção. Os índices começam em 0. Use o tamanho do array para encerrar o cenário.")]
         public int proximoQuadro;
     }
 
@@ -40,6 +41,12 @@ public class DadosCenario : ScriptableObject
         public Opcao[] opcoes;
 
         public bool exigeEscolha;
-    }
 
+        [Header("Fluxo após este quadro")]
+        [Tooltip("Marque para escolher manualmente o próximo quadro após clicar em Continuar. Desmarcado: segue para o próximo índice normalmente.")]
+        public bool definirProximoQuadroManualmente;
+
+        [Tooltip("Índice do próximo quadro quando a opção acima estiver marcada. Índices começam em 0. Use o tamanho do array para finalizar o cenário.")]
+        public int proximoQuadroSemEscolha;
+    }
 }

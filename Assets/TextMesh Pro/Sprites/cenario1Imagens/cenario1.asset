@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
+  m_Name: cenario1
+  m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
+  imagemCapa: {fileID: 9094543361801899733, guid: 1b0dbf593213cce4b9ffc5ba9900cce0, type: 3}
+  nomeCenario: "A casa sil\xEAnciosa "
+  quadros:
+  - titulo: "A casa sil\xEAnciosa"
+    texto: "Seu Ant\xF4nio, 74 anos, mora sozinho desde que sua esposa faleceu. A
+      casa continua igual, mas j\xE1 n\xE3o tem a mesma rotina."
+    imagem: {fileID: -2329959863234833854, guid: 26ed22e44825b4946a300c5e11e66ab3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "A casa sil\xEAnciosa"
+    texto: "Sua filha liga durante a semana:\L\u2014 \u201CPai, est\xE1 tudo bem?
+      Voc\xEA est\xE1 precisando de alguma coisa?\"\LEle responde:\L\u2014 \u201CEstou
+      bem. S\xF3 sinto falta de ter algu\xE9m por perto.\u201D"
+    imagem: {fileID: 9094543361801899733, guid: 1b0dbf593213cce4b9ffc5ba9900cce0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "A casa sil\xEAnciosa"
+    texto: "No domingo, a filha fica em d\xFAvida se deve visit\xE1-lo. Ela est\xE1
+      cansada e pensa em apenas fazer uma liga\xE7\xE3o r\xE1pida."
+    imagem: {fileID: 1334960847774182391, guid: d7ebc84e59198b342a6c490236b34310, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Problema
+    texto: "Ela decide ligar e pergunta o que pode fazer para ajud\xE1-lo.\n\LO que
+      voc\xEA faria nessa situa\xE7\xE3o?"
+    imagem: {fileID: 3736540879100028168, guid: f083b45aa53415640a72ebfbc53c87e6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Problema
+    texto: 
+    imagem: {fileID: 3736540879100028168, guid: f083b45aa53415640a72ebfbc53c87e6, type: 3}
+    opcoes:
+    - textoOpcao: "Ele precisa se acostumar. N\xE3o d\xE1 para ficar indo l\xE1 toda
+        hora."
+      textoConsequencia: Negativa
+      proximoQuadro: 5
+    - textoOpcao: "Liga para ele de vez em quando, s\xF3 para saber se est\xE1 tudo
+        bem."
+      textoConsequencia: Meio negativa
+      proximoQuadro: 6
+    - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
+        por conta dele."
+      textoConsequencia: Neutra
+      proximoQuadro: 7
+    - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
+        contato durante a semana."
+      textoConsequencia: ' Meio positiva'
+      proximoQuadro: 9
+    - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
+      textoConsequencia: Positiva
+      proximoQuadro: 11
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Ele precisa se acostumar. N\xE3o d\xE1 para ficar indo l\xE1 toda hora."
+    imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Liga para ele de vez em quando, s\xF3 para saber se est\xE1 tudo bem."
+    imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente por
+      conta dele."
+    imagem: {fileID: 8538734835328285091, guid: 68088e0297764094e970e964e3d2a000, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 8
+  - titulo: 
+    texto: 
+    imagem: {fileID: 5097590544626389610, guid: b10a96b823eaea54aad652465c824fbc, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter contato
+      durante a semana."
+    imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 10
+  - titulo: 
+    texto: 
+    imagem: {fileID: 6028183830578997635, guid: c7f1f9227b826c445ac0f43c78b6d842, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Conversa com ele sobre o que est\xE1 sentindo"
+    imagem: {fileID: -7933959484852203323, guid: df4bcc52276f0e944bec15bfd40d4972, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 12
+  - titulo: 
+    texto: "Combina momentos de conviv\xEAncia."
+    imagem: {fileID: 2179803957164162282, guid: f8ac7ce813f08ee4fbbd05b3c327407d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 13
+  - titulo: 
+    texto: "Procura ajud\xE1-lo a manter atividades e rela\xE7\xF5es que fa\xE7am
+      sentido para ele.\_"
+    imagem: {fileID: -3785770787563733714, guid: acc9a2d1ab9a90846a78a0e0ede88c01, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
