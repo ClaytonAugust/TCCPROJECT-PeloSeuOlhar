@@ -45,6 +45,12 @@ public class ControladorNarrativa : MonoBehaviour
     [SerializeField] private TMP_Text tituloQuadro;
     [SerializeField] private TMP_Text textoQuadro;
 
+    [Header("Imagens de conclusão")]
+    [Tooltip("Imagem exibida quando um cenário termina, antes de voltar à seleção ou ir à reflexão final.")]
+    [SerializeField] private Sprite imagemConclusaoCenario;
+    [Tooltip("Imagem exibida na tela da reflexão final do jogo.")]
+    [SerializeField] private Sprite imagemReflexaoFinal;
+
     [Header("Escolhas")]
     [SerializeField] private GameObject painelEscolhas;
     [SerializeField] private Button[] botoesOpcoes;
@@ -63,6 +69,11 @@ public class ControladorNarrativa : MonoBehaviour
     [SerializeField] private GameObject[] iconesCadeado;
     [SerializeField] private TMP_Text[] titulosCenarios;
 
+    [Header("Tela de reflexão final")]
+    [SerializeField] private GameObject painelReflexaoFinal;
+    [SerializeField] private TMP_Text tituloReflexaoFinal;
+    [SerializeField] private TMP_Text textoReflexaoFinal;
+    [SerializeField] private Button botaoVoltarMenuFinal;
 
     private bool[] cenariosDesbloqueados;
     private int cenarioAtual;
@@ -128,6 +139,20 @@ public class ControladorNarrativa : MonoBehaviour
         {
             // Sem menu inicial configurado, abre a seleção diretamente.
             painelSelecaoCenarios.SetActive(true);
+        }
+
+        if (painelReflexaoFinal != null)
+            painelReflexaoFinal.SetActive(false);
+
+        if (botaoVoltarMenuFinal != null)
+        {
+            botaoVoltarMenuFinal.onClick.RemoveListener(
+                VoltarAoMenuInicialDaReflexao
+            );
+
+            botaoVoltarMenuFinal.onClick.AddListener(
+                VoltarAoMenuInicialDaReflexao
+            );
         }
 
         AtualizarTelaSelecao();
@@ -485,8 +510,9 @@ public class ControladorNarrativa : MonoBehaviour
                 return;
             }
 
-            // Cinco opções: índices 0..4 geram pontuações -2..+2.
-            int pontuacao = opcaoSelecionada - 2;
+            // A pontuação vem da configuração individual da opção no Inspector.
+            // Assim, a ordem visual das opções não altera a avaliação.
+            int pontuacao = opcao.pontuacao;
             RegistroEscolha registro = new RegistroEscolha(
                 cenario.nomeCenario,
                 quadro.titulo,
@@ -543,8 +569,25 @@ public class ControladorNarrativa : MonoBehaviour
 
         if (painelEscolhas != null)
             painelEscolhas.SetActive(false);
+
+        // Reutiliza a mesma área visual dos quadros narrativos para evitar
+        // uma tela vazia/azul ao terminar cada cenário.
         if (imagemQuadro != null)
-            imagemQuadro.gameObject.SetActive(false);
+        {
+            Sprite imagemConclusao = cenarios[cenarioAtual] != null
+                ? cenarios[cenarioAtual].imagemConclusao
+                : null;
+
+            // Permite uma imagem diferente para cada cenário; se não houver,
+            // usa a imagem geral configurada no ControladorNarrativa.
+            if (imagemConclusao == null)
+                imagemConclusao = imagemConclusaoCenario;
+
+            if (imagemConclusao != null)
+                imagemQuadro.sprite = imagemConclusao;
+
+            imagemQuadro.gameObject.SetActive(imagemQuadro.sprite != null);
+        }
 
         if (tituloQuadro != null)
             tituloQuadro.text = "História concluída";
@@ -596,18 +639,57 @@ public class ControladorNarrativa : MonoBehaviour
     {
         jogoFinalizado = true;
 
+        // Esconde os painéis anteriores.
+        if (painelNarrativa != null)
+            painelNarrativa.SetActive(false);
+
+        if (painelSelecaoCenarios != null)
+            painelSelecaoCenarios.SetActive(false);
+
+        if (painelMenuInicial != null)
+            painelMenuInicial.SetActive(false);
+
         if (painelEscolhas != null)
             painelEscolhas.SetActive(false);
-        if (imagemQuadro != null)
-            imagemQuadro.gameObject.SetActive(false);
-        if (tituloQuadro != null)
-            tituloQuadro.text = "Sua reflexão final";
-        if (textoQuadro != null)
-            textoQuadro.text = GerarFeedbackFinal();
-        if (botaoContinuar != null)
-            botaoContinuar.gameObject.SetActive(false);
-        if (botaoVoltar != null)
-            botaoVoltar.gameObject.SetActive(false);
+
+        if (painelReflexaoFinal != null)
+        {
+            // Preenche os elementos do novo painel.
+            if (tituloReflexaoFinal != null)
+                tituloReflexaoFinal.text =
+                    "Sua jornada pelo olhar do outro";
+
+            if (textoReflexaoFinal != null)
+                textoReflexaoFinal.text = GerarFeedbackFinal();
+
+            // Exibe a reflexão em tela inteira.
+            painelReflexaoFinal.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError(
+                "PainelReflexaoFinal não foi atribuído no Inspector."
+            );
+
+            // Mantém a reflexão antiga como alternativa de segurança.
+            if (painelNarrativa != null)
+                painelNarrativa.SetActive(true);
+
+            if (imagemQuadro != null)
+                imagemQuadro.gameObject.SetActive(false);
+
+            if (tituloQuadro != null)
+                tituloQuadro.text = "Sua reflexão final";
+
+            if (textoQuadro != null)
+                textoQuadro.text = GerarFeedbackFinal();
+
+            if (botaoContinuar != null)
+                botaoContinuar.gameObject.SetActive(false);
+
+            if (botaoVoltar != null)
+                botaoVoltar.gameObject.SetActive(false);
+        }
 
         RegistrarRespostasNoConsole();
     }
@@ -716,5 +798,33 @@ public class ControladorNarrativa : MonoBehaviour
         TMP_Text textoBotao = botaoContinuar.GetComponentInChildren<TMP_Text>(true);
         if (textoBotao != null)
             textoBotao.text = texto;
+    }
+
+    public void VoltarParaMenuInicial()
+    {
+        if (painelSelecaoCenarios != null)
+            painelSelecaoCenarios.SetActive(false);
+
+        if (painelMenuInicial != null)
+            painelMenuInicial.SetActive(true);
+    }
+
+    public void VoltarAoMenuInicialDaReflexao()
+    {
+        if (painelReflexaoFinal != null)
+            painelReflexaoFinal.SetActive(false);
+
+        if (painelNarrativa != null)
+            painelNarrativa.SetActive(false);
+
+        if (painelSelecaoCenarios != null)
+            painelSelecaoCenarios.SetActive(false);
+
+        if (painelMenuInicial != null)
+            painelMenuInicial.SetActive(true);
+        else
+            Debug.LogError(
+                "PainelMenuInicial não foi atribuído no Inspector."
+            );
     }
 }

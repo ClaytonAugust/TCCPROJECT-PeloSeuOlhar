@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
   imagemCapa: {fileID: 9094543361801899733, guid: 1b0dbf593213cce4b9ffc5ba9900cce0, type: 3}
   nomeCenario: "A casa sil\xEAnciosa "
+  imagemConclusao: {fileID: -7191073555793734665, guid: f9c778b88e296d54fa5a35a50f7a2fd8, type: 3}
   quadros:
   - titulo: "A casa sil\xEAnciosa"
     texto: "Seu Ant\xF4nio, 74 anos, mora sozinho desde que sua esposa faleceu. A
@@ -55,34 +56,48 @@ MonoBehaviour:
     - textoOpcao: "Ele precisa se acostumar. N\xE3o d\xE1 para ficar indo l\xE1 toda
         hora."
       textoConsequencia: Negativa
+      pontuacao: -2
       proximoQuadro: 5
     - textoOpcao: "Liga para ele de vez em quando, s\xF3 para saber se est\xE1 tudo
         bem."
       textoConsequencia: Meio negativa
+      pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
         por conta dele."
       textoConsequencia: Neutra
+      pontuacao: 0
       proximoQuadro: 7
     - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
         contato durante a semana."
       textoConsequencia: ' Meio positiva'
+      pontuacao: 1
       proximoQuadro: 9
     - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
       textoConsequencia: Positiva
+      pontuacao: 2
       proximoQuadro: 11
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: 
-    texto: "Ele precisa se acostumar. N\xE3o d\xE1 para ficar indo l\xE1 toda hora."
+    texto: "narra\xE7\xE3o: Sentada no sof\xE1, a filha afasta o celular do ouvido
+      com um suspiro de exaust\xE3o:\nfala:  Ele precisa se acostumar. N\xE3o d\xE1
+      para ficar indo l\xE1 toda hora.\nnarra\xE7\xE3o: Optando por se distanciar,
+      ela racionaliza a solid\xE3o do pai como algo a que ele deve se habituar sozinho.
+      Na casa vazia, o isolamento de Seu Ant\xF4nio se aprofunda."
     imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 14
   - titulo: 
-    texto: "Liga para ele de vez em quando, s\xF3 para saber se est\xE1 tudo bem."
+    texto: "narra\xE7\xE3o: A filha decide manter uma barreira segura,\nresumindo
+      o cuidado a um contato superficial:\n\nnarra\xE7\xE3o:  Liga para ele de vez
+      em quando, s\xF3 para saber se est\xE1 tudo bem.\n\nnarra\xE7\xE3o: Ela faz
+      o m\xEDnimo necess\xE1rio para aliviar a pr\xF3pria consci\xEAncia, mas evita
+      o envolvimento presencial. Seu Ant\xF4nio continua recebendo liga\xE7\xF5es
+      espor\xE1dicas, enquanto a dist\xE2ncia emocional e o vazio na rotina persistem."
     imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
     opcoes: []
     exigeEscolha: 0

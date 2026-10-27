@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: cenario2
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
   imagemCapa: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
-  nomeCenario: 
+  nomeCenario: Deixa que eu resolvo
+  imagemConclusao: {fileID: 0}
   quadros:
-  - titulo: 
+  - titulo: Deixa que eu resolvo
     texto: Dona Helena, 70 anos, precisa acompanhar alguns medicamentos e fazer consultas
       regularmente.
     imagem: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
@@ -23,7 +24,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: Deixa que eu resolvo
     texto: "Seu filho percebe que ela esqueceu de anotar uma consulta e come\xE7a
       a ficar preocupado."
     imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
@@ -31,7 +32,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: Deixa que eu resolvo
     texto: "Ele pega o celular dela e come\xE7a a organizar consultas, rem\xE9dios
       e hor\xE1rios sem perguntar nada."
     imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
@@ -39,7 +40,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: Deixa que eu resolvo
     texto: "O filho precisa decidir como ajudar sem tirar dela o controle da pr\xF3pria
       sa\xFAde."
     imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
@@ -47,29 +48,34 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: o que vai responder?
+  - titulo: "O que voc\xEA faria nessa situa\xE7\xE3o?"
     texto: 
     imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
     opcoes:
     - textoOpcao: "Deixa que ele cuide de tudo. Ela j\xE1 est\xE1 velha e pode acabar
         esquecendo."
       textoConsequencia: Negativa
+      pontuacao: -2
       proximoQuadro: 5
     - textoOpcao: Organiza tudo para ela, mas avisa depois o que foi feito.
       textoConsequencia: Meio negativa
+      pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
         pedir."
       textoConsequencia: neutra
+      pontuacao: 0
       proximoQuadro: 8
     - textoOpcao: "Ajuda a organizar as informa\xE7\xF5es, mas deixa que ela escolha
         como quer controlar seus pr\xF3prios cuidados."
       textoConsequencia: Meio Positiva
+      pontuacao: 1
       proximoQuadro: 10
     - textoOpcao: "Conversa com ela, entende quais dificuldades realmente existem
         e oferece ferramentas e apoio para que ela continue participando das decis\xF5es
         sobre a pr\xF3pria sa\xFAde."
       textoConsequencia: Positiva
+      pontuacao: 2
       proximoQuadro: 12
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

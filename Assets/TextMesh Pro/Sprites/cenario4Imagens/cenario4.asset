@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
   m_Name: cenario4
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
-  imagemCapa: {fileID: 0}
-  nomeCenario: 
+  imagemCapa: {fileID: 2251854303521554873, guid: 65b54519830aa1d45a936cb4c0982c5f, type: 3}
+  nomeCenario: Tudo mudou
+  imagemConclusao: {fileID: 0}
   quadros:
   - titulo: 
     texto: 

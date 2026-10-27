@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: cenario3
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
   imagemCapa: {fileID: 483878692087434876, guid: 5a0feee8347b9664bb4d85b7f99ca37f, type: 3}
-  nomeCenario: 
+  nomeCenario: "N\xE3o era isso que aconteceu"
+  imagemConclusao: {fileID: 0}
   quadros:
-  - titulo: 
+  - titulo: "N\xE3o era isso que aconteceu"
     texto: Dona Maria percebe que sua carteira desapareceu depois que um parente
       esteve em sua casa.
     imagem: {fileID: 483878692087434876, guid: 5a0feee8347b9664bb4d85b7f99ca37f, type: 3}
@@ -23,7 +24,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: "N\xE3o era isso que aconteceu"
     texto: Dona Maria percebe que sua carteira desapareceu depois que um parente
       esteve em sua casa.
     imagem: {fileID: 2686470822861318503, guid: a45aed67f4e8d524ab52e1a82e39395d, type: 3}
@@ -31,7 +32,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: "N\xE3o era isso que aconteceu"
     texto: "Um familiar come\xE7a a comentar com outras pessoas:\L\L\u2014 \u201CEla
       anda esquecendo das coisas. Talvez tenha perdido e esteja culpando algu\xE9m.\""
     imagem: {fileID: -2105273506632354181, guid: 18e51ce929bea8f47a0e459b72b2c3fb, type: 3}
@@ -39,7 +40,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: "N\xE3o era isso que aconteceu"
     texto: "A hist\xF3ria vai passando de pessoa para pessoa. Ningu\xE9m pergunta
       diretamente a Dona Maria o que aconteceu."
     imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
@@ -47,7 +48,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
+  - titulo: "N\xE3o era isso que aconteceu"
     texto: "Quando finalmente falam com ela, Dona Maria descobre que j\xE1 existe
       uma hist\xF3ria sobre o que teria acontecido \u2014 mas ningu\xE9m ouviu sua
       vers\xE3o."
@@ -56,29 +57,34 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: o que fazer?
+  - titulo: "O que voc\xEA faria nessa situa\xE7\xE3o?"
     texto: 
     imagem: {fileID: 5642213674493751873, guid: 4b9ce2be31a5baf4bb94cbb1c21921d0, type: 3}
     opcoes:
     - textoOpcao: "Acreditaria na fam\xEDlia e evitaria discutir para n\xE3o criar
         confus\xE3o."
       textoConsequencia: 
+      pontuacao: 0
       proximoQuadro: 6
     - textoOpcao: Ouviria Dona Maria, mas continuaria acreditando mais no que os
         outros disseram.
       textoConsequencia: 
+      pontuacao: 0
       proximoQuadro: 7
     - textoOpcao: escutando primeiro a historia dos outros familiares sem Dona Maria
         por perto
       textoConsequencia: 
+      pontuacao: 0
       proximoQuadro: 8
     - textoOpcao: "Conversaria diretamente com Dona Maria e daria espa\xE7o para
         ela explicar o que aconteceu."
       textoConsequencia: 
+      pontuacao: 0
       proximoQuadro: 10
     - textoOpcao: "Evitaria espalhar acusa\xE7\xF5es, conversaria diretamente com
         ela e buscaria entender os fatos antes de fazer qualquer julgamento."
       textoConsequencia: 
+      pontuacao: 0
       proximoQuadro: 11
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
