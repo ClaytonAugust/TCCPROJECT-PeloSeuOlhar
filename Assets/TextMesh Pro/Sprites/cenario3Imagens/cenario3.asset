@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
+  m_Name: cenario3
+  m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
+  imagemCapa: {fileID: 483878692087434876, guid: 5a0feee8347b9664bb4d85b7f99ca37f, type: 3}
+  nomeCenario: 
+  quadros:
+  - titulo: 
+    texto: Dona Maria percebe que sua carteira desapareceu depois que um parente
+      esteve em sua casa.
+    imagem: {fileID: 483878692087434876, guid: 5a0feee8347b9664bb4d85b7f99ca37f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: Dona Maria percebe que sua carteira desapareceu depois que um parente
+      esteve em sua casa.
+    imagem: {fileID: 2686470822861318503, guid: a45aed67f4e8d524ab52e1a82e39395d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Um familiar come\xE7a a comentar com outras pessoas:\L\L\u2014 \u201CEla
+      anda esquecendo das coisas. Talvez tenha perdido e esteja culpando algu\xE9m.\""
+    imagem: {fileID: -2105273506632354181, guid: 18e51ce929bea8f47a0e459b72b2c3fb, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "A hist\xF3ria vai passando de pessoa para pessoa. Ningu\xE9m pergunta
+      diretamente a Dona Maria o que aconteceu."
+    imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Quando finalmente falam com ela, Dona Maria descobre que j\xE1 existe
+      uma hist\xF3ria sobre o que teria acontecido \u2014 mas ningu\xE9m ouviu sua
+      vers\xE3o."
+    imagem: {fileID: 5642213674493751873, guid: 4b9ce2be31a5baf4bb94cbb1c21921d0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: o que fazer?
+    texto: 
+    imagem: {fileID: 5642213674493751873, guid: 4b9ce2be31a5baf4bb94cbb1c21921d0, type: 3}
+    opcoes:
+    - textoOpcao: "Acreditaria na fam\xEDlia e evitaria discutir para n\xE3o criar
+        confus\xE3o."
+      textoConsequencia: 
+      proximoQuadro: 6
+    - textoOpcao: Ouviria Dona Maria, mas continuaria acreditando mais no que os
+        outros disseram.
+      textoConsequencia: 
+      proximoQuadro: 7
+    - textoOpcao: escutando primeiro a historia dos outros familiares sem Dona Maria
+        por perto
+      textoConsequencia: 
+      proximoQuadro: 8
+    - textoOpcao: "Conversaria diretamente com Dona Maria e daria espa\xE7o para
+        ela explicar o que aconteceu."
+      textoConsequencia: 
+      proximoQuadro: 10
+    - textoOpcao: "Evitaria espalhar acusa\xE7\xF5es, conversaria diretamente com
+        ela e buscaria entender os fatos antes de fazer qualquer julgamento."
+      textoConsequencia: 
+      proximoQuadro: 11
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: 0}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0

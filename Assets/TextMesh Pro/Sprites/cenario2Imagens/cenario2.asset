@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
+  m_Name: cenario2
+  m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
+  imagemCapa: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
+  nomeCenario: 
+  quadros:
+  - titulo: 
+    texto: Dona Helena, 70 anos, precisa acompanhar alguns medicamentos e fazer consultas
+      regularmente.
+    imagem: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Seu filho percebe que ela esqueceu de anotar uma consulta e come\xE7a
+      a ficar preocupado."
+    imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Ele pega o celular dela e come\xE7a a organizar consultas, rem\xE9dios
+      e hor\xE1rios sem perguntar nada."
+    imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "O filho precisa decidir como ajudar sem tirar dela o controle da pr\xF3pria
+      sa\xFAde."
+    imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: o que vai responder?
+    texto: 
+    imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
+    opcoes:
+    - textoOpcao: "Deixa que ele cuide de tudo. Ela j\xE1 est\xE1 velha e pode acabar
+        esquecendo."
+      textoConsequencia: Negativa
+      proximoQuadro: 5
+    - textoOpcao: Organiza tudo para ela, mas avisa depois o que foi feito.
+      textoConsequencia: Meio negativa
+      proximoQuadro: 6
+    - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
+        pedir."
+      textoConsequencia: neutra
+      proximoQuadro: 8
+    - textoOpcao: "Ajuda a organizar as informa\xE7\xF5es, mas deixa que ela escolha
+        como quer controlar seus pr\xF3prios cuidados."
+      textoConsequencia: Meio Positiva
+      proximoQuadro: 10
+    - textoOpcao: "Conversa com ela, entende quais dificuldades realmente existem
+        e oferece ferramentas e apoio para que ela continue participando das decis\xF5es
+        sobre a pr\xF3pria sa\xFAde."
+      textoConsequencia: Positiva
+      proximoQuadro: 12
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: 
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: 
+    imagem: {fileID: 452197297520804635, guid: 69ae19851a778a04bb3bfa90ca33b0ee, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 7
+  - titulo: 
+    texto: 
+    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: 
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 9
+  - titulo: 
+    texto: 
+    imagem: {fileID: 7670775576156265414, guid: 4a789bc58d1e3e0458bbd820fb908847, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: 
+    imagem: {fileID: 4326038619158674836, guid: 883ff1602acd19f41b313b421375093d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 11
+  - titulo: 
+    texto: 
+    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: 
+    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 13
+  - titulo: 
+    texto: 
+    imagem: {fileID: -4427610741136733771, guid: cc83caccee733bb47b44450edde03b65, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
