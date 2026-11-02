@@ -10,6 +10,9 @@ public class ControladorMenuInicial : MonoBehaviour
     [Header("Créditos")]
     [SerializeField] private GameObject painelCreditos;
 
+    [Header("Sobre o jogo")]
+    [SerializeField] private GameObject painelSobreOJogo;
+
     [Header("Som")]
     [SerializeField] private Image imagemIconeSom;
     [SerializeField] private Sprite iconeSomLigado;
@@ -24,6 +27,9 @@ public class ControladorMenuInicial : MonoBehaviour
 
         if (painelCreditos != null)
             painelCreditos.SetActive(false);
+
+        if (painelSobreOJogo != null)
+            painelSobreOJogo.SetActive(false);
 
         AplicarEstadoSom();
     }
@@ -60,6 +66,18 @@ public class ControladorMenuInicial : MonoBehaviour
     {
         if (painelCreditos != null)
             painelCreditos.SetActive(false);
+    }
+
+    public void AbrirSobreOJogo()
+    {
+        if (painelSobreOJogo != null)
+            painelSobreOJogo.SetActive(true);
+    }
+
+    public void FecharSobreOJogo()
+    {
+        if (painelSobreOJogo != null)
+            painelSobreOJogo.SetActive(false);
     }
 
     public void Sair()

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bedaeca1cb304a34287af9d294dc6b20
+guid: 2bc6446f6b0990e48b9609148bbd8eb3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3350366347984428602
-    second: cen3meiopositivaquad1_0
+      213: -2071131800922814628
+    second: image(4)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cen3meiopositivaquad1_0
+      name: image(4)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c127f8be8b1181d0800000000000000
-      internalID: -3350366347984428602
+      spriteID: c570bf2b99cd143e0800000000000000
+      internalID: -2071131800922814628
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cen3meiopositivaquad1_0: -3350366347984428602
+      image(4)_0: -2071131800922814628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -16,142 +16,96 @@ MonoBehaviour:
   nomeCenario: "A casa sil\xEAnciosa "
   imagemConclusao: {fileID: -7191073555793734665, guid: f9c778b88e296d54fa5a35a50f7a2fd8, type: 3}
   quadros:
-  - titulo: "A casa sil\xEAnciosa"
-    texto: "Seu Ant\xF4nio, 74 anos, mora sozinho desde que sua esposa faleceu. A
-      casa continua igual, mas j\xE1 n\xE3o tem a mesma rotina."
+  - titulo: A casa ficou silenciosa
+    texto: "A tarde chega devagar e o tempo passa devagar. Seu Ant\xF4nio, aos 74
+      anos, est\xE1 sentado na sua poltrona que se tornara sua \xFAltima companheira
+      . Ao seu redor, ele apenas escuta a voz do silencio \u2014 os porta-retratos
+      que guardam memorias de tempos que n\xE3o voltar\xE3o\_ \u2014, mas o que mais
+      o incomoda \xE9 o sil\xEAncio que preenche toda a casa."
     imagem: {fileID: -2329959863234833854, guid: 26ed22e44825b4946a300c5e11e66ab3, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: "A casa sil\xEAnciosa"
-    texto: "Sua filha liga durante a semana:\L\u2014 \u201CPai, est\xE1 tudo bem?
-      Voc\xEA est\xE1 precisando de alguma coisa?\"\LEle responde:\L\u2014 \u201CEstou
-      bem. S\xF3 sinto falta de ter algu\xE9m por perto.\u201D"
+  - titulo: A casa ficou silenciosa
+    texto: "Mas o toque do telefone quebra esse silencio ensurdecedor. Era a sua
+      filha que est\xE1 preocupada com o seu pai.\n"
+    imagem: {fileID: -2329959863234833854, guid: 26ed22e44825b4946a300c5e11e66ab3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: A casa ficou silenciosa
+    texto: "Filha: Boa tarde pai, eu estou ligando para saber como v\xE3o as coisas,
+      desde que a m\xE3e morreu eu ando preocupada com o senhor\_ "
     imagem: {fileID: 9094543361801899733, guid: 1b0dbf593213cce4b9ffc5ba9900cce0, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: "A casa sil\xEAnciosa"
-    texto: "No domingo, a filha fica em d\xFAvida se deve visit\xE1-lo. Ela est\xE1
-      cansada e pensa em apenas fazer uma liga\xE7\xE3o r\xE1pida."
+  - titulo: A casa ficou silenciosa
+    texto: "Olhando para a mesa que arrumara para tomar um caf\xE9, um costume que
+      Seu Ant\xF4nio ainda mantinha vivo ele hesita para desabafar que o que mais
+      lhe, \xE9 que as mem\xF3rias e o bons tempos n\xE3o voltam e que a solid\xE3o
+      se tornara a sua nova companheira."
+    imagem: {fileID: 9094543361801899733, guid: 1b0dbf593213cce4b9ffc5ba9900cce0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: A casa ficou silenciosa
+    texto: "narra\xE7\xE3o: Em sua pr\xF3pria casa Catarina , n\xE3o sabe o que fazer,
+      ela est\xE1 cansada e com a consci\xEAncia pesada. O peso da semana recai sobre
+      seus ombros junto com a preocupa\xE7\xE3o as suas preocupa\xE7\xF5es ela se
+      sente esgotada."
     imagem: {fileID: 1334960847774182391, guid: d7ebc84e59198b342a6c490236b34310, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: Problema
-    texto: "Ela decide ligar e pergunta o que pode fazer para ajud\xE1-lo.\n\LO que
-      voc\xEA faria nessa situa\xE7\xE3o?"
-    imagem: {fileID: 3736540879100028168, guid: f083b45aa53415640a72ebfbc53c87e6, type: 3}
+  - titulo: A casa ficou silenciosa
+    texto: "narra\xE7\xE3o: Catarina est\xE1 em um dilema manter a sua dedica\xE7\xE3o
+      ao trabalho ou oferecer a sua companhia para o sei pai que n\xE3o parece estar
+      lidando bem com a solid\xE3o. O que ela deve fazer?"
+    imagem: {fileID: 1334960847774182391, guid: d7ebc84e59198b342a6c490236b34310, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: Problema
+  - titulo: A casa ficou silenciosa
+    texto: "narra\xE7\xE3o: Catarina est\xE1 em um dilema manter a sua dedica\xE7\xE3o
+      ao trabalho ou oferecer a sua companhia para o sei pai que n\xE3o parece estar
+      lidando bem com a solid\xE3o. O que ela deve fazer?"
+    imagem: {fileID: 1334960847774182391, guid: d7ebc84e59198b342a6c490236b34310, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: escolha
     texto: 
     imagem: {fileID: 3736540879100028168, guid: f083b45aa53415640a72ebfbc53c87e6, type: 3}
     opcoes:
-    - textoOpcao: "Ele precisa se acostumar. N\xE3o d\xE1 para ficar indo l\xE1 toda
-        hora."
-      textoConsequencia: Negativa
-      pontuacao: -2
-      proximoQuadro: 5
-    - textoOpcao: "Liga para ele de vez em quando, s\xF3 para saber se est\xE1 tudo
-        bem."
-      textoConsequencia: Meio negativa
-      pontuacao: -1
-      proximoQuadro: 6
-    - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
-        por conta dele."
-      textoConsequencia: Neutra
+    - textoOpcao: "Fala: o senhor deve estar se sentindo sozinho, mas eu n\xE3o posso
+        visit\xE1-lo ainda mas eu prometo que vou ligar mais "
+      textoConsequencia: 
       pontuacao: 0
-      proximoQuadro: 7
-    - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
-        contato durante a semana."
-      textoConsequencia: ' Meio positiva'
-      pontuacao: 1
-      proximoQuadro: 9
-    - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
-      textoConsequencia: Positiva
-      pontuacao: 2
-      proximoQuadro: 11
+      proximoQuadro: 0
+    - textoOpcao: 
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 0
+    - textoOpcao: 
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 0
+    - textoOpcao: 
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 0
+    - textoOpcao: 
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 0
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
-    texto: "narra\xE7\xE3o: Sentada no sof\xE1, a filha afasta o celular do ouvido
-      com um suspiro de exaust\xE3o:\nfala:  Ele precisa se acostumar. N\xE3o d\xE1
-      para ficar indo l\xE1 toda hora.\nnarra\xE7\xE3o: Optando por se distanciar,
-      ela racionaliza a solid\xE3o do pai como algo a que ele deve se habituar sozinho.
-      Na casa vazia, o isolamento de Seu Ant\xF4nio se aprofunda."
-    imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "narra\xE7\xE3o: A filha decide manter uma barreira segura,\nresumindo
-      o cuidado a um contato superficial:\n\nnarra\xE7\xE3o:  Liga para ele de vez
-      em quando, s\xF3 para saber se est\xE1 tudo bem.\n\nnarra\xE7\xE3o: Ela faz
-      o m\xEDnimo necess\xE1rio para aliviar a pr\xF3pria consci\xEAncia, mas evita
-      o envolvimento presencial. Seu Ant\xF4nio continua recebendo liga\xE7\xF5es
-      espor\xE1dicas, enquanto a dist\xE2ncia emocional e o vazio na rotina persistem."
-    imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente por
-      conta dele."
-    imagem: {fileID: 8538734835328285091, guid: 68088e0297764094e970e964e3d2a000, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 8
-  - titulo: 
-    texto: 
-    imagem: {fileID: 5097590544626389610, guid: b10a96b823eaea54aad652465c824fbc, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter contato
-      durante a semana."
-    imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 10
-  - titulo: 
-    texto: 
-    imagem: {fileID: 6028183830578997635, guid: c7f1f9227b826c445ac0f43c78b6d842, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "Conversa com ele sobre o que est\xE1 sentindo"
-    imagem: {fileID: -7933959484852203323, guid: df4bcc52276f0e944bec15bfd40d4972, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 12
-  - titulo: 
-    texto: "Combina momentos de conviv\xEAncia."
-    imagem: {fileID: 2179803957164162282, guid: f8ac7ce813f08ee4fbbd05b3c327407d, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 13
-  - titulo: 
-    texto: "Procura ajud\xE1-lo a manter atividades e rela\xE7\xF5es que fa\xE7am
-      sentido para ele.\_"
-    imagem: {fileID: -3785770787563733714, guid: acc9a2d1ab9a90846a78a0e0ede88c01, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
