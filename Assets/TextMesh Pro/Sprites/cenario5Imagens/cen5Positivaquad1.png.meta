@@ -3,8 +3,8 @@ guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1727956543137363714
-    second: cen5Positivaquad1_0
+      213: -705960573741391066
+    second: cen5positivaquad1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cen5Positivaquad1_0
+      name: cen5positivaquad1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 207b305225feaf710800000000000000
-      internalID: 1727956543137363714
+      spriteID: 623a6b8399ce336f0800000000000000
+      internalID: -705960573741391066
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cen5Positivaquad1_0: 1727956543137363714
+      cen5positivaquad1_0: -705960573741391066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
