@@ -1709,7 +1709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00012207, y: 187.93}
+  m_AnchoredPosition: {x: 0.00018311, y: 336}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &385554081
@@ -1798,7 +1798,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -2.5845947}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4567,8 +4567,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.4579, y: 5.3932}
-  m_SizeDelta: {x: 829.7594, y: 381.2137}
+  m_AnchoredPosition: {x: 0.000053518, y: -17}
+  m_SizeDelta: {x: 904.8865, y: 645.549}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &943990062
 MonoBehaviour:
@@ -4590,7 +4590,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Este jogo aborda o etarismo, o preconceito e a discrimina\xE7\xE3o direcionados
+    \xE0s pessoas em raz\xE3o da idade, especialmente \xE0 popula\xE7\xE3o idosa.\n\nPor
+    meio de diferentes cenas e personagens, o jogador \xE9 apresentado a situa\xE7\xF5es
+    cotidianas que evidenciam como o etarismo pode se manifestar em diversas rela\xE7\xF5es
+    sociais. Em cada cen\xE1rio, \xE9 poss\xEDvel escolher entre cinco alternativas
+    de resposta, cada uma com diferentes consequ\xEAncias e pesos dentro da narrativa.\n\nA
+    proposta \xE9 estimular a reflex\xE3o sobre atitudes, julgamentos e comportamentos
+    relacionados ao envelhecimento, destacando a import\xE2ncia do respeito, da empatia
+    e da valoriza\xE7\xE3o das pessoas idosas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4624,8 +4632,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -4656,7 +4664,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.8642578, y: 6.154297, z: 2.5145264, w: 1.7549438}
+  m_margin: {x: -1.8642578, y: 6.154297, z: 2.5142822, w: 1.7549438}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4780,8 +4788,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0001, y: 0}
-  m_SizeDelta: {x: 633.1537, y: 325.8504}
+  m_AnchoredPosition: {x: -6.461, y: -22.1149}
+  m_SizeDelta: {x: 640, y: 666.7599}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &955956050
 MonoBehaviour:
@@ -4803,7 +4811,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Desenvolvimento e programa\xE7\xE3o \n Clayton Augusto Nascimento de Ara\xFAjo\n\nRevis\xE3o
+    textual e produ\xE7\xE3o visual \n Gabriel Gonzaga dos Santos Lopes \n\nDire\xE7\xE3o
+    criativa e narrativa \n Vitor Dias Cordeiro Sebadelhe \n \nOrienta\xE7\xE3o acad\xEAmica\n
+    Professor Jos\xE9 Raul \n\nRevis\xE3o t\xE9cnica em psicologia \n Dra. Dandara
+    Palhano"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4836,7 +4848,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 3
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -4869,7 +4881,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 2.279663, w: 0}
+  m_margin: {x: 0, y: 0, z: -2.8895264, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5406,7 +5418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: -236}
+  m_AnchoredPosition: {x: 0.000015259, y: -426.64}
   m_SizeDelta: {x: 260, y: 77.542}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114285447
@@ -6129,8 +6141,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 750, y: 600}
+  m_AnchoredPosition: {x: 0, y: 0.0000076293945}
+  m_SizeDelta: {x: 961.9268, y: 964.4106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1253153087
 CanvasRenderer:
@@ -6491,7 +6503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000020981, y: 221}
+  m_AnchoredPosition: {x: 0.000082016, y: 330.77}
   m_SizeDelta: {x: 234.2508, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1304669471
@@ -7024,8 +7036,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444, y: -0.000011444}
-  m_SizeDelta: {x: 892.5793, y: 624.7372}
+  m_AnchoredPosition: {x: -19.986988, y: 22.464}
+  m_SizeDelta: {x: 1000, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411231072
 MonoBehaviour:
@@ -8835,7 +8847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -256}
+  m_AnchoredPosition: {x: 0, y: -392.54}
   m_SizeDelta: {x: 180, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719783301

@@ -17,100 +17,179 @@ MonoBehaviour:
   imagemConclusao: {fileID: 0}
   quadros:
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Seu Jos\xE9, 78 anos, sempre teve uma rotina muito independente. Gostava
+      de sair, resolver suas pr\xF3prias coisas e manter seus hor\xE1rios."
+    imagem: {fileID: 2251854303521554873, guid: 65b54519830aa1d45a936cb4c0982c5f, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Depois de uma mudan\xE7a importante em sua vida, ele precisa alterar
+      parte da rotina: depender mais de transporte, mudar alguns h\xE1bitos e aceitar
+      ajuda."
+    imagem: {fileID: -3813982540941205535, guid: 13e954304ba95d548ae3b1d48102b3a9, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "A fam\xEDlia come\xE7a a fazer praticamente tudo por ele para \u201Cfacilitar\u201D."
+    imagem: {fileID: -1059682442917800780, guid: 5249524aac5256649a13d5632d5b092c, type: 3}
     opcoes: []
     exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: problema
+    texto: 
+    imagem: {fileID: -1059682442917800780, guid: 5249524aac5256649a13d5632d5b092c, type: 3}
+    opcoes:
+    - textoOpcao: "\u201CFaria tudo por ele. \xC9 mais r\xE1pido e evita que ele
+        tenha problemas.\u201D"
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 4
+    - textoOpcao: "Faria a maioria das atividades deixando s\xF3 as mais f\xE1ceis
+        para ele."
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 6
+    - textoOpcao: "\u201CDeixaria que ele tentasse, mas assumiria as tarefas assim
+        que ficassem dif\xEDceis.\u201D"
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 10
+    - textoOpcao: Perguntaria o que ele ainda consegue fazer sozinho e ajudaria no
+        restante.
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 13
+    - textoOpcao: "\u201CConversaria com ele sobre as mudan\xE7as, respeitaria o
+        ritmo de adapta\xE7\xE3o e buscaria maneiras de manter sua independ\xEAncia
+        mesmo com as novas limita\xE7\xF5es."
+      textoConsequencia: 
+      pontuacao: 0
+      proximoQuadro: 16
+    exigeEscolha: 1
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o: Marcia decide assumir todas as tarefas de Seu Jos\xE9.
+      A filha faz as compras, organiza os compromissos e resolve as contas, acreditando
+      que assim evita preocupa\xE7\xF5es para o pai."
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 5
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Fala (Marcia): Deixa tudo comigo, pai. \xC9 melhor o senhor descansar
+      e n\xE3o se preocupar com essas coisas."
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o: Marcia decide quais tarefas o pai ainda pode realizar
+      e assume as demais sem conversar com ele. Para ela, essa divis\xE3o \xE9 uma
+      forma pr\xE1tica de evitar riscos."
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 7
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: 'Fala (filha): eu lavei os pratos para o senhor, pai. .'
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 8
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o: Enquanto as decis\xF5es centrais e as maiores responsabilidades
+      s\xE3o centralizadas por marcia, Seu Jos\xE9 perdeu boa parte da sua uma parte
+      da sua autonomia ."
+    imagem: {fileID: -2185070055771989, guid: 703d11170343cd14cbf05495b9bd4c30, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 9
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "narra\xE7\xE3o: seu jos\xE9 agora apenas auxilia sua filia na tarefas
+      mais simples"
+    imagem: {fileID: 4068027903160069178, guid: 64fa347324a9dfa429d3956fa777d295, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o 1: Sentado \xE0 mesa da sala, Seu Jos\xE9 confere as contas
+      da casa e anota os pr\xF3ximos vencimentos. Marcia permanece ao lado, ajudando
+      com o que ele presisar."
+    imagem: {fileID: 1668053149117505748, guid: e4cd37c83566ade479d87a58db0aea59, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 11
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o: Seu Jos\xE9  encontra dificuldades em algumas contas
+      ent\xE3o Marcia interv\xE9m para terminar as contas. seu jos\xE9 sabe que ela
+      quer ajudar, mas gostaria de ter tido a oportunidade de terminar sozinho."
+    imagem: {fileID: 5594819101839689006, guid: d24c48f1b9b77944bb34fa07e8de1b9d, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 12
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o: Depois de terminar as contas, a filha percebe que o pai
+      ficou em silencio. S\xF3 ent\xE3o entende que, ao tentar facilitar a tarefa,
+      acabou n\xE3o lhe dando tempo para realiz\xE1-la."
+    imagem: {fileID: 5594819101839689006, guid: d24c48f1b9b77944bb34fa07e8de1b9d, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Fala(Filha): Pai, me conta o que o senhor faz quest\xE3o de continuar
+      fazendo do seu jeito, e em quais coisas prefere que eu te ajude?"
+    imagem: {fileID: 2004127006712290883, guid: 081eec5e3e5d4994e95b2bb963a59cdb, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
   - titulo: 
-    texto: 
-    imagem: {fileID: 0}
+    texto: "Narra\xE7\xE3o 1: A filha escuta as prefer\xEAncias do pai e reorganiza
+      parte da rotina para ajud\xE1-lo."
+    imagem: {fileID: 6570096326622401905, guid: 178e144aba0314245ab55b069d5b3b22, type: 3}
     opcoes: []
     exigeEscolha: 0
-    definirProximoQuadroManualmente: 0
-    proximoQuadroSemEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 15
+  - titulo: 
+    texto: "Narra\xE7\xE3o 2: Mas ela ainda faz quest\xE3o de assumir a responsabilidade
+      de algumas tarefas, mas tenta respeitar o que Seu Jos\xE9 acredita ser capaz
+      de fazer."
+    imagem: {fileID: 6570096326622401905, guid: 178e144aba0314245ab55b069d5b3b22, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
+  - titulo: 
+    texto: "Fala(Filha): Pai, vamos conversar sobre essas mudan\xE7as necess\xE1rias
+      porque o senhor n\xE3o tem mais a capacidade de manter a sua rotima mas podemos
+      reorganiza-las para diminuir o seu esfor\xE7o.  "
+    imagem: {fileID: -8740537040534882625, guid: 3a72bdc76f6c5ba43b1299fd8b8284c0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 17
+  - titulo: 
+    texto: "Narra\xE7\xE3o 1: Seu Jos\xE9 volta a organizar suas contas, planejar
+      pequenas sa\xEDdas . Algumas tarefas exigem adapta\xE7\xF5es, mas ele continua
+      respons\xE1vel pelas escolhas que consegue fazer."
+    imagem: {fileID: 6645614068174629735, guid: 68b20efcf3d14974b96617ca83b1e07d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
