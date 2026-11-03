@@ -55,12 +55,12 @@ MonoBehaviour:
     - textoOpcao: "Deixaria a fam\xEDlia decidir tudo por ele, afinal eles sabem
         o que \xE9 melhor."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -2
       proximoQuadro: 5
     - textoOpcao: "Deixaria a fam\xEDlia cuidar das decis\xF5es, mas tentaria garantir
         que ele fosse tratado com respeito."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "Perguntaria a Seu Roberto o que ele pensa antes de tomar qualquer
         decis\xE3o."
@@ -70,12 +70,12 @@ MonoBehaviour:
     - textoOpcao: "Conversaria diretamente com Seu Roberto e provavelmente consideraria
         sua opini\xE3o."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 12
     - textoOpcao: "Conversaria com Seu Roberto, ouviria suas prefer\xEAncias e respeitaria
         sua decis\xE3o."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 15
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

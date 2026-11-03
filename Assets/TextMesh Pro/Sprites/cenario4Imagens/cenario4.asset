@@ -47,12 +47,12 @@ MonoBehaviour:
     - textoOpcao: "\u201CFaria tudo por ele. \xC9 mais r\xE1pido e evita que ele
         tenha problemas.\u201D"
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -2
       proximoQuadro: 4
     - textoOpcao: "Faria a maioria das atividades deixando s\xF3 as mais f\xE1ceis
         para ele."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "\u201CDeixaria que ele tentasse, mas assumiria as tarefas assim
         que ficassem dif\xEDceis.\u201D"
@@ -62,13 +62,13 @@ MonoBehaviour:
     - textoOpcao: Perguntaria o que ele ainda consegue fazer sozinho e ajudaria no
         restante.
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 13
     - textoOpcao: "\u201CConversaria com ele sobre as mudan\xE7as, respeitaria o
         ritmo de adapta\xE7\xE3o e buscaria maneiras de manter sua independ\xEAncia
         mesmo com as novas limita\xE7\xF5es."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 16
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

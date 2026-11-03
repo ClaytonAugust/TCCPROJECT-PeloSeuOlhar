@@ -79,12 +79,12 @@ MonoBehaviour:
     - textoOpcao: "pai eu n\xE3o poderei ir na sua casa por um tempo devido ao meu
         trabalho ent\xE3o n\xE3o d\xE1 para visit\xE1-lo "
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -2
       proximoQuadro: 7
     - textoOpcao: "o senhor deve estar se sentindo sozinho, mas eu n\xE3o posso visit\xE1-lo
         ainda mas eu prometo que vou ligar mais "
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -1
       proximoQuadro: 9
     - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
         por conta dele."
@@ -94,11 +94,11 @@ MonoBehaviour:
     - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
         contato durante a semana."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 13
     - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 16
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

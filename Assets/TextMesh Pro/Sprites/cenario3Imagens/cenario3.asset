@@ -76,12 +76,12 @@ MonoBehaviour:
     - textoOpcao: "Acreditaria na fam\xEDlia e evitaria discutir para n\xE3o criar
         confus\xE3o."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -2
       proximoQuadro: 7
     - textoOpcao: Ouviria Dona Maria, mas continuaria acreditando mais no que os
         outros disseram.
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: -1
       proximoQuadro: 10
     - textoOpcao: "Escutar todo mundo antes de tirar conclus\xF5es precipitadas"
       textoConsequencia: 
@@ -90,12 +90,12 @@ MonoBehaviour:
     - textoOpcao: " Conversaria diretamente com Dona Maria e daria espa\xE7o para
         ela se explicar."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 16
     - textoOpcao: "Evitaria espalhar falsas acusa\xE7\xF5es, e conversaria diretamente
         com ela buscando entender os fatos antes de fazer qualquer julgamento."
       textoConsequencia: 
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 18
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
