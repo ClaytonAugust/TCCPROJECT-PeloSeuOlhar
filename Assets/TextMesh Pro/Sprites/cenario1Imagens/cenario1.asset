@@ -78,26 +78,76 @@ MonoBehaviour:
     opcoes:
     - textoOpcao: "pai eu n\xE3o poderei ir na sua casa por um tempo devido ao meu
         trabalho ent\xE3o n\xE3o d\xE1 para visit\xE1-lo "
-      textoConsequencia: 
+      textoConsequencia: "Com o passar dos dias, Catarina acaba se envolvendo cada
+        vez mais com as responsabilidades do trabalho e deixa as visitas para depois.
+        Seu Ant\xF4nio continua sentado em sua poltrona, mantendo os mesmos h\xE1bitos
+        de sempre, mas a casa permanece silenciosa. As liga\xE7\xF5es se tornam cada
+        vez mais raras, e ele passa a sentir falta at\xE9 das pequenas conversas
+        que costumava ter com a filha. Mesmo sem reclamar, come\xE7a a acreditar
+        que precisa se acostumar com a solid\xE3o."
+      textoFeedback: "Catarina estava cansada, e esse cansa\xE7o \xE9 real. Mas,
+        enquanto as visitas ficavam para depois, Seu Ant\xF4nio foi se acostumando
+        com o sil\xEAncio. O mais dif\xEDcil n\xE3o foi ficar sozinho, e sim deixar
+        de esperar que algu\xE9m viesse. Aos poucos, ele parou de pedir companhia.\nPerder
+        algu\xE9m com quem se dividiu a vida muda tudo: a rotina, a casa, at\xE9
+        o gosto do caf\xE9 da tarde. O luto n\xE3o passa s\xF3 com o tempo. Quem
+        perde algu\xE9m precisa de espa\xE7o para sentir a falta e, ao mesmo tempo,
+        de apoio para reorganizar a vida. Muitas pessoas idosas n\xE3o pedem ajuda
+        para n\xE3o incomodar, e por isso a solid\xE3o pode crescer sem que ningu\xE9m
+        perceba.\nEstar presente nem sempre exige muito tempo. Uma liga\xE7\xE3o
+        sem pressa, uma pergunta sobre quem se foi ou uma foto antiga podem fazer
+        diferen\xE7a. Voc\xEA conhece algu\xE9m que est\xE1 passando por uma perda?
+        Quando foi a \xFAltima vez que perguntou como essa pessoa est\xE1 de verdade?"
       pontuacao: -2
       proximoQuadro: 7
     - textoOpcao: "o senhor deve estar se sentindo sozinho, mas eu n\xE3o posso visit\xE1-lo
         ainda mas eu prometo que vou ligar mais "
-      textoConsequencia: 
+      textoConsequencia: "Catarina tenta manter contato com o pai por meio de liga\xE7\xF5es
+        durante a semana. Seu Ant\xF4nio fica contente ao ouvir a voz da filha, mas
+        as conversas s\xE3o r\xE1pidas e as visitas continuam raras. Com a rotina
+        cada vez mais cheia, Catarina consegue ir \xE0 casa dele apenas em ocasi\xF5es
+        especiais. Mesmo agradecido pelas liga\xE7\xF5es, Seu Ant\xF4nio sente falta
+        de ter a filha por perto e de compartilhar com ela os pequenos momentos do
+        dia a dia."
+      textoFeedback: 
       pontuacao: -1
       proximoQuadro: 9
     - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
         por conta dele."
-      textoConsequencia: 
+      textoConsequencia: "Catarina envia uma mensagem ao pai, dizendo que pode visit\xE1-lo
+        quando ele quiser. Seu Ant\xF4nio fica contente ao perceber que a filha se
+        preocupa com ele, mas n\xE3o sabe quando pedir essa companhia. Algumas vezes,
+        ele pega o telefone para cham\xE1-la, mas desiste: \u201CEla deve estar ocupada.\u201D
+        Os dias continuam passando e, embora mantenham algum contato, as visitas
+        n\xE3o se tornam frequentes. A casa continua silenciosa na maior parte do
+        tempo, e os dois ainda esperam por uma oportunidade de se aproximar."
+      textoFeedback: teste
       pontuacao: 0
       proximoQuadro: 11
     - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
         contato durante a semana."
-      textoConsequencia: 
+      textoConsequencia: "Com o passar dos dias, Catarina passa a organizar melhor
+        sua rotina para estar mais presente na vida do pai. As visitas se tornam
+        mais frequentes, e os dois come\xE7am a recuperar pequenos momentos de conviv\xEAncia.
+        Seu Ant\xF4nio volta a folhear os antigos \xE1lbuns de fam\xEDlia e compartilhar
+        hist\xF3rias que h\xE1 muito tempo n\xE3o contava. A casa, antes marcada
+        pelo sil\xEAncio, ganha novamente espa\xE7o para conversas e risadas. Mesmo
+        com as dificuldades do dia a dia, Catarina faz quest\xE3o de manter esse
+        v\xEDnculo, e Seu Ant\xF4nio percebe que n\xE3o precisa enfrentar a solid\xE3o
+        sozinho."
+      textoFeedback: teste
       pontuacao: 1
       proximoQuadro: 13
     - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
-      textoConsequencia: 
+      textoConsequencia: "Em vez de apenas ligar, Catarina pergunta ao pai como ele
+        est\xE1. Desta vez, Seu Ant\xF4nio n\xE3o hesita: fala da saudade da esposa,
+        das tardes em que tomavam caf\xE9 juntos e do sil\xEAncio que ficou na casa.
+        Catarina escuta sem pressa e, pela primeira vez desde a perda da m\xE3e,
+        os dois choram juntos.\nNas semanas seguintes, ela passa a visit\xE1-lo com
+        frequ\xEAncia e leva o filho junto. \xC0 mesa do caf\xE9, agora posta para
+        tr\xEAs, Seu Ant\xF4nio mostra os \xE1lbuns de fam\xEDlia e conta hist\xF3rias
+        que o neto nunca tinha ouvido. A casa, antes silenciosa, volta a ter vozes."
+      textoFeedback: teste
       pontuacao: 2
       proximoQuadro: 16
     exigeEscolha: 1

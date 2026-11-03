@@ -75,26 +75,59 @@ MonoBehaviour:
     opcoes:
     - textoOpcao: "Acreditaria na fam\xEDlia e evitaria discutir para n\xE3o criar
         confus\xE3o."
-      textoConsequencia: 
+      textoConsequencia: "Com o passar do tempo, os coment\xE1rios sobre Dona Maria
+        continuam circulando entre os familiares, sem que ningu\xE9m procure esclarecer
+        o que realmente aconteceu. Ela passa a evitar conversas sobre o assunto e
+        se sente cada vez mais distante da fam\xEDlia. A falta de apoio de Vaguiner,
+        em quem esperava encontrar compreens\xE3o, faz com que Dona Maria se sinta
+        desacreditada e tenha receio de compartilhar suas preocupa\xE7\xF5es novamente."
+      textoFeedback: 
       pontuacao: -2
       proximoQuadro: 7
     - textoOpcao: Ouviria Dona Maria, mas continuaria acreditando mais no que os
         outros disseram.
-      textoConsequencia: 
+      textoConsequencia: "Com o passar dos dias, a fam\xEDlia deixa de falar abertamente
+        sobre o ocorrido, mas as suspeitas continuam presentes. Embora Dona Maria
+        tenha tentado explicar o que aconteceu mas a sua palavra inda \xE9 recebida
+        com desconfian\xE7a. Vaguiner prefere n\xE3o prolongar a situa\xE7\xE3o e
+        a situa\xE7\xE3o acaba sem um esclarecimento. Dona Maria continua magoada
+        por n\xE3o ter sido totalmente ouvida e sente que precisa provar sua pr\xF3pria
+        vers\xE3o para ser acreditada."
+      textoFeedback: 
       pontuacao: -1
       proximoQuadro: 10
     - textoOpcao: "Escutar todo mundo antes de tirar conclus\xF5es precipitadas"
-      textoConsequencia: 
+      textoConsequencia: "Com o passar do tempo, o assunto perde espa\xE7o nas conversas
+        da fam\xEDlia, mas ningu\xE9m consegue concordar o que realmente aconteceu
+        com a carteira. Dona Maria percebe que, apesar de Vaguiner ter conversado
+        com os familiares, as d\xFAvidas continuam sem resposta. Ela aceita que talvez
+        n\xE3o consiga recuperar a carteira ou descobrir o que aconteceu, mas fica
+        incomodada por ter sido envolvida em uma hist\xF3ria que nunca quis criar.
+        Aos poucos, a conviv\xEAncia volta ao normal, embora o epis\xF3dio deixe
+        um desconforto entre ela e alguns familiares."
+      textoFeedback: 
       pontuacao: 0
       proximoQuadro: 13
     - textoOpcao: " Conversaria diretamente com Dona Maria e daria espa\xE7o para
         ela se explicar."
-      textoConsequencia: 
+      textoConsequencia: "No domingo seguinte, a fam\xEDlia se re\xFAne de novo na
+        casa de Dona Maria. Antes do almo\xE7o, a sobrinha mais velha se aproxima
+        dela, sem jeito, e pede desculpas pelo que disse. A carteira nunca apareceu,
+        mas isso j\xE1 n\xE3o importa tanto. Quando o assunto surge, \xE9 a palavra
+        de Dona Maria que a fam\xEDlia leva em conta."
+      textoFeedback: 
       pontuacao: 1
       proximoQuadro: 16
     - textoOpcao: "Evitaria espalhar falsas acusa\xE7\xF5es, e conversaria diretamente
         com ela buscando entender os fatos antes de fazer qualquer julgamento."
-      textoConsequencia: 
+      textoConsequencia: "Nos dias seguintes, Dona Maria percebe que sua rela\xE7\xE3o
+        com a fam\xEDlia come\xE7a a melhorar. Vaguiner passa a dar mais aten\xE7\xE3o
+        ao que a m\xE3e tem a dizer e a ouvi-la antes de tirar conclus\xF5es. Aos
+        poucos, os familiares deixam de tratar os rumores como verdades e passam
+        a conversar diretamente com ela. Embora o epis\xF3dio ainda deixe algumas
+        marcas, Dona Maria se sente mais respeitada, sabendo que pode contar com
+        o apoio do filho."
+      textoFeedback: 
       pontuacao: 2
       proximoQuadro: 18
     exigeEscolha: 1

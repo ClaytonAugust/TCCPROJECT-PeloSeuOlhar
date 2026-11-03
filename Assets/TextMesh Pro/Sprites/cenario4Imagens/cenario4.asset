@@ -46,28 +46,65 @@ MonoBehaviour:
     opcoes:
     - textoOpcao: "\u201CFaria tudo por ele. \xC9 mais r\xE1pido e evita que ele
         tenha problemas.\u201D"
-      textoConsequencia: 
+      textoConsequencia: "Com o passar do tempo e o avan\xE7o da doen\xE7a, Seu Jos\xE9
+        precisa de ajuda em algumas tarefas. Mas M\xE1rcia passa a resolver tudo
+        por ele, at\xE9 o que ele ainda consegue fazer sozinho. Sem perceber, ao
+        tentar proteg\xEA-lo das preocupa\xE7\xF5es, ela tamb\xE9m est\xE1 tirando
+        dele o espa\xE7o de decidir. As caminhadas pelo bairro ficam para tr\xE1s,
+        e as contas da casa j\xE1 nem passam pela m\xE3o dele. Seu Jos\xE9 sente
+        falta de cuidar dos pr\xF3prios compromissos e percebe que, pouco a pouco,
+        perdeu a liberdade de organizar a pr\xF3pria vida."
+      textoFeedback: 
       pontuacao: -2
       proximoQuadro: 4
     - textoOpcao: "Faria a maioria das atividades deixando s\xF3 as mais f\xE1ceis
         para ele."
-      textoConsequencia: 
+      textoConsequencia: "Nas semanas seguintes, Seu Jos\xE9 seca a lou\xE7a e rega
+        as plantas, enquanto M\xE1rcia cuida das contas, das consultas e dos hor\xE1rios.
+        Na consulta m\xE9dica, quando o doutor faz uma pergunta, \xE9 ela quem responde.
+        Seu Jos\xE9 ainda ajuda em casa, mas sente que as decis\xF5es sobre a pr\xF3pria
+        vida j\xE1 n\xE3o passam por ele. M\xE1rcia acredita estar ajudando o pai,
+        sem perceber que ele fala cada vez menos."
+      textoFeedback: 
       pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "\u201CDeixaria que ele tentasse, mas assumiria as tarefas assim
         que ficassem dif\xEDceis.\u201D"
-      textoConsequencia: 
+      textoConsequencia: "Com o passar do tempo, M\xE1rcia come\xE7a a perceber que
+        nem sempre ajudar significa fazer as coisas pelo pai. Seu Jos\xE9 continua
+        enfrentando algumas dificuldades nas tarefas do dia a dia e tenta dizer quando
+        precisa de apoio e quando prefere tentar sozinho. Mas, na pressa da rotina,
+        M\xE1rcia muitas vezes se antecipa e termina as tarefas por ele. \xC0s vezes
+        ela espera, \xE0s vezes n\xE3o, e Seu Jos\xE9 nunca sabe ao certo se vai
+        poder terminar o que come\xE7ou.."
+      textoFeedback: 
       pontuacao: 0
       proximoQuadro: 10
     - textoOpcao: Perguntaria o que ele ainda consegue fazer sozinho e ajudaria no
         restante.
-      textoConsequencia: 
+      textoConsequencia: "Aos poucos, Seu Jos\xE9 se adapta \xE0 nova realidade que
+        a doen\xE7a trouxe e consegue retomar parte das atividades que antes faziam
+        parte de sua rotina, como organizar suas contas e planejar pequenas sa\xEDdas.
+        M\xE1rcia respeita o ritmo do pai e passa a oferecer ajuda quando necess\xE1rio,
+        sem assumir todas as responsabilidades por ele. Nos dias em que a doen\xE7a
+        pesa mais, algumas tarefas ainda exigem adapta\xE7\xF5es e apoio, mas Seu
+        Jos\xE9 continua participando das decis\xF5es e fazendo suas pr\xF3prias
+        escolhas"
+      textoFeedback: 
       pontuacao: 1
       proximoQuadro: 13
     - textoOpcao: "\u201CConversaria com ele sobre as mudan\xE7as, respeitaria o
         ritmo de adapta\xE7\xE3o e buscaria maneiras de manter sua independ\xEAncia
         mesmo com as novas limita\xE7\xF5es."
-      textoConsequencia: 
+      textoConsequencia: "Seu Jos\xE9 e M\xE1rcia sentam juntos para pensar na nova
+        rotina. A doen\xE7a trouxe limites, mas \xE9 ele quem decide o que fazer
+        com o que ainda pode: quer voltar a caminhar pelo bairro. Os dois conversam
+        com o m\xE9dico, testam uma bengala e o caminho mais plano at\xE9 a pra\xE7a.
+        Seu Jos\xE9 tamb\xE9m aprende a pedir o transporte pelo celular para ir sozinho
+        \xE0s consultas.\nNo s\xE1bado seguinte, M\xE1rcia o v\xEA saindo de casa,
+        devagar, mas no ritmo dele.\nSeu Jos\xE9: Volto pro almo\xE7o, filha. Pode
+        deixar que eu me viro."
+      textoFeedback: 
       pontuacao: 2
       proximoQuadro: 16
     exigeEscolha: 1

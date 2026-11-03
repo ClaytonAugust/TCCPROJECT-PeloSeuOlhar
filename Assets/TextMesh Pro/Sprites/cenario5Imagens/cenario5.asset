@@ -54,27 +54,61 @@ MonoBehaviour:
     opcoes:
     - textoOpcao: "Deixaria a fam\xEDlia decidir tudo por ele, afinal eles sabem
         o que \xE9 melhor."
-      textoConsequencia: 
+      textoConsequencia: "Com o cora\xE7\xE3o apertado, Seu Roberto se sente cada
+        vez ,mais longe da fam\xEDlia . Nos dias seguintes, a filha muda o hor\xE1rio
+        dos rem\xE9dios, marca um m\xE9dico novo e anota tudo no calend\xE1rio da
+        parede. Ele s\xF3 fica sabendo depois. \xC0 tarde, enquanto a filha e o neto
+        conversam \xE0 mesa, Seu Roberto continua na poltrona, bem ali, em sil\xEAncio.
+        J\xE1 n\xE3o espera que perguntem nada a ele."
+      textoFeedback: 
       pontuacao: -2
       proximoQuadro: 5
     - textoOpcao: "Deixaria a fam\xEDlia cuidar das decis\xF5es, mas tentaria garantir
         que ele fosse tratado com respeito."
-      textoConsequencia: 
+      textoConsequencia: "Passam-se alguns dias. A filha e o neto agora tratam Seu
+        Roberto com mais respeito: n\xE3o falam mais dele pelas costas e sempre avisam
+        o que foi decidido. Quando mudam o hor\xE1rio do rem\xE9dio, a filha vai
+        at\xE9 a poltrona para contar a ele. Seu Roberto concorda com a cabe\xE7a.
+        Ele \xE9 ouvido com educa\xE7\xE3o, mas as decis\xF5es continuam sendo tomadas
+        sem ele."
+      textoFeedback: 
       pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "Perguntaria a Seu Roberto o que ele pensa antes de tomar qualquer
         decis\xE3o."
-      textoConsequencia: 
+      textoConsequencia: "Nos dias seguintes, a conversa come\xE7a a trazer pequenas
+        mudan\xE7as na conviv\xEAncia familiar. A filha e o neto passam a demonstrar
+        mais considera\xE7\xE3o por Seu Roberto, perguntando sua opini\xE3o sobre
+        algumas quest\xF5es do dia a dia, como o almo\xE7o ou os passeios de fim
+        de semana. Por\xE9m, as decis\xF5es sobre seus rem\xE9dios e consultas continuam
+        sendo tomadas sem ele. Embora perceba que algo mudou, Seu Roberto ainda n\xE3o
+        sabe se sua voz ser\xE1 ouvida no que realmente importa"
+      textoFeedback: 
       pontuacao: 0
       proximoQuadro: 8
     - textoOpcao: "Conversaria diretamente com Seu Roberto e provavelmente consideraria
         sua opini\xE3o."
-      textoConsequencia: 
+      textoConsequencia: "Com o passar das semanas, a fam\xEDlia come\xE7a a mudar
+        sua postura em rela\xE7\xE3o a Seu Roberto. A filha e o neto passam a consult\xE1-lo
+        com mais frequ\xEAncia, inclusive sobre os hor\xE1rios dos rem\xE9dios e
+        as consultas m\xE9dicas, e consideram suas prefer\xEAncias antes de decidir.
+        \xC0s vezes, a filha ainda d\xE1 a palavra final, mas agora explica os motivos
+        e escuta o que ele tem a dizer. Embora ainda estejam aprendendo a respeitar
+        sua autonomia, Seu Roberto volta a se sentir parte das decis\xF5es sobre
+        a pr\xF3pria vida."
+      textoFeedback: 
       pontuacao: 1
       proximoQuadro: 12
     - textoOpcao: "Conversaria com Seu Roberto, ouviria suas prefer\xEAncias e respeitaria
         sua decis\xE3o."
-      textoConsequencia: 
+      textoConsequencia: "Alguns dias depois, Seu Roberto percebe mudan\xE7as na
+        conviv\xEAncia familiar. Na consulta seguinte, \xE9 ele quem conversa com
+        o m\xE9dico e decide, junto com ele, o novo hor\xE1rio dos rem\xE9dios, e
+        a filha apenas o acompanha. Em casa, ainda precisa de ajuda em algumas tarefas,
+        mas agora \xE9 ele quem diz quando e como quer ser ajudado. \xC0 tarde, quando
+        a filha e o neto se sentam \xE0 mesa para o caf\xE9, Seu Roberto j\xE1 n\xE3o
+        fica na poltrona: est\xE1 sentado com eles, participando da conversa"
+      textoFeedback: 
       pontuacao: 2
       proximoQuadro: 15
     exigeEscolha: 1

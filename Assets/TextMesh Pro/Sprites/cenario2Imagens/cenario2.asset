@@ -60,27 +60,56 @@ MonoBehaviour:
     opcoes:
     - textoOpcao: "Deixa que ele cuide de tudo. Ela j\xE1 est\xE1 velha e pode acabar
         esquecendo."
-      textoConsequencia: Negativa
+      textoConsequencia: "Mateus assume de vez a rotina da m\xE3e. As consultas,
+        os rem\xE9dios e at\xE9 os hor\xE1rios do dia passam a ser decididos por
+        ele. A caderneta, antes preenchida com a letra de Dona Helena, agora tem
+        apenas a letra do filho. Com o tempo, ela J\xE1 n\xE3o pergunta, j\xE1 n\xE3o
+        opina. Apenas espera e segue o que o filho escreveu ."
+      textoFeedback: teste
       pontuacao: -2
       proximoQuadro: 5
     - textoOpcao: Organiza tudo para ela, mas avisa depois o que foi feito.
-      textoConsequencia: Meio negativa
+      textoConsequencia: "Com o passar dos dias, Mateus continua respons\xE1vel pela
+        organiza\xE7\xE3o das consultas e dos medicamentos da m\xE3e. Dona Helena
+        passa a seguir uma rotina definida pelo filho, sem participar das decis\xF5es
+        como costumava fazer. Embora reconhe\xE7a a preocupa\xE7\xE3o dele com sua
+        sa\xFAde, ela sente falta de cuidar das pr\xF3prias coisas e de ter suas
+        escolhas respeitadas. Aos poucos, aquilo que deveria ser uma ajuda acaba
+        se tornando uma depend\xEAncia que ela nunca desejou."
+      textoFeedback: 
       pontuacao: -1
       proximoQuadro: 6
     - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
         pedir."
-      textoConsequencia: neutra
+      textoConsequencia: "Nas semanas seguintes, Mateus passa a organizar as consultas
+        da m\xE3e, sempre procurando saber do que ela precisa. Dona Helena deixa
+        que ele cuide das datas e dos hor\xE1rios, mas continua montando sozinha
+        a caixa de comprimidos da semana. \xC0s vezes, quando o consult\xF3rio liga,
+        \xE9 Mateus quem atende, e ela s\xF3 fica sabendo da nova data depois. A
+        rotina segue em ordem, mas j\xE1 n\xE3o \xE9 inteiramente dela."
+      textoFeedback: 
       pontuacao: 0
       proximoQuadro: 8
     - textoOpcao: "Ajuda a organizar as informa\xE7\xF5es, mas deixa que ela escolha
         como quer controlar seus pr\xF3prios cuidados."
-      textoConsequencia: Meio Positiva
+      textoConsequencia: "Com o passar do tempo, Dona Helena consegue manter sua
+        rotina de sa\xFAde com mais tranquilidade. Os lembretes e o planejamento
+        compartilhado ajudam a evitar esquecimentos, enquanto Mateus aprende a respeitar
+        as escolhas da m\xE3e. Ela continua cuidando da pr\xF3pria sa\xFAde, agora
+        com o filho por perto quando precisa."
+      textoFeedback: 
       pontuacao: 1
       proximoQuadro: 10
     - textoOpcao: "Conversa com ela, entende quais dificuldades realmente existem
         e oferece ferramentas e apoio para que ela continue participando das decis\xF5es
         sobre a pr\xF3pria sa\xFAde."
-      textoConsequencia: Positiva
+      textoConsequencia: "No domingo seguinte, os dois se sentam \xE0 mesa da cozinha.
+        Dona Helena cola uma etiqueta colorida em cada cartela, uma cor para cada
+        rem\xE9dio. Ao lado do telefone, deixa a caderneta aberta, para anotar na
+        hora qualquer consulta remarcada. Mateus s\xF3 observa.\n\nNa segunda de
+        manh\xE3, \xE9 o telefone dele que toca.\n\nDona Helena: J\xE1 t\xF4 pronta
+        pra consulta. Voc\xEA vem ou vou sozinha?"
+      textoFeedback: 
       pontuacao: 2
       proximoQuadro: 14
     exigeEscolha: 1

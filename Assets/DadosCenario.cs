@@ -28,6 +28,11 @@ public class DadosCenario : ScriptableObject
         [TextArea(2, 5)]
         public string textoConsequencia;
 
+        [Header("Feedback da opção")]
+        [TextArea(3, 8)]
+        [Tooltip("Feedback educativo/reflexivo exibido junto da consequência ao fim do cenário e novamente na reflexão geral final.")]
+        public string textoFeedback;
+
         [Tooltip("Pontuação reflexiva desta opção. Use valores negativos para escolhas que merecem reflexão, 0 para neutras e positivos para escolhas que favorecem escuta/autonomia. Exemplo: -2, -1, 0, 1, 2.")]
         public int pontuacao;
 
