@@ -86,9 +86,20 @@ public class ControladorNarrativa : MonoBehaviour
     [Header("Painel exclusivo de conclusão de cenário")]
     [Tooltip("Painel independente usado somente ao terminar cada cenário. Não é o painel da reflexão final geral.")]
     [SerializeField] private GameObject painelConclusaoCenario;
-    [SerializeField] private TMP_Text tituloConclusaoCenario;
-    [SerializeField] private TMP_Text textoConclusaoCenario;
-    [Tooltip("ScrollRect opcional do texto de conclusão do cenário.")]
+
+    [Header("Área da consequência")]
+    [Tooltip("Título separado do texto da consequência. Exemplo: Consequência.")]
+    [SerializeField] private TMP_Text tituloConsequenciaCenario;
+    [Tooltip("Texto da consequência cadastrada na opção escolhida pelo jogador.")]
+    [SerializeField] private TMP_Text textoConsequenciaCenario;
+
+    [Header("Área do feedback da opção")]
+    [Tooltip("Título separado do texto do feedback. Exemplo: Feedback.")]
+    [SerializeField] private TMP_Text tituloFeedbackCenario;
+    [Tooltip("Feedback educativo/reflexivo cadastrado na opção escolhida pelo jogador.")]
+    [SerializeField] private TMP_Text textoFeedbackCenario;
+
+    [Tooltip("ScrollRect opcional que envolve as áreas de consequência e feedback do painel de conclusão.")]
     [SerializeField] private ScrollRect scrollConclusaoCenario;
     [Tooltip("Imagem opcional dentro do painel de conclusão do cenário.")]
     [SerializeField] private Image imagemPainelConclusaoCenario;
@@ -122,6 +133,8 @@ public class ControladorNarrativa : MonoBehaviour
     private int opcaoSelecionada = -1;
     private bool aguardandoProximoCenario;
     private bool jogoFinalizado;
+    // false = consequência; true = feedback. As duas etapas usam o mesmo painel.
+    private bool exibindoFeedbackConclusao;
 
     // Respostas da tentativa atual e respostas das histórias concluídas.
     private readonly List<RegistroEscolha> respostasJogador = new List<RegistroEscolha>();
@@ -183,6 +196,15 @@ public class ControladorNarrativa : MonoBehaviour
 
         if (painelConclusaoCenario != null)
             painelConclusaoCenario.SetActive(false);
+        else
+            Debug.LogWarning("PainelConclusaoCenario não foi atribuído no Inspector.");
+
+        if (tituloConsequenciaCenario == null || textoConsequenciaCenario == null ||
+            tituloFeedbackCenario == null || textoFeedbackCenario == null)
+        {
+            Debug.LogWarning("Associe no Inspector os quatro componentes TMP do painel: título/texto da consequência e título/texto do feedback.");
+        }
+
         if (painelReflexaoFinal != null)
             painelReflexaoFinal.SetActive(false);
 
@@ -320,6 +342,7 @@ public class ControladorNarrativa : MonoBehaviour
         proximoQuadroEscolhido = -1;
         aguardandoProximoCenario = false;
         jogoFinalizado = false;
+        exibindoFeedbackConclusao = false;
 
         // Só substituímos as respostas anteriores se esta nova tentativa for concluída.
         // Assim, abandonar uma repetição não apaga os dados de uma história já concluída.
@@ -634,16 +657,38 @@ public class ControladorNarrativa : MonoBehaviour
             imagemPainelConclusaoCenario.gameObject.SetActive(imagem != null);
         }
 
-        if (tituloConclusaoCenario != null)
-            tituloConclusaoCenario.text = dados != null ? dados.nomeCenario : "Conclusão do cenário";
-
-        if (textoConclusaoCenario != null)
+        // Prepara os dois conteúdos, mas apresenta apenas a consequência nesta primeira etapa.
+        // O feedback só será exibido depois que o jogador clicar em Continuar.
+        if (tituloConsequenciaCenario != null)
         {
-            textoConclusaoCenario.text = GerarFeedbackCenarioAtual();
-            textoConclusaoCenario.alignment = TextAlignmentOptions.Center;
-            textoConclusaoCenario.verticalAlignment = VerticalAlignmentOptions.Middle;
+            tituloConsequenciaCenario.text = "Consequência";
+            tituloConsequenciaCenario.alignment = TextAlignmentOptions.Center;
+            tituloConsequenciaCenario.verticalAlignment = VerticalAlignmentOptions.Middle;
         }
 
+        if (textoConsequenciaCenario != null)
+        {
+            textoConsequenciaCenario.text = GerarConsequenciasCenarioAtual();
+            textoConsequenciaCenario.alignment = TextAlignmentOptions.Center;
+            textoConsequenciaCenario.verticalAlignment = VerticalAlignmentOptions.Middle;
+        }
+
+        if (tituloFeedbackCenario != null)
+        {
+            tituloFeedbackCenario.text = "Feedback";
+            tituloFeedbackCenario.alignment = TextAlignmentOptions.Center;
+            tituloFeedbackCenario.verticalAlignment = VerticalAlignmentOptions.Middle;
+        }
+
+        if (textoFeedbackCenario != null)
+        {
+            textoFeedbackCenario.text = GerarFeedbackCenarioAtual();
+            textoFeedbackCenario.alignment = TextAlignmentOptions.Center;
+            textoFeedbackCenario.verticalAlignment = VerticalAlignmentOptions.Middle;
+        }
+
+        exibindoFeedbackConclusao = false;
+        AtualizarEtapaPainelConclusao();
         painelConclusaoCenario.SetActive(true);
 
         if (botaoContinuarConclusaoCenario != null)
@@ -652,7 +697,7 @@ public class ControladorNarrativa : MonoBehaviour
             botaoContinuarConclusaoCenario.interactable = true;
             TMP_Text label = botaoContinuarConclusaoCenario.GetComponentInChildren<TMP_Text>(true);
             if (label != null)
-                label.text = cenarioAtual < cenarios.Count - 1 ? "Continuar" : "Ver reflexão final";
+                label.text = "Continuar";
         }
 
         Canvas.ForceUpdateCanvases();
@@ -660,33 +705,74 @@ public class ControladorNarrativa : MonoBehaviour
             scrollConclusaoCenario.verticalNormalizedPosition = 1f;
     }
 
-    private string GerarFeedbackCenarioAtual()
+    private string GerarConsequenciasCenarioAtual()
     {
         StringBuilder sb = new StringBuilder();
 
         if (respostasCenarioAtual == null || respostasCenarioAtual.Count == 0)
             return "Nenhuma escolha foi registrada neste cenário.";
 
-        // Cada escolha apresenta a consequência e o feedback cadastrados em DadosCenario.
+        // Junta somente os textos de consequência. O título é exibido
+        // separadamente pelo componente tituloConsequenciaCenario.
         for (int i = 0; i < respostasCenarioAtual.Count; i++)
         {
-            RegistroEscolha r = respostasCenarioAtual[i];
+            RegistroEscolha registro = respostasCenarioAtual[i];
+            if (string.IsNullOrWhiteSpace(registro.consequencia))
+                continue;
+
             if (sb.Length > 0)
                 sb.Append("\n\n");
 
-            sb.Append("Consequência\n");
-            sb.Append(string.IsNullOrWhiteSpace(r.consequencia)
-                ? "Nenhum texto de consequência foi cadastrado para esta opção."
-                : r.consequencia.Trim());
-
-            if (!string.IsNullOrWhiteSpace(r.feedback))
-            {
-                sb.Append("\n\nFeedback\n");
-                sb.Append(r.feedback.Trim());
-            }
+            sb.Append(registro.consequencia.Trim());
         }
 
+        if (sb.Length == 0)
+            return "Nenhum texto de consequência foi cadastrado para as opções escolhidas.";
+
         return sb.ToString();
+    }
+
+    private string GerarFeedbackCenarioAtual()
+    {
+        StringBuilder sb = new StringBuilder();
+
+        if (respostasCenarioAtual == null || respostasCenarioAtual.Count == 0)
+            return "Nenhum feedback foi registrado neste cenário.";
+
+        // Junta somente os feedbacks. O título é exibido separadamente
+        // pelo componente tituloFeedbackCenario.
+        for (int i = 0; i < respostasCenarioAtual.Count; i++)
+        {
+            RegistroEscolha registro = respostasCenarioAtual[i];
+            if (string.IsNullOrWhiteSpace(registro.feedback))
+                continue;
+
+            if (sb.Length > 0)
+                sb.Append("\n\n");
+
+            sb.Append(registro.feedback.Trim());
+        }
+
+        if (sb.Length == 0)
+            return "Nenhum feedback foi cadastrado para as opções escolhidas.";
+
+        return sb.ToString();
+    }
+
+    private void AtualizarEtapaPainelConclusao()
+    {
+        // Cada etapa mostra somente seu título e seu texto.
+        if (tituloConsequenciaCenario != null)
+            tituloConsequenciaCenario.gameObject.SetActive(!exibindoFeedbackConclusao);
+
+        if (textoConsequenciaCenario != null)
+            textoConsequenciaCenario.gameObject.SetActive(!exibindoFeedbackConclusao);
+
+        if (tituloFeedbackCenario != null)
+            tituloFeedbackCenario.gameObject.SetActive(exibindoFeedbackConclusao);
+
+        if (textoFeedbackCenario != null)
+            textoFeedbackCenario.gameObject.SetActive(exibindoFeedbackConclusao);
     }
 
     private void ContinuarAposConclusaoCenario()
@@ -694,6 +780,28 @@ public class ControladorNarrativa : MonoBehaviour
         if (!aguardandoProximoCenario || jogoFinalizado)
             return;
 
+        // Primeiro clique: troca a consequência pelo feedback, sem fechar o painel.
+        if (!exibindoFeedbackConclusao)
+        {
+            exibindoFeedbackConclusao = true;
+            AtualizarEtapaPainelConclusao();
+
+            if (botaoContinuarConclusaoCenario != null)
+            {
+                TMP_Text label = botaoContinuarConclusaoCenario.GetComponentInChildren<TMP_Text>(true);
+                if (label != null)
+                    label.text = cenarioAtual < cenarios.Count - 1
+                        ? "Voltar à seleção"
+                        : "Ver reflexão final";
+            }
+
+            Canvas.ForceUpdateCanvases();
+            if (scrollConclusaoCenario != null)
+                scrollConclusaoCenario.verticalNormalizedPosition = 1f;
+            return;
+        }
+
+        // Segundo clique: encerra o painel depois de exibir o feedback.
         if (painelConclusaoCenario != null)
             painelConclusaoCenario.SetActive(false);
 
@@ -705,13 +813,14 @@ public class ControladorNarrativa : MonoBehaviour
                 cenariosDesbloqueados[proximo] = true;
 
             aguardandoProximoCenario = false;
+            exibindoFeedbackConclusao = false;
             if (painelSelecaoCenarios != null)
                 painelSelecaoCenarios.SetActive(true);
             AtualizarTelaSelecao();
         }
         else
         {
-            // O painel de reflexão geral só aparece após a conclusão do último cenário.
+            // Após o feedback do último cenário, abre a reflexão geral do jogo.
             FinalizarJogo();
         }
     }
