@@ -8381,10 +8381,10 @@ MonoBehaviour:
   painelMenuInicial: {fileID: 903573063}
   cenarios:
   - {fileID: 11400000, guid: 8988eb3ee6e1812448c98723bc96f488, type: 2}
-  - {fileID: 11400000, guid: 022d5f389aaa0aa4daf164d9ca67099c, type: 2}
-  - {fileID: 11400000, guid: 29e62acb89f61dd4ea2e348abc53c217, type: 2}
-  - {fileID: 11400000, guid: 22e20c0e41e8a47449ea9ebb8c5f4b57, type: 2}
-  - {fileID: 11400000, guid: a1c98c2529809554181ab08188e23196, type: 2}
+  - {fileID: 11400000, guid: 9cb532eafe0a8c041beebe27d8641735, type: 2}
+  - {fileID: 11400000, guid: 40a9c6893948b624eac6cc8785fc5b3f, type: 2}
+  - {fileID: 11400000, guid: eafd932b204a8784691377590f2bfe3b, type: 2}
+  - {fileID: 11400000, guid: 937f7b1b67867d44f9c770440e195939, type: 2}
   imagemQuadro: {fileID: 1784712830}
   tituloQuadro: {fileID: 1444396308}
   textoQuadro: {fileID: 2077991398}
@@ -8439,9 +8439,67 @@ MonoBehaviour:
   textoReflexaoFinal: {fileID: 1127828187}
   botaoVoltarMenuFinal: {fileID: 26106125}
   faixasFeedbackFinal:
-  - pontuacaoMinima: 1
-    pontuacaoMaxima: 10
-    feedback: teste
+  - pontuacaoMinima: 0
+    pontuacaoMaxima: 3
+    feedback: "Talvez todas as suas escolhas tenham nascido do mesmo lugar: o medo.
+      Medo de que algo d\xEA errado, de que um esquecimento vire uma queda, de que
+      a pessoa amada n\xE3o d\xEA mais conta. \xC9 um medo leg\xEDtimo. Quem cuida,
+      quase sempre, cuida porque tem algo a perder.\nMas proteger algu\xE9m de todos
+      os riscos tamb\xE9m tem um pre\xE7o. Cada decis\xE3o tomada no lugar do outro
+      tira dele um peda\xE7o da pr\xF3pria vida, at\xE9 que reste apenas algu\xE9m
+      que espera. A pessoa idosa n\xE3o deixa de existir quando precisa de ajuda.
+      Ela deixa de existir aos poucos, quando ningu\xE9m mais pergunta o que ela
+      quer.\n\nTalvez a pergunta n\xE3o seja o que voc\xEA faria por eles, mas o
+      que eles fariam por si mesmos, se algu\xE9m deixasse."
+  - pontuacaoMinima: 4
+    pontuacaoMaxima: 7
+    feedback: "Houve cuidado nas suas escolhas, mas um cuidado que chegava pronto:
+      decidido antes, comunicado depois. \xC9 uma forma de amor muito comum, e muito
+      silenciosa naquilo que tira. Quem recebe uma ajuda assim raramente reclama.
+      Agradece, concorda com a cabe\xE7a e, com o tempo, aprende que sua opini\xE3o
+      j\xE1 n\xE3o muda muita coisa.\nEnvelhecer j\xE1 traz perdas suficientes: o
+      corpo muda, a mem\xF3ria falha, pessoas queridas partem. O que resta, muitas
+      vezes, \xE9 a possibilidade de participar da pr\xF3pria vida. Quando isso tamb\xE9m
+      \xE9 retirado, mesmo com boa inten\xE7\xE3o, \xE9 o tipo de perda que menos
+      se v\xEA e mais se sente.\nEntre resolver por algu\xE9m e decidir com algu\xE9m,
+      a diferen\xE7a n\xE3o est\xE1 no resultado, mas em quem continua presente nele."
+  - pontuacaoMinima: 8
+    pontuacaoMaxima: 12
+    feedback: "Em muitos momentos, voc\xEA perguntou. Ofereceu ajuda, abriu espa\xE7o,
+      esperou uma resposta. Mas a pergunta, sozinha, nem sempre basta. Uma oferta
+      em aberto pode nunca ser aceita por quem tem medo de incomodar. Uma opini\xE3o
+      ouvida e n\xE3o considerada pode doer mais do que o sil\xEAncio.\n\nO cuidado
+      neutro talvez seja o mais dif\xEDcil de perceber, porque n\xE3o parece errado.
+      Ningu\xE9m foi desrespeitado de forma evidente. E, ainda assim, as coisas permaneceram
+      como estavam: a casa silenciosa, a decis\xE3o nas m\xE3os de outros, a d\xFAvida
+      sem resposta.\nEscutar \xE9 um come\xE7o. O que d\xE1 sentido \xE0 escuta \xE9
+      aquilo que ela muda depois"
+  - pontuacaoMinima: 13
+    pontuacaoMaxima: 16
+    feedback: "Suas escolhas mostram algu\xE9m que entende que cuidar n\xE3o \xE9
+      controlar. Voc\xEA combinou em vez de impor, ajudou sem ocupar o lugar do outro
+      e deixou que cada um seguisse no pr\xF3prio ritmo. Em alguns momentos, por\xE9m,
+      a \xFAltima palavra ainda ficou com quem cuidava, por prud\xEAncia, por pressa
+      ou porque \xE9 dif\xEDcil confiar em quem a gente tem medo de perder.\n\nEssa
+      tens\xE3o faz parte de qualquer rela\xE7\xE3o de cuidado. N\xE3o existe um
+      ponto exato em que proteger deixa de ser respeito e passa a ser controle. Existe
+      apenas o esfor\xE7o cont\xEDnuo de perguntar, ouvir e, \xE0s vezes, aceitar
+      uma escolha diferente da nossa.\nConfiar em algu\xE9m n\xE3o \xE9 deixar de
+      se preocupar. \xC9 n\xE3o deixar que a preocupa\xE7\xE3o fale mais alto do
+      que a pessoa."
+  - pontuacaoMinima: 17
+    pontuacaoMaxima: 20
+    feedback: "Em cada hist\xF3ria, voc\xEA escolheu chegar perto antes de agir.
+      Perguntou o que estava dif\xEDcil e deixou que cada um continuasse sendo dono
+      da pr\xF3pria vida: a saudade p\xF4de ser dita, a letra na caderneta continuou
+      a mesma, a palavra foi acreditada, o passo seguiu no pr\xF3prio ritmo e a decis\xE3o
+      voltou para quem ela pertencia.\n\nNada disso apagou as dificuldades. O luto
+      continuou, a doen\xE7a continuou, o tempo seguiu passando. Mas ningu\xE9m precisou
+      atravessar isso sozinho ou em sil\xEAncio. Talvez esse seja o sentido mais
+      profundo do cuidado: n\xE3o impedir que a vida mude, mas garantir que a pessoa
+      continue fazendo parte dela.\n\nEnvelhecer \xE9, de certo modo, o caminho de
+      todos n\xF3s. A forma como tratamos quem chegou l\xE1 antes diz muito sobre
+      o lugar que esperamos ocupar quando for a nossa vez."
   feedbackPadraoFinal: "Sua jornada convida a continuar ouvindo, respeitando a autonomia
     e evitando estere\xF3tipos relacionados \xE0 idade."
 --- !u!4 &1492018124
