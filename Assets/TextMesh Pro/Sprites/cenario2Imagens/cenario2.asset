@@ -144,12 +144,12 @@ MonoBehaviour:
       proximoQuadro: 17
     - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
         pedir."
-      textoConsequencia: "Narra\xE7\xE3o: Nas semanas seguintes, Mateus passa a organizar
-        as consultas da m\xE3e, sempre procurando saber do que ela precisa. Dona
-        Helena deixa que ele cuide das datas e dos hor\xE1rios, mas continua montando
-        sozinha a caixa de comprimidos da semana. \xC0s vezes, quando o consult\xF3rio
-        liga, \xE9 Mateus quem atende, e ela s\xF3 fica sabendo da nova data depois.
-        A rotina segue em ordem, mas j\xE1 n\xE3o \xE9 inteiramente dela."
+      textoConsequencia: "Nas semanas seguintes, Mateus passa a organizar as consultas
+        da m\xE3e, sempre procurando saber do que ela precisa. Dona Helena deixa
+        que ele cuide das datas e dos hor\xE1rios, mas continua montando sozinha
+        a caixa de comprimidos da semana. \xC0s vezes, quando o consult\xF3rio liga,
+        \xE9 Mateus quem atende, e ela s\xF3 fica sabendo da nova data depois. A
+        rotina segue em ordem, mas j\xE1 n\xE3o \xE9 inteiramente dela."
       textoFeedback: "Dividir as tarefas pode ser um bom caminho, desde que a divis\xE3o
         seja escolhida e conversada pelos dois. Quando uma parte da rotina passa
         para outra pessoa sem di\xE1logo, a pessoa idosa pode deixar de acompanhar
