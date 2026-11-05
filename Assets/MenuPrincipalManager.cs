@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Controla as ações do menu inicial: som, créditos e saída do jogo.
-/// Pode ser colocado no Canvas ou em um GameObject separado que permaneça ativo.
+/// Controla os painéis do menu, o botão global de som, a música de fundo
+/// e os efeitos sonoros utilizados pelo menu e pela narrativa.
+/// Mantenha este objeto ativo durante toda a execução do jogo.
 /// </summary>
 public class ControladorMenuInicial : MonoBehaviour
 {
@@ -13,11 +14,32 @@ public class ControladorMenuInicial : MonoBehaviour
     [Header("Sobre o jogo")]
     [SerializeField] private GameObject painelSobreOJogo;
 
-    [Header("Som")]
+    [Header("Botão de som")]
     [SerializeField] private Image imagemIconeSom;
     [SerializeField] private Sprite iconeSomLigado;
     [SerializeField] private Sprite iconeSomDesligado;
     [SerializeField] private bool iniciarComSom = true;
+
+    [Header("Fontes de áudio")]
+    [Tooltip("AudioSource usado exclusivamente para as músicas. Marque Loop e desmarque Play On Awake no Inspector.")]
+    [SerializeField] private AudioSource fonteMusica;
+    [Tooltip("AudioSource usado para os efeitos sonoros. Desmarque Loop e Play On Awake.")]
+    [SerializeField] private AudioSource fonteEfeitos;
+
+    [Header("Músicas")]
+    [SerializeField] private AudioClip musicaMenu;
+    [SerializeField] private AudioClip musicaNarrativa;
+    [Tooltip("Opcional. Se ficar vazio, a música que já estiver tocando continua na reflexão final.")]
+    [SerializeField] private AudioClip musicaReflexaoFinal;
+    [Range(0f, 1f)]
+    [SerializeField] private float volumeMusica = 0.35f;
+
+    [Header("Efeitos sonoros")]
+    [SerializeField] private AudioClip somClique;
+    [SerializeField] private AudioClip somSelecao;
+    [SerializeField] private AudioClip somContinuar;
+    [Range(0f, 1f)]
+    [SerializeField] private float volumeEfeitos = 0.8f;
 
     private bool somAtivo;
 
@@ -31,7 +53,34 @@ public class ControladorMenuInicial : MonoBehaviour
         if (painelSobreOJogo != null)
             painelSobreOJogo.SetActive(false);
 
+        ConfigurarFontesDeAudio();
         AplicarEstadoSom();
+        TocarMusicaMenu();
+    }
+
+    private void ConfigurarFontesDeAudio()
+    {
+        if (fonteMusica != null)
+        {
+            fonteMusica.loop = true;
+            fonteMusica.playOnAwake = false;
+            fonteMusica.volume = volumeMusica;
+        }
+        else
+        {
+            Debug.LogWarning("ControladorMenuInicial: atribua um AudioSource ao campo Fonte Musica.");
+        }
+
+        if (fonteEfeitos != null)
+        {
+            fonteEfeitos.loop = false;
+            fonteEfeitos.playOnAwake = false;
+            fonteEfeitos.volume = volumeEfeitos;
+        }
+        else
+        {
+            Debug.LogWarning("ControladorMenuInicial: atribua um AudioSource ao campo Fonte Efeitos.");
+        }
     }
 
     public void AlternarSom()
@@ -42,10 +91,9 @@ public class ControladorMenuInicial : MonoBehaviour
 
     private void AplicarEstadoSom()
     {
-        // Controla o volume global de áudio do jogo.
+        // AudioListener.volume controla simultaneamente música e efeitos.
         AudioListener.volume = somAtivo ? 1f : 0f;
 
-        // Atualiza o ícone para mostrar se o som está ligado ou desligado.
         if (imagemIconeSom != null)
         {
             Sprite sprite = somAtivo ? iconeSomLigado : iconeSomDesligado;
@@ -54,8 +102,70 @@ public class ControladorMenuInicial : MonoBehaviour
         }
     }
 
+    // ---------- Música de fundo ----------
+
+    public void TocarMusicaMenu()
+    {
+        TrocarMusica(musicaMenu);
+    }
+
+    public void TocarMusicaNarrativa()
+    {
+        TrocarMusica(musicaNarrativa);
+    }
+
+    public void TocarMusicaReflexaoFinal()
+    {
+        // Uma faixa não configurada não interrompe a música atual.
+        if (musicaReflexaoFinal != null)
+            TrocarMusica(musicaReflexaoFinal);
+    }
+
+    private void TrocarMusica(AudioClip musica)
+    {
+        if (fonteMusica == null || musica == null)
+            return;
+
+        if (fonteMusica.clip == musica && fonteMusica.isPlaying)
+            return;
+
+        fonteMusica.Stop();
+        fonteMusica.clip = musica;
+        fonteMusica.loop = true;
+        fonteMusica.volume = volumeMusica;
+        fonteMusica.Play();
+    }
+
+    // ---------- Efeitos sonoros ----------
+
+    public void TocarClique()
+    {
+        TocarEfeito(somClique);
+    }
+
+    public void TocarSelecao()
+    {
+        TocarEfeito(somSelecao);
+    }
+
+    public void TocarContinuar()
+    {
+        TocarEfeito(somContinuar);
+    }
+
+    private void TocarEfeito(AudioClip efeito)
+    {
+        if (!somAtivo || fonteEfeitos == null || efeito == null)
+            return;
+
+        fonteEfeitos.PlayOneShot(efeito, volumeEfeitos);
+    }
+
+    // ---------- Painéis do menu ----------
+
     public void AbrirCreditos()
     {
+        TocarClique();
         if (painelCreditos != null)
             painelCreditos.SetActive(true);
         else
@@ -64,24 +174,30 @@ public class ControladorMenuInicial : MonoBehaviour
 
     public void FecharCreditos()
     {
+        TocarClique();
         if (painelCreditos != null)
             painelCreditos.SetActive(false);
     }
 
     public void AbrirSobreOJogo()
     {
+        TocarClique();
         if (painelSobreOJogo != null)
             painelSobreOJogo.SetActive(true);
+        else
+            Debug.LogWarning("ControladorMenuInicial: PainelSobreOJogo não foi atribuído no Inspector.");
     }
 
     public void FecharSobreOJogo()
     {
+        TocarClique();
         if (painelSobreOJogo != null)
             painelSobreOJogo.SetActive(false);
     }
 
     public void Sair()
     {
+        TocarClique();
         Application.Quit();
 
 #if UNITY_EDITOR

@@ -51,6 +51,10 @@ public class ControladorNarrativa : MonoBehaviour
     [Tooltip("Painel inicial que contém o botão Jogar. Deixe vazio se não houver menu inicial nesta cena.")]
     [SerializeField] private GameObject painelMenuInicial;
 
+    [Header("Áudio")]
+    [Tooltip("Arraste o objeto que contém o script ControladorMenuInicial. Ele controla música, efeitos e o botão de som.")]
+    [SerializeField] private ControladorMenuInicial controladorMenuInicial;
+
     [Header("Lista de cenários")]
     [SerializeField] private List<DadosCenario> cenarios = new List<DadosCenario>();
 
@@ -258,6 +262,9 @@ public class ControladorNarrativa : MonoBehaviour
     // Vincule este método ao OnClick do botão Jogar do menu inicial.
     public void AbrirSelecaoCenarios()
     {
+        TocarClique();
+        TocarMusicaMenu();
+
         if (painelMenuInicial != null)
             painelMenuInicial.SetActive(false);
 
@@ -323,6 +330,9 @@ public class ControladorNarrativa : MonoBehaviour
 
     private void IniciarCenario(int indice)
     {
+        TocarClique();
+        TocarMusicaNarrativa();
+
         if (cenarios == null || indice < 0 || indice >= cenarios.Count)
             return;
 
@@ -367,6 +377,9 @@ public class ControladorNarrativa : MonoBehaviour
     {
         if (jogoFinalizado || aguardandoProximoCenario)
             return;
+        
+        TocarClique();
+        TocarMusicaMenu();
 
         if (painelNarrativa != null)
             painelNarrativa.SetActive(false);
@@ -484,6 +497,8 @@ public class ControladorNarrativa : MonoBehaviour
         if (quadro.opcoes == null || indice < 0 || indice >= quadro.opcoes.Length)
             return;
 
+        TocarSelecao();
+
         // Clicar na opção já selecionada desmarca a escolha.
         if (opcaoSelecionada == indice)
         {
@@ -538,6 +553,8 @@ public class ControladorNarrativa : MonoBehaviour
     {
         if (jogoFinalizado || cenarios == null || cenarios.Count == 0)
             return;
+
+        TocarContinuar();
 
         if (aguardandoProximoCenario)
         {
@@ -779,6 +796,8 @@ public class ControladorNarrativa : MonoBehaviour
     {
         if (!aguardandoProximoCenario || jogoFinalizado)
             return;
+    
+        TocarContinuar();
 
         // Primeiro clique: troca a consequência pelo feedback, sem fechar o painel.
         if (!exibindoFeedbackConclusao)
@@ -816,6 +835,7 @@ public class ControladorNarrativa : MonoBehaviour
             exibindoFeedbackConclusao = false;
             if (painelSelecaoCenarios != null)
                 painelSelecaoCenarios.SetActive(true);
+            TocarMusicaMenu();
             AtualizarTelaSelecao();
         }
         else
@@ -841,6 +861,8 @@ public class ControladorNarrativa : MonoBehaviour
     private void FinalizarJogo()
     {
         jogoFinalizado = true;
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarMusicaReflexaoFinal();
         aguardandoProximoCenario = false;
 
         if (painelNarrativa != null) painelNarrativa.SetActive(false);
@@ -949,6 +971,36 @@ public class ControladorNarrativa : MonoBehaviour
         return sb.ToString();
     }
 
+    private void TocarClique()
+    {
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarClique();
+    }
+
+    private void TocarSelecao()
+    {
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarSelecao();
+    }
+
+    private void TocarContinuar()
+    {
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarContinuar();
+    }
+
+    private void TocarMusicaMenu()
+    {
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarMusicaMenu();
+    }
+
+    private void TocarMusicaNarrativa()
+    {
+        if (controladorMenuInicial != null)
+            controladorMenuInicial.TocarMusicaNarrativa();
+    }
+
     private void RegistrarRespostasNoConsole()
     {
         Debug.Log("===== REGISTRO DAS ESCOLHAS =====");
@@ -979,6 +1031,9 @@ public class ControladorNarrativa : MonoBehaviour
 
     public void VoltarParaMenuInicial()
     {
+        TocarClique();
+        TocarMusicaMenu();
+
         if (painelSelecaoCenarios != null)
             painelSelecaoCenarios.SetActive(false);
 
@@ -988,6 +1043,9 @@ public class ControladorNarrativa : MonoBehaviour
 
     public void VoltarAoMenuInicialDaReflexao()
     {
+        TocarClique();
+        TocarMusicaMenu();
+
         if (painelReflexaoFinal != null)
             painelReflexaoFinal.SetActive(false);
         if (painelConclusaoCenario != null)
