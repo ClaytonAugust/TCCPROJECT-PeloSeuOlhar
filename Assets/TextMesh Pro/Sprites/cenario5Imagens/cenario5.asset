@@ -12,7 +12,471 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
   m_Name: Cenario5
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
-  imagemCapa: {fileID: 0}
-  nomeCenario: 
+  imagemCapa: {fileID: -6155285119414569528, guid: 5b05c210de1dbe04e9fdbb2e1e5afbff, type: 3}
+  nomeCenario: Ele estava bem ali
   imagemConclusao: {fileID: 0}
-  quadros: []
+  quadros:
+  - titulo: Ele estava bem ali
+    texto: "\xC9 fim de tarde. Seu Roberto, aos 76 anos, descansa na poltrona verde
+      da sala, com os vidros de rem\xE9dio na mesinha ao lado. A cada ano, sente
+      que est\xE1 um pouco mais fraco e mais dependente dos outros. Na mesa ao lado,
+      a filha, Juliana, e o neto tomam caf\xE9 e conversam sobre a semana."
+    imagem: {fileID: -6155285119414569528, guid: 5b05c210de1dbe04e9fdbb2e1e5afbff, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Aos poucos, a conversa muda. Agora, o assunto \xE9 ele, como se ele n\xE3o
+      estivesse ali. Na televis\xE3o, j\xE1 tem at\xE9 um bilhete colado: Ligar:
+      canal 5."
+    imagem: {fileID: -2365893456115379719, guid: 50e22e41c6e977a479d97a62bed9faa5, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Juliana <i>-Ele j\xE1 est\xE1 velho e fica dando trabalho. Acho melhor
+      a gente come\xE7ar a decidir essas coisas por ele.</i>"
+    imagem: {fileID: -2365893456115379719, guid: 50e22e41c6e977a479d97a62bed9faa5, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Seu Roberto continua olhando para a televis\xE3o desligada, como se n\xE3o
+      tivesse ouvido."
+    imagem: {fileID: -2365893456115379719, guid: 50e22e41c6e977a479d97a62bed9faa5, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Para conversar com mais calma, os dois v\xE3o para o escrit\xF3rio. Nas
+      estantes, as fotos e as medalhas de Seu Roberto."
+    imagem: {fileID: 6487594331628864252, guid: b82c06eefd433dc4ea517703da220c13, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Juliana <i>-O pai t\xE1 cada vez mais devagar. Ontem levou meia hora
+      pra achar o controle da TV.</i>"
+    imagem: {fileID: 6487594331628864252, guid: b82c06eefd433dc4ea517703da220c13, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "neto<i> -Foi por isso que a senhora colou aquele bilhete l\xE1, n\xE9?</i>"
+    imagem: {fileID: 6487594331628864252, guid: b82c06eefd433dc4ea517703da220c13, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Juliana <i> -Foi. E eu t\xF4 pensando em trocar o m\xE9dico dele e mudar
+      os hor\xE1rios dos rem\xE9dios.</i>"
+    imagem: {fileID: 6487594331628864252, guid: b82c06eefd433dc4ea517703da220c13, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "neto <i> -\xC9, nem adianta perguntar. Ele nem sabe mais o que \xE9 melhor.</i>"
+    imagem: {fileID: 6487594331628864252, guid: b82c06eefd433dc4ea517703da220c13, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: Do corredor, Seu Roberto se aproxima devagar e encosta o ouvido na porta.
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Juliana <i>-Semana passada ele esqueceu o rem\xE9dio da press\xE3o duas
+      vezes.</i>"
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: neto <i>-E nem falou nada pra gente.</i>
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Juliana<i> -Pois \xE9. Daqui pra frente, \xE9 melhor a gente resolver
+      sem ficar perguntando.</i>"
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Ele estava bem ali
+    texto: "Seu Roberto escuta tudo. Est\xE3o decidindo a vida dele, e ningu\xE9m
+      pensou em perguntar. Do outro lado da porta, a fam\xEDlia ainda n\xE3o sabe
+      que ele est\xE1 ali. O que Juliana deve fazer?"
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: O que Juliana deve fazer?
+    texto: 
+    imagem: {fileID: 6776986057483616195, guid: 72d4fe20c381df9438b8d7b5e31db590, type: 3}
+    opcoes:
+    - textoOpcao: "Deixaria a fam\xEDlia decidir tudo por ele, afinal eles sabem
+        o que \xE9 melhor."
+      textoConsequencia: "Com o cora\xE7\xE3o apertado, Seu Roberto se sente cada
+        vez ,mais longe da fam\xEDlia . Nos dias seguintes, a filha muda o hor\xE1rio
+        dos rem\xE9dios, marca um m\xE9dico novo e anota tudo no calend\xE1rio da
+        parede. Ele s\xF3 fica sabendo depois. \xC0 tarde, enquanto a filha e o neto
+        conversam \xE0 mesa, Seu Roberto continua na poltrona, bem ali, em sil\xEAncio.
+        J\xE1 n\xE3o espera que perguntem nada a ele."
+      textoFeedback: "Falar de uma pessoa idosa na frente dela, como se ela n\xE3o
+        pudesse ouvir ou entender, \xE9 uma forma de exclus\xE3o mais comum do que
+        parece. Muitas vezes acontece por pressa ou por preocupa\xE7\xE3o, sem inten\xE7\xE3o
+        de magoar. Mas quem passa por isso sente que deixou de ser visto como algu\xE9m
+        com opini\xE3o pr\xF3pria. E, quando a pessoa n\xE3o reage, a fam\xEDlia
+        pode interpretar o sil\xEAncio como concord\xE2ncia, quando na verdade \xE9
+        desist\xEAncia.\n\nEnvelhecer n\xE3o tira de ningu\xE9m o direito de participar
+        das decis\xF5es sobre a pr\xF3pria vida, e esse direito tamb\xE9m precisa
+        ser defendido por quem o tem. \xC0s vezes, uma \xFAnica frase, \u201Ceu quero
+        ser ouvido\u201D, muda o rumo de uma conversa. Na sua fam\xEDlia, as pessoas
+        mais velhas participam das conversas sobre elas, ou s\xF3 ficam sabendo do
+        resultado?"
+      pontuacao: 0
+      proximoQuadro: 15
+    - textoOpcao: "Deixaria a fam\xEDlia cuidar das decis\xF5es, mas tentaria garantir
+        que ele fosse tratado com respeito."
+      textoConsequencia: "Passam-se alguns dias. A filha e o neto agora tratam Seu
+        Roberto com mais respeito: n\xE3o falam mais dele pelas costas e sempre avisam
+        o que foi decidido. Quando mudam o hor\xE1rio do rem\xE9dio, a filha vai
+        at\xE9 a poltrona para contar a ele. Seu Roberto concorda com a cabe\xE7a.
+        Ele \xE9 ouvido com educa\xE7\xE3o, mas as decis\xF5es continuam sendo tomadas
+        sem ele."
+      textoFeedback: "Ser tratado com gentileza \xE9 importante, mas n\xE3o \xE9
+        o mesmo que ser inclu\xEDdo. Uma frase como \u201Cmudamos o hor\xE1rio do
+        seu rem\xE9dio, t\xE1 bom?\u201D parece uma pergunta, mas a decis\xE3o j\xE1
+        foi tomada. Quando isso se repete, a pessoa idosa vai deixando de ter opini\xE3o
+        sobre a pr\xF3pria rotina, porque percebe que sua resposta n\xE3o muda nada.
+        O respeito aparece na forma, mas n\xE3o no poder de decidir.\n\nSeu Roberto
+        aceitou que a fam\xEDlia cuidasse das decis\xF5es desde que fosse respeitado,
+        e acabou ficando de fora delas. \xC0s vezes, pedir s\xF3 um pouco \xE9 aceitar
+        menos do que se tem direito. Voc\xEA j\xE1 concordou com algo apenas porque
+        a decis\xE3o j\xE1 estava tomada? E j\xE1 fez algu\xE9m concordar dessa forma?"
+      pontuacao: 0
+      proximoQuadro: 18
+    - textoOpcao: "Perguntaria a Seu Roberto o que ele pensa antes de tomar qualquer
+        decis\xE3o."
+      textoConsequencia: "Nos dias seguintes, a conversa come\xE7a a trazer pequenas
+        mudan\xE7as na conviv\xEAncia familiar. A filha e o neto passam a demonstrar
+        mais considera\xE7\xE3o por Seu Roberto, perguntando sua opini\xE3o sobre
+        algumas quest\xF5es do dia a dia, como o almo\xE7o ou os passeios de fim
+        de semana. Por\xE9m, as decis\xF5es sobre seus rem\xE9dios e consultas continuam
+        sendo tomadas sem ele. Embora perceba que algo mudou, Seu Roberto ainda n\xE3o
+        sabe se sua voz ser\xE1 ouvida no que realmente importa"
+      textoFeedback: "Perguntar a opini\xE3o de algu\xE9m \xE9 um passo importante,
+        mas ele perde for\xE7a quando s\xF3 vale para as coisas pequenas. Se a pessoa
+        idosa \xE9 consultada sobre o card\xE1pio do domingo, mas n\xE3o sobre a
+        pr\xF3pria sa\xFAde, a mensagem \xE9 clara: \u201Cvoc\xEA pode escolher,
+        desde que n\xE3o seja nada importante\u201D. Ainda assim, algo mudou. A conversa
+        abriu uma porta, e o que a fam\xEDlia vai fazer com ela ainda n\xE3o est\xE1
+        decidido.\n\nOuvir algu\xE9m s\xF3 faz diferen\xE7a quando o que foi dito
+        influencia o que vem depois. Voc\xEA costuma perguntar a opini\xE3o de quem
+        \xE9 mais velho sobre as decis\xF5es importantes, ou s\xF3 sobre as do dia
+        a dia?"
+      pontuacao: 0
+      proximoQuadro: 25
+    - textoOpcao: "Conversaria diretamente com Seu Roberto e provavelmente consideraria
+        sua opini\xE3o"
+      textoConsequencia: "Com o passar das semanas, a fam\xEDlia come\xE7a a mudar
+        sua postura em rela\xE7\xE3o a Seu Roberto. A filha e o neto passam a consult\xE1-lo
+        com mais frequ\xEAncia, inclusive sobre os hor\xE1rios dos rem\xE9dios e
+        as consultas m\xE9dicas, e consideram suas prefer\xEAncias antes de decidir.
+        \xC0s vezes, a filha ainda d\xE1 a palavra final, mas agora explica os motivos
+        e escuta o que ele tem a dizer. Embora ainda estejam aprendendo a respeitar
+        sua autonomia, Seu Roberto volta a se sentir parte das decis\xF5es sobre
+        a pr\xF3pria vida."
+      textoFeedback: "Incluir uma pessoa idosa nas decis\xF5es n\xE3o significa deixar
+        de se preocupar com ela. Significa transformar a preocupa\xE7\xE3o em di\xE1logo.
+        Quando a fam\xEDlia explica por que pensa de determinada forma e escuta o
+        outro lado, mesmo nas situa\xE7\xF5es em que discorda, a pessoa se sente
+        respeitada e mais disposta a aceitar ajuda. A conversa passa a ser feita
+        com ela, e n\xE3o sobre ela.\n\nAinda assim, em alguns momentos, a palavra
+        final continuou com a filha. O pr\xF3ximo passo \xE9 confiar que a pr\xF3pria
+        pessoa pode decidir, com a fam\xEDlia ao lado para apoiar. Quando voc\xEA
+        discorda da escolha de algu\xE9m mais velho, costuma explicar seu ponto de
+        vista ou simplesmente decidir por ele?"
+      pontuacao: 0
+      proximoQuadro: 32
+    - textoOpcao: "Conversaria com Seu Roberto, ouviria suas prefer\xEAncias e respeitaria
+        sua decis\xE3o."
+      textoConsequencia: "Alguns dias depois, Seu Roberto percebe mudan\xE7as na
+        conviv\xEAncia familiar. Na consulta seguinte, \xE9 ele quem conversa com
+        o m\xE9dico e decide, junto com ele, o novo hor\xE1rio dos rem\xE9dios, e
+        a filha apenas o acompanha. Em casa, ainda precisa de ajuda em algumas tarefas,
+        mas agora \xE9 ele quem diz quando e como quer ser ajudado. \xC0 tarde, quando
+        a filha e o neto se sentam \xE0 mesa para o caf\xE9, Seu Roberto j\xE1 n\xE3o
+        fica na poltrona: est\xE1 sentado com eles, participando da conversa"
+      textoFeedback: "Receber ajuda e manter o direito de decidir n\xE3o s\xE3o coisas
+        opostas. Uma pessoa idosa pode precisar de apoio em v\xE1rias tarefas e,
+        mesmo assim, continuar sendo a principal respons\xE1vel pelas escolhas sobre
+        a pr\xF3pria vida. Quando a fam\xEDlia entende isso, o cuidado deixa de ser
+        controle e passa a ser parceria. E a pessoa, em vez de se sentir um peso,
+        volta a se sentir parte.\n\nSeu Roberto resumiu tudo em uma frase: \u201CQuero
+        que conversem comigo, n\xE3o apenas sobre mim.\u201D \xC0s vezes, incluir
+        algu\xE9m \xE9 t\xE3o simples quanto puxar uma cadeira. Na sua fam\xEDlia,
+        quem ainda est\xE1 na poltrona, esperando ser chamado para a mesa?"
+      pontuacao: 0
+      proximoQuadro: 38
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "Juliana <i> -Ent\xE3o t\xE1 decidido. Amanh\xE3 eu ligo pro m\xE9dico
+      e mudo o hor\xE1rio dos rem\xE9dios dele.</i>"
+    imagem: {fileID: -7604003618190317557, guid: c43c3a3c68a65ea4686e79c421f7463d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 16
+  - titulo: 
+    texto: "O neto <i> -Melhor assim, m\xE3e. Nem precisa falar com ele.</i>"
+    imagem: {fileID: -7604003618190317557, guid: c43c3a3c68a65ea4686e79c421f7463d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 17
+  - titulo: 
+    texto: "Atr\xE1s da porta, Seu Roberto ouve tudo. Pensa em entrar, mas desiste.
+      Volta devagar para a sala, sem que ningu\xE9m perceba que ele estava ali."
+    imagem: {fileID: -7604003618190317557, guid: c43c3a3c68a65ea4686e79c421f7463d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 46
+  - titulo: 
+    texto: 'Seu Roberto abre a porta e entra na sala. A filha e o neto param de falar
+      na hora. '
+    imagem: {fileID: 2049805542666589774, guid: 271f69527ef05324f841f339c1388bf9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 19
+  - titulo: 
+    texto: Seu Roberto <i>-Pode continuar, filha. Eu ouvi tudo.</i>
+    imagem: {fileID: 2049805542666589774, guid: 271f69527ef05324f841f339c1388bf9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 20
+  - titulo: 
+    texto: "Juliana <i>-Pai\u2026 n\xE3o \xE9 nada disso. A gente s\xF3 tava preocupado
+      com o senhor.</i>"
+    imagem: {fileID: 2049805542666589774, guid: 271f69527ef05324f841f339c1388bf9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 21
+  - titulo: 
+    texto: "Seu Roberto puxa uma cadeira e se senta \xE0 mesa."
+    imagem: {fileID: 2049805542666589774, guid: 271f69527ef05324f841f339c1388bf9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 22
+  - titulo: 
+    texto: "Seu Roberto <i> -Eu sei. Mas n\xE3o gosto de ser tratado como se eu n\xE3o
+      estivesse aqui.</i>"
+    imagem: {fileID: -5288849906283564437, guid: 589c43f6ac5a3524f935133b6fc51467, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 23
+  - titulo: 
+    texto: "neto <i>-Desculpa, v\xF4. A gente n\xE3o pensou nisso.</i>"
+    imagem: {fileID: -5288849906283564437, guid: 589c43f6ac5a3524f935133b6fc51467, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 24
+  - titulo: 
+    texto: "Juliana <i>-T\xE1 bom, pai. A gente vai tomar mais cuidado. Mas dos rem\xE9dios
+      e das consultas pode deixar que eu cuido, t\xE1?</i>"
+    imagem: {fileID: -5288849906283564437, guid: 589c43f6ac5a3524f935133b6fc51467, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 46
+  - titulo: 
+    texto: "Juliana percebe o pai parado na porta. Fica sem gra\xE7a e chama Seu
+      Roberto para a mesa."
+    imagem: {fileID: 8271236950401246202, guid: 80df9fc350b49224f92c28cc5a7d2093, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 26
+  - titulo: 
+    texto: "Juliana <i> -Pai, senta aqui. A gente estava falando dos seus rem\xE9dios
+      e das consultas. O que o senhor acha?</i>"
+    imagem: {fileID: 8271236950401246202, guid: 80df9fc350b49224f92c28cc5a7d2093, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 27
+  - titulo: 
+    texto: Seu Roberto se senta e demora um pouco para responder.
+    imagem: {fileID: 8271236950401246202, guid: 80df9fc350b49224f92c28cc5a7d2093, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 28
+  - titulo: 
+    texto: "Seu Roberto <i>-Acho que voc\xEAs deviam ter me chamado antes. N\xE3o
+      \xE9 f\xE1cil ouvir os outros decidindo a minha vida.</i>"
+    imagem: {fileID: -8033534013178356070, guid: e554539a8bb72164ba839ba4b045a593, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 28
+  - titulo: 
+    texto: "neto <i> -A gente n\xE3o fez por mal, v\xF4.</i>"
+    imagem: {fileID: -8033534013178356070, guid: e554539a8bb72164ba839ba4b045a593, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 30
+  - titulo: 
+    texto: "Juliana <i>-T\xE1 certo, pai. A gente vai pensar melhor nas coisas.</i>"
+    imagem: {fileID: -8033534013178356070, guid: e554539a8bb72164ba839ba4b045a593, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 31
+  - titulo: 
+    texto: "A conversa termina ali. Ningu\xE9m promete nada, e Seu Roberto volta
+      para a poltrona sem saber se alguma coisa vai mudar."
+    imagem: {fileID: -8033534013178356070, guid: e554539a8bb72164ba839ba4b045a593, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 46
+  - titulo: 
+    texto: 
+    imagem: {fileID: -1897867357772833244, guid: 313ca4a2c92215b40a9134e602e3fe00, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 33
+  - titulo: 
+    texto: "Juliana vai at\xE9 a porta, chama o pai e se senta ao lado dele \xE0
+      mesa."
+    imagem: {fileID: -1897867357772833244, guid: 313ca4a2c92215b40a9134e602e3fe00, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "Juliana <i>-Pai, desculpa. A gente n\xE3o devia ter falado do senhor
+      daquele jeito. Quero saber o que o senhor acha dessa mudan\xE7a nos rem\xE9dios.</i>"
+    imagem: {fileID: -1897867357772833244, guid: 313ca4a2c92215b40a9134e602e3fe00, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 35
+  - titulo: 
+    texto: "Seu Roberto <i>-Eu entendo que voc\xEAs se preocupam comigo. Mas tomar
+      rem\xE9dio \xE0s seis da manh\xE3? Eu acordo \xE0s oito, filha.</i>"
+    imagem: {fileID: -9141078977680352108, guid: 145828290beef6d48adfc841fc33b64b, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 36
+  - titulo: 
+    texto: "Juliana<i> -Ent\xE3o a gente passa pras oito. Mas o da press\xE3o fica
+      no hor\xE1rio que o m\xE9dico pediu, t\xE1? Esse eu n\xE3o quero arriscar.</i>"
+    imagem: {fileID: -9141078977680352108, guid: 145828290beef6d48adfc841fc33b64b, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 37
+  - titulo: 
+    texto: "Seu Roberto<i> -T\xE1 bom. S\xF3 me pergunta antes da pr\xF3xima vez.</i>"
+    imagem: {fileID: -9141078977680352108, guid: 145828290beef6d48adfc841fc33b64b, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 46
+  - titulo: 
+    texto: "Juliana anota os novos hor\xE1rios. Nem tudo foi decidido por ele, mas,
+      pela primeira vez, a conversa foi feita com ele."
+    imagem: {fileID: -705960573741391066, guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 39
+  - titulo: 
+    texto: "Juliana e o neto chamam Seu Roberto para a mesa. Juliana coloca o calend\xE1rio
+      e os pap\xE9is dos rem\xE9dios na frente dele."
+    imagem: {fileID: -705960573741391066, guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 40
+  - titulo: 
+    texto: "Juliana <i>-Pai, a gente errou. Isso tudo \xE9 sobre a sua vida, ent\xE3o
+      quem decide \xE9 o senhor. A gente est\xE1 aqui para ajudar.</i>"
+    imagem: {fileID: -705960573741391066, guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 41
+  - titulo: 
+    texto: "Seu Roberto<i> -Eu agrade\xE7o. S\xF3 quero que conversem comigo, n\xE3o
+      apenas sobre mim.</i>"
+    imagem: {fileID: -705960573741391066, guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 42
+  - titulo: 
+    texto: "neto <i>-Ent\xE3o fala a\xED, v\xF4. Como o senhor quer fazer?</i>"
+    imagem: {fileID: -705960573741391066, guid: 0ef4f1fcc0ee54a4e902c1cecaf9113d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 43
+  - titulo: 
+    texto: "Seu Roberto puxa os pap\xE9is para mais perto. Pela primeira vez em muito
+      tempo, \xE9 ele quem pega a caneta."
+    imagem: {fileID: 7306352978364405215, guid: 2318bd55fc6e8c94095a1c4d9fe602a3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 44
+  - titulo: 
+    texto: "Seu Roberto <i>-Esses hor\xE1rios eu quero ver direto com o m\xE9dico.
+      Voc\xEA vai comigo, filha, mas quem conversa sou eu.</i>\nJuliana <i>-Combinado,
+      pai.</i>"
+    imagem: {fileID: 7306352978364405215, guid: 2318bd55fc6e8c94095a1c4d9fe602a3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 45
+  - titulo: 
+    texto: "O neto sorri ao ver o av\xF4 anotar a data da pr\xF3xima consulta com
+      a mesma letra caprichada de sempre. Os tr\xEAs passam o resto da tarde reorganizando
+      a rotina, e cada mudan\xE7a \xE9 decidida por Seu Roberto."
+    imagem: {fileID: 7306352978364405215, guid: 2318bd55fc6e8c94095a1c4d9fe602a3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 46

@@ -97,7 +97,8 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: escolha
+  - titulo: "Como cuidar da sa\xFAde dela sem tirar dela o controle da pr\xF3pria
+      vida?"
     texto: 
     imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
     opcoes:

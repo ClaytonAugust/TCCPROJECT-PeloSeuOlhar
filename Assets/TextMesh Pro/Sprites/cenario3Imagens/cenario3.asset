@@ -16,17 +16,409 @@ MonoBehaviour:
   nomeCenario: "N\xE3o era isso que aconteceu"
   imagemConclusao: {fileID: 0}
   quadros:
-  - titulo: 
-    texto: 
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "A visita \xE0 casa do filho chega ao fim, e Dona Maria, cansada, se prepara
+      para ir embora. Ao levar a m\xE3o ao bolso, sente que ele est\xE1 vazio. A
+      carteira, com os documentos e o dinheiro do m\xEAs, n\xE3o est\xE1 ali. Ela
+      se senta de novo e tenta lembrar onde poderia ter deixado, mas n\xE3o se lembra
+      de ter tirado a carteira do bolso."
     imagem: {fileID: 483878692087434876, guid: 5a0feee8347b9664bb4d85b7f99ca37f, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: 
-    texto: 
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "Ela chama o marido, Persivaldo, e fala baixinho, para n\xE3o incomodar
+      ningu\xE9m."
     imagem: {fileID: 2686470822861318503, guid: a45aed67f4e8d524ab52e1a82e39395d, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: Dona Maria <i> -Persivaldo, minha carteira sumiu. Eu tinha certeza de
+      que estava aqui no bolso. </i>
+    imagem: {fileID: 2686470822861318503, guid: a45aed67f4e8d524ab52e1a82e39395d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "Da cozinha, alguns parentes escutam s\xF3 o final da conversa. Ningu\xE9m
+      vem perguntar nada."
+    imagem: {fileID: 2686470822861318503, guid: a45aed67f4e8d524ab52e1a82e39395d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "Enquanto Dona Maria continua procurando, a conversa na cozinha muda.
+      Agora, o assunto \xE9 ela."
+    imagem: {fileID: -6471089572123817001, guid: c8485e759fa9c49478b8f15621c255cf, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "sobrinha mais velha <i> -Ela deve ter perdido por a\xED e agora acha
+      que algu\xE9m pegou.</i>"
+    imagem: {fileID: -6471089572123817001, guid: c8485e759fa9c49478b8f15621c255cf, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "O coment\xE1rio passa de um parente para outro. O que era s\xF3 uma suspeita
+      come\xE7a a ser tratado como verdade."
+    imagem: {fileID: -6471089572123817001, guid: c8485e759fa9c49478b8f15621c255cf, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "No dia seguinte, J\xFAlia, a neta, vai visitar a av\xF3 e conta o que
+      est\xE3o dizendo sobre ela"
+    imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "Dona Maria <i> -Deixa pra l\xE1, minha filha. N\xE3o \xE9 nada.</i>"
+    imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "N\xE3o era isso que aconteceu"
+    texto: "Mas, quando J\xFAlia vai embora, Dona Maria fica um bom tempo olhando
+      para o bolso vazio do casaco. No domingo, o filho, Vaguiner, chega com o resto
+      da fam\xEDlia, e ela hesita em tocar no assunto. Em quem Vaguiner vai acreditar:
+      nos coment\xE1rios ou na m\xE3e?"
+    imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: ' Em quem Vaguiner vai acreditar?'
+    texto: 
+    imagem: {fileID: 5220287062762190157, guid: 1409dc0172fb2f74d94232eaae0a3895, type: 3}
+    opcoes:
+    - textoOpcao: "Acreditaria na fam\xEDlia e evitaria discutir para n\xE3o criar
+        confus\xE3o."
+      textoConsequencia: "Com o passar do tempo, os coment\xE1rios sobre Dona Maria
+        continuam circulando entre os familiares, sem que ningu\xE9m procure esclarecer
+        o que realmente aconteceu. Ela passa a evitar conversas sobre o assunto e
+        se sente cada vez mais distante da fam\xEDlia. A falta de apoio de Vaguiner,
+        em quem esperava encontrar compreens\xE3o, faz com que Dona Maria se sinta
+        desacreditada e tenha receio de compartilhar suas preocupa\xE7\xF5es novamente."
+      textoFeedback: "Na velhice, \xE9 comum que a palavra de uma pessoa passe a
+        valer menos s\xF3 por causa da idade. Um esquecimento ou uma d\xFAvida logo
+        viram sinal de confus\xE3o, e outras pessoas passam a falar por ela. Esse
+        tipo de preconceito, ligado \xE0 idade, nem sempre \xE9 percebido por quem
+        o pratica, porque costuma vir disfar\xE7ado de preocupa\xE7\xE3o. Mas o efeito
+        \xE9 real: quem n\xE3o \xE9 ouvido aprende a se calar.\n\nEvitar um conflito
+        tamb\xE9m \xE9 uma escolha, e \xE0s vezes quem paga por ela \xE9 quem ficou
+        sem defesa. Antes de repetir uma hist\xF3ria sobre algu\xE9m, vale perguntar
+        diretamente a essa pessoa o que aconteceu. Voc\xEA j\xE1 ouviu e repetiu
+        algo sobre algu\xE9m mais velho sem conhecer a vers\xE3o dele?"
+      pontuacao: 0
+      proximoQuadro: 11
+    - textoOpcao: Ouviria Dona Maria, mas continuaria acreditando mais no que os
+        outros disseram.
+      textoConsequencia: "Com o passar dos dias, a fam\xEDlia deixa de falar abertamente
+        sobre o ocorrido, mas as suspeitas continuam presentes. Embora Dona Maria
+        tenha tentado explicar o que aconteceu mas a sua palavra inda \xE9 recebida
+        com desconfian\xE7a. Vaguiner prefere n\xE3o prolongar a situa\xE7\xE3o e
+        a situa\xE7\xE3o acaba sem um esclarecimento. Dona Maria continua magoada
+        por n\xE3o ter sido totalmente ouvida e sente que precisa provar sua pr\xF3pria
+        vers\xE3o para ser acreditada."
+      textoFeedback: "Ouvir algu\xE9m n\xE3o \xE9 o mesmo que acreditar nessa pessoa.
+        Quando a vers\xE3o de uma pessoa idosa \xE9 escutada, mas colocada abaixo
+        do que os outros disseram, ela recebe a mensagem de que sua palavra vale
+        menos. Isso machuca, porque n\xE3o \xE9 sobre a carteira: \xE9 sobre ser
+        vista como algu\xE9m confi\xE1vel, capaz de contar a pr\xF3pria hist\xF3ria.
+        E, quanto mais vezes isso acontece, menos a pessoa se sente \xE0 vontade
+        para falar.\n\nDar espa\xE7o para algu\xE9m se explicar \xE9 um passo importante,
+        mas o respeito se mostra no que fazemos depois de ouvir. Levar a s\xE9rio
+        o relato de algu\xE9m n\xE3o exige ter certeza de tudo, exige n\xE3o descart\xE1-lo
+        de antem\xE3o. Quando duas vers\xF5es se contradizem, voc\xEA costuma dar
+        o mesmo peso \xE0 palavra de uma pessoa mais velha?"
+      pontuacao: 0
+      proximoQuadro: 16
+    - textoOpcao: "Escutar todo mundo antes de tirar conclus\xF5es precipitadas"
+      textoConsequencia: "Com o passar do tempo, o assunto perde espa\xE7o nas conversas
+        da fam\xEDlia, mas ningu\xE9m consegue concordar o que realmente aconteceu
+        com a carteira. Dona Maria percebe que, apesar de Vaguiner ter conversado
+        com os familiares, as d\xFAvidas continuam sem resposta. Ela aceita que talvez
+        n\xE3o consiga recuperar a carteira ou descobrir o que aconteceu, mas fica
+        incomodada por ter sido envolvida em uma hist\xF3ria que nunca quis criar.
+        Aos poucos, a conviv\xEAncia volta ao normal, embora o epis\xF3dio deixe
+        um desconforto entre ela e alguns familiares."
+      textoFeedback: "\nBoatos dentro da fam\xEDlia costumam crescer justamente porque
+        ningu\xE9m vai at\xE9 a fonte. Cada pessoa acrescenta um detalhe, e logo
+        a hist\xF3ria parece verdadeira, mesmo sem nenhuma prova. Quando o assunto
+        envolve uma pessoa idosa, \xE9 comum que ela seja a \xFAltima a ser ouvida,
+        mesmo sendo a principal envolvida. Investigar os fatos foi um cuidado importante,
+        mas a pergunta mais simples, \u201Co que a senhora acha que aconteceu?\u201D,
+        ficou em segundo plano.\n\nEsclarecer uma situa\xE7\xE3o nem sempre resolve
+        o que ela deixou nas pessoas. \xC0s vezes, al\xE9m de descobrir o que aconteceu,
+        \xE9 preciso dizer a quem foi julgado que a palavra dele importa. Na sua
+        fam\xEDlia, quando surge um mal-entendido, quem costuma ser ouvido primeiro?"
+      pontuacao: 0
+      proximoQuadro: 21
+    - textoOpcao: "Conversaria diretamente com Dona Maria e daria espa\xE7o para
+        ela se explicar."
+      textoConsequencia: "No domingo seguinte, a fam\xEDlia se re\xFAne de novo na
+        casa de Dona Maria. Antes do almo\xE7o, a sobrinha mais velha se aproxima
+        dela, sem jeito, e pede desculpas pelo que disse. A carteira nunca apareceu,
+        mas isso j\xE1 n\xE3o importa tanto. Quando o assunto surge, \xE9 a palavra
+        de Dona Maria que a fam\xEDlia leva em conta."
+      textoFeedback: "Ir direto \xE0 pessoa envolvida \xE9 um gesto simples, mas
+        que faz muita diferen\xE7a. Quando algu\xE9m \xE9 ouvido antes de ser julgado,
+        se sente tratado como adulto capaz de contar a pr\xF3pria hist\xF3ria, e
+        n\xE3o como algu\xE9m que precisa que os outros falem por ele. Para uma pessoa
+        idosa, esse reconhecimento \xE9 importante, porque ajuda a preservar a autoestima
+        e o lugar dela na fam\xEDlia.\n\nAinda assim, os boatos pararam sem que ningu\xE9m
+        reconhecesse o erro. Vaguiner ouviu a m\xE3e, mas n\xE3o chegou a defender
+        a palavra dela diante dos outros. \xC0s vezes, o respeito tamb\xE9m precisa
+        ser dito em voz alta. Quando algu\xE9m pr\xF3ximo \xE9 julgado injustamente,
+        voc\xEA costuma ficar ao lado dele ou prefere n\xE3o se envolver?"
+      pontuacao: 0
+      proximoQuadro: 27
+    - textoOpcao: "Evitaria espalhar falsas acusa\xE7\xF5es, e conversaria diretamente
+        com ela buscando entender os fatos antes de fazer qualquer julgamento."
+      textoConsequencia: "Nos dias seguintes, Dona Maria percebe que sua rela\xE7\xE3o
+        com a fam\xEDlia come\xE7a a melhorar. Vaguiner passa a dar mais aten\xE7\xE3o
+        ao que a m\xE3e tem a dizer e a ouvi-la antes de tirar conclus\xF5es. Aos
+        poucos, os familiares deixam de tratar os rumores como verdades e passam
+        a conversar diretamente com ela. Embora o epis\xF3dio ainda deixe algumas
+        marcas, Dona Maria se sente mais respeitada, sabendo que pode contar com
+        o apoio do filho."
+      textoFeedback: "Muitas vezes, o que fere uma pessoa idosa n\xE3o \xE9 o problema
+        em si, mas a forma como os outros reagem a ele. Ser tratada como algu\xE9m
+        confusa ou pouco confi\xE1vel machuca mais do que perder uma carteira. Quando
+        algu\xE9m da fam\xEDlia se posiciona e defende a palavra dela, o recado vai
+        al\xE9m daquele epis\xF3dio: mostra que ela continua sendo respeitada como
+        uma pessoa inteira, com voz e hist\xF3ria.\n\nDesfazer um boato exige coragem,
+        porque significa contrariar outras pessoas da fam\xEDlia. Mas reconhecer
+        o erro e pedir desculpas tamb\xE9m ensina a todos como agir da pr\xF3xima
+        vez. Voc\xEA j\xE1 defendeu algu\xE9m que estava sendo julgado sem ser ouvido?"
+      pontuacao: 0
+      proximoQuadro: 32
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "No domingo, a fam\xEDlia se re\xFAne na casa de Dona Maria. Logo, o assunto
+      da carteira volta, e todos falam sobre o que aconteceu sem perguntar nada a
+      ela."
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 12
+  - titulo: 
+    texto: "sobrinha mais velha <i> - Ela anda muito esquecida. Deve ter perdido
+      a carteira e agora acha que algu\xE9m pegou.</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 13
+  - titulo: 
+    texto: "Dona Maria <i>-Vaguiner, fala pra eles. Eu nunca disse que algu\xE9m
+      pegou nada.</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Vaguiner <i>-M\xE3e, o pessoal s\xF3 est\xE1 preocupado. \xC9 melhor
+      deixar isso quieto. N\xE3o quero confus\xE3o na fam\xEDlia por causa dessa
+      hist\xF3ria.</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 15
+  - titulo: 
+    texto: "Pensamento de Dona Maria <i>-Eu s\xF3 queria que acreditassem em mim\u2026</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 38
+  - titulo: 
+    texto: "Quando os parentes v\xE3o embora, Vaguiner se senta ao lado da m\xE3e.\n"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 17
+  - titulo: 
+    texto: "Vaguiner <i>-M\xE3e, me conta. O que aconteceu com essa carteira?</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
+  - titulo: 
+    texto: "Dona Maria <i>-Eu s\xF3 falei que n\xE3o estava achando, filho. Nunca
+      acusei ningu\xE9m. S\xF3 quero encontrar meus documentos.</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 19
+  - titulo: 
+    texto: "Vaguiner <i>-Eu sei, m\xE3e\u2026 Mas a senhora anda esquecendo algumas
+      coisas, n\xE9? Vai ver deixou em outro lugar.</i>"
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 20
+  - titulo: 
+    texto: "Dona Maria n\xE3o responde. O filho ouviu tudo o que ela disse, mas,
+      no fim, ficou com a vers\xE3o dos outros."
+    imagem: {fileID: -6193580140439365942, guid: bb501047e5228ae4d823f90b804a3230, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 38
+  - titulo: 
+    texto: "Antes de tomar partido, Vaguiner decide conversar com os parentes que
+      estavam espalhando a hist\xF3ria."
+    imagem: {fileID: 3818358001283424448, guid: 37da066266af2d741af4d4d0a287676c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 22
+  - titulo: 
+    texto: "Vaguiner <i>-Algu\xE9m viu a carteira ser levada ou voc\xEAs est\xE3o
+      s\xF3 supondo?</i>"
+    imagem: {fileID: 3818358001283424448, guid: 37da066266af2d741af4d4d0a287676c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 23
+  - titulo: 
+    texto: "Os familiares n\xE3o sabem responder. Cada um repete o que ouviu de outra
+      pessoa, e Vaguiner percebe que ningu\xE9m tem certeza do que aconteceu."
+    imagem: {fileID: 3818358001283424448, guid: 37da066266af2d741af4d4d0a287676c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 24
+  - titulo: 
+    texto: "Vaguiner <i> -M\xE3e, conversei com o pessoal. Ningu\xE9m viu nada. A
+      hist\xF3ria foi passando de um para o outro e virou essa confus\xE3o.</i>"
+    imagem: {fileID: -1260915394643745088, guid: e0ca6a4d42b71de4dafa4807c13c0d50, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 25
+  - titulo: 
+    texto: "Dona Maria <i>-E voc\xEA, filho? N\xE3o vai me perguntar o que aconteceu?</i>"
+    imagem: {fileID: -1260915394643745088, guid: e0ca6a4d42b71de4dafa4807c13c0d50, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 26
+  - titulo: 
+    texto: Vaguiner fica sem resposta. Tinha ouvido todo mundo, menos ela
+    imagem: {fileID: -1260915394643745088, guid: e0ca6a4d42b71de4dafa4807c13c0d50, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 38
+  - titulo: 
+    texto: "Depois de saber dos coment\xE1rios, Vaguiner decide conversar com a m\xE3e.
+      Ele se senta perto dela e espera que ela termine o que est\xE1 fazendo antes
+      de tocar no assunto."
+    imagem: {fileID: -2071131800922814628, guid: 2bc6446f6b0990e48b9609148bbd8eb3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 28
+  - titulo: 
+    texto: "Vaguiner <i> -M\xE3e, a J\xFAlia me contou o que est\xE3o dizendo sobre
+      a carteira. Queria ouvir o que a senhora pensa sobre tudo isso.</i>"
+    imagem: {fileID: -2071131800922814628, guid: 2bc6446f6b0990e48b9609148bbd8eb3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 29
+  - titulo: 
+    texto: "Dona Maria <i>-Eu nunca acusei ningu\xE9m, filho. S\xF3 n\xE3o achei
+      a carteira. E agora todo mundo fala de mim como se eu estivesse caducando.</i>"
+    imagem: {fileID: -2071131800922814628, guid: 2bc6446f6b0990e48b9609148bbd8eb3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 30
+  - titulo: 
+    texto: "Vaguiner <i>-Eu acredito na senhora, m\xE3e. N\xE3o liga pro que o pessoal
+      fala.</i>"
+    imagem: {fileID: -2071131800922814628, guid: 2bc6446f6b0990e48b9609148bbd8eb3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 31
+  - titulo: 
+    texto: "Dona Maria sorri, aliviada por ter sido ouvida. Mas, entre os parentes,
+      os coment\xE1rios continuam, e ningu\xE9m mais ouviu o que ela acabou de dizer."
+    imagem: {fileID: -2071131800922814628, guid: 2bc6446f6b0990e48b9609148bbd8eb3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 38
+  - titulo: 
+    texto: "Assim que ouve os primeiros coment\xE1rios, Vaguiner deixa os parentes
+      na sala e vai at\xE9 o quarto da m\xE3e."
+    imagem: {fileID: 682583307798161911, guid: 62fe64878ef9c5541ba8880562524771, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 33
+  - titulo: 
+    texto: "Vaguiner <i>-M\xE3e, antes de ouvir qualquer outra pessoa, eu quero ouvir
+      a senhora.</i>\n"
+    imagem: {fileID: 682583307798161911, guid: 62fe64878ef9c5541ba8880562524771, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "Dona Maria <i>-Eu nunca acusei ningu\xE9m, filho. O que mais me magoa
+      n\xE3o \xE9 a carteira. \xC9 ver todo mundo duvidando de mim sem nem vir me
+      perguntar.</i>"
+    imagem: {fileID: 682583307798161911, guid: 62fe64878ef9c5541ba8880562524771, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 35
+  - titulo: 
+    texto: Vaguiner volta para a sala e chama os familiares.
+    imagem: {fileID: 682583307798161911, guid: 62fe64878ef9c5541ba8880562524771, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 36
+  - titulo: 
+    texto: "Vaguiner <i>-Ningu\xE9m aqui sabe o que aconteceu com essa carteira.
+      Ent\xE3o chega de suspeita. Se tiverem alguma d\xFAvida, perguntem pra ela.</i>"
+    imagem: {fileID: 6824480284524792502, guid: 4f715afd0322c1245b6b5b5be2043c0c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 37
+  - titulo: 
+    texto: "A sala fica em sil\xEAncio. A sobrinha mais velha abaixa os olhos"
+    imagem: {fileID: 6824480284524792502, guid: 4f715afd0322c1245b6b5b5be2043c0c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 38

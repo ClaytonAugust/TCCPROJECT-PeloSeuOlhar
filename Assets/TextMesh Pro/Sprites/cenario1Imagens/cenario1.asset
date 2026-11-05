@@ -197,7 +197,7 @@ MonoBehaviour:
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b>  <i>-Pai, essa semana vai ser puxada no trabalho. N\xE3o
       vou conseguir ir a\xED por um tempo. </i>"
     imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
@@ -205,14 +205,14 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 9
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b> <i>-Tudo bem, filha\u2026 N\xE3o se preocupa comigo.</i>"
     imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 10
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: <b>Catarina</b> <i>-O senhor vai ficar bem, pai. Com o tempo, a gente
       se acostuma.</i>
     imagem: {fileID: -995822636085515590, guid: 31e30c633e5891843919ecaf31f767e7, type: 3}
@@ -220,7 +220,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 11
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Ao desligar</b>, Catarina solta um suspiro de exaust\xE3o e afasta
       o celular. A semana vai ser dif\xEDcil, e ela precisa aproveitar os momentos
       livres para descansar. Promete a si mesma que vai compensar depois, quando
@@ -230,22 +230,22 @@ MonoBehaviour:
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 20
-  - titulo: A casa ficou silenciosa
+    proximoQuadroSemEscolha: 31
+  - titulo: 
     texto: "<b>Catarina</b> <i>-Oi, pai, tudo bem por a\xED?</i>"
     imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 13
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b> <i>-Tudo, filha. T\xF4 aqui, tomando um caf\xE9.</i>"
     imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 14
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b> <i>-Que bom. Olha, essa semana t\xE1 corrida, n\xE3o
       vou conseguir passar a\xED. Mas eu ligo mais, t\xE1 bom?</i>"
     imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
@@ -253,14 +253,14 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 15
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b> <i>-T\xE1 bom, filha. Vai l\xE1.</i>"
     imagem: {fileID: 9193702694993886150, guid: 9b5e02aa615454241992d09db09f0c40, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 16
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "Ela tenta manter mais contato com o seu pai por meio de liga\xE7\xF5es
       mas a sua rotina pesada torna as visitas a ele quase proibitivas para ela,
       indo em apenas ocasi\xF5es especiais ."
@@ -268,8 +268,8 @@ MonoBehaviour:
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 30
-  - titulo: A casa ficou silenciosa
+    proximoQuadroSemEscolha: 31
+  - titulo: 
     texto: "<b>Catarina</b><i> -Pai, se o senhor quiser companhia, \xE9 s\xF3 me
       avisar que eu passo a\xED, t\xE1?</i>"
     imagem: {fileID: 8538734835328285091, guid: 68088e0297764094e970e964e3d2a000, type: 3}
@@ -277,14 +277,14 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 18
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b><i> -T\xE1 bom, filha. Se eu precisar, eu te chamo.</i>"
     imagem: {fileID: 8538734835328285091, guid: 68088e0297764094e970e964e3d2a000, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 19
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b> desliga tranquila, achando que deixou tudo combinado.
       Seu Ant\xF4nio fica feliz com o convite, mas n\xE3o diz quando quer que ela
       venha."
@@ -293,7 +293,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 20
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "Ela percebe que o seu pai est\xE1 se sentindo s\xF3, ent\xE3o ela reorganiza
       a sua rotina, podendo visit\xE1-lo em poucos momentos, para que seu velho pai
       n\xE3o sofra tanto"
@@ -302,7 +302,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 31
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b> abre a agenda e olha a semana. Est\xE1 cheia, mas ela
       encontra espa\xE7o na quarta \xE0 noite e no s\xE1bado \xE0 tarde."
     imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
@@ -310,7 +310,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 22
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b><i> -Pai, consegui separar a quarta e o s\xE1bado pra
       ficar com o senhor. Pode ser?</i>"
     imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
@@ -318,14 +318,14 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 23
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b><i> -Pode, filha! Vou deixar o caf\xE9 pronto.</i>"
     imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 24
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b></i> -E nos outros dias eu te ligo \xE0 noite, pra gente
       conversar um pouco.</i>"
     imagem: {fileID: -1561652621127624007, guid: 4ffc35dcdb608354ab2caf6673e870ec, type: 3}
@@ -333,7 +333,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 25
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b> desliga sorrindo. Sabe que a filha anda ocupada
       e, mesmo assim, ela arrumou tempo para ele."
     imagem: {fileID: 6028183830578997635, guid: c7f1f9227b826c445ac0f43c78b6d842, type: 3}
@@ -341,7 +341,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 31
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Catarina</b><i> -Pai, eu n\xE3o liguei s\xF3 pra saber se t\xE1 tudo
       bem. Quero saber como o senhor est\xE1 de verdade. T\xE1 muito dif\xEDcil sem
       a m\xE3e, n\xE9? </i>"
@@ -350,7 +350,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 27
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "Do outro lado da linha, <b>Seu Ant\xF4nio</b> fica em sil\xEAncio por
       um tempo. <b>Catarina</b> n\xE3o apressa a resposta."
     imagem: {fileID: -7933959484852203323, guid: df4bcc52276f0e944bec15bfd40d4972, type: 3}
@@ -358,14 +358,14 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 28
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "<b>Seu Ant\xF4nio</b><i> -\xC9, filha\u2026 A casa ficou quieta demais.</i>"
     imagem: {fileID: -7933959484852203323, guid: df4bcc52276f0e944bec15bfd40d4972, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 29
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "No fim da tarde, <b>Catarina</b> chega \xE0 casa do pai. Os dois se sentam
       no sof\xE1, e <b>Seu Ant\xF4nio</b>, aos poucos, come\xE7a a falar da saudade
       da esposa. <b>Catarina</b> escuta sem pressa, sem mudar de assunto."
@@ -374,7 +374,7 @@ MonoBehaviour:
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 30
-  - titulo: A casa ficou silenciosa
+  - titulo: 
     texto: "Nos domingos seguintes, <b>Catarina</b> volta com o filho. Enquanto o
       neto aprende a jogar xadrez com o av\xF4, <b>Seu Ant\xF4nio</b> abre o \xE1lbum
       de fam\xEDlia e conta hist\xF3rias de quando era jovem. A casa, antes silenciosa,

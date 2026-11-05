@@ -12,7 +12,391 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
   m_Name: Cenario4
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
-  imagemCapa: {fileID: 0}
-  nomeCenario: 
+  imagemCapa: {fileID: 2251854303521554873, guid: 65b54519830aa1d45a936cb4c0982c5f, type: 3}
+  nomeCenario: Tudo mudou
   imagemConclusao: {fileID: 0}
-  quadros: []
+  quadros:
+  - titulo: Tudo mudou
+    texto: "Todas as manh\xE3s, Seu Jos\xE9, aos 78 anos, faz o mesmo caminho at\xE9
+      a pra\xE7a. Compra o p\xE3o, conversa com os conhecidos e passa na lot\xE9rica
+      para pagar as contas do m\xEAs. Na volta, guarda os comprovantes numa pasta,
+      organizada do jeito dele, como sempre fez."
+    imagem: {fileID: 2251854303521554873, guid: 65b54519830aa1d45a936cb4c0982c5f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Tudo mudou
+    texto: "At\xE9 que, depois de alguns exames, vem o diagn\xF3stico de uma doen\xE7a
+      s\xE9ria. O m\xE9dico explica que algumas coisas v\xE3o mudar: as caminhadas
+      v\xE3o precisar ser mais curtas, e alguns caminhos, mais seguros."
+    imagem: {fileID: -3813982540941205535, guid: 13e954304ba95d548ae3b1d48102b3a9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Tudo mudou
+    texto: "Seu Jos\xE9 <i> -Isso n\xE3o muda nada, filha. Eu continuo o mesmo.</i>"
+    imagem: {fileID: -3813982540941205535, guid: 13e954304ba95d548ae3b1d48102b3a9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Tudo mudou
+    texto: "Mas, no caminho de volta para casa, ele segura a pasta de exames com
+      for\xE7a e olha pela janela do carro, sem dizer mais nada."
+    imagem: {fileID: -3813982540941205535, guid: 13e954304ba95d548ae3b1d48102b3a9, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Tudo mudou
+    texto: "\xC0 noite, M\xE1rcia l\xEA tudo o que encontra sobre a doen\xE7a do
+      pai. Cada coisa que l\xEA aumenta o medo: uma queda, um esquecimento, um dia
+      ruim sozinho em casa. Talvez seja mais seguro cuidar de tudo por ele. Mas Seu
+      Jos\xE9 sempre resolveu a pr\xF3pria vida. O que M\xE1rcia deve fazer?"
+    imagem: {fileID: -1059682442917800780, guid: 5249524aac5256649a13d5632d5b092c, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: "O que M\xE1rcia deve fazer?"
+    texto: 
+    imagem: {fileID: -1059682442917800780, guid: 5249524aac5256649a13d5632d5b092c, type: 3}
+    opcoes:
+    - textoOpcao: "Faria tudo por ele. \xC9 mais r\xE1pido e evita que ele tenha
+        problemas."
+      textoConsequencia: "Com o passar do tempo e o avan\xE7o da doen\xE7a, Seu Jos\xE9
+        precisa de ajuda em algumas tarefas. Mas M\xE1rcia passa a resolver tudo
+        por ele, at\xE9 o que ele ainda consegue fazer sozinho. Sem perceber, ao
+        tentar proteg\xEA-lo das preocupa\xE7\xF5es, ela tamb\xE9m est\xE1 tirando
+        dele o espa\xE7o de decidir. As caminhadas pelo bairro ficam para tr\xE1s,
+        e as contas da casa j\xE1 nem passam pela m\xE3o dele. Seu Jos\xE9 sente
+        falta de cuidar dos pr\xF3prios compromissos e percebe que, pouco a pouco,
+        perdeu a liberdade de organizar a pr\xF3pria vida."
+      textoFeedback: "Ficar doente muda a rotina, mas n\xE3o deveria apagar a pessoa.
+        Existe uma diferen\xE7a entre independ\xEAncia, que \xE9 conseguir fazer
+        as coisas sozinho, e autonomia, que \xE9 poder decidir sobre a pr\xF3pria
+        vida. Seu Jos\xE9 perdeu um pouco da primeira por causa da doen\xE7a. A segunda,
+        ele perdeu por causa da superprote\xE7\xE3o. Quando algu\xE9m faz tudo pela
+        pessoa, ela deixa de usar as capacidades que ainda tem, e isso pode acelerar
+        justamente as perdas que se queria evitar.\n\nProteger algu\xE9m n\xE3o significa
+        poup\xE1-lo de tudo. \xC0s vezes, o cuidado mais importante \xE9 deixar a
+        pessoa fazer o que ainda consegue, mesmo que demore mais. Voc\xEA sabe quais
+        tarefas as pessoas mais velhas da sua fam\xEDlia ainda fazem com prazer e
+        gostariam de continuar fazendo?"
+      pontuacao: 0
+      proximoQuadro: 7
+    - textoOpcao: "Faria a maioria das atividades deixando s\xF3 as mais f\xE1ceis
+        para ele."
+      textoConsequencia: "Nas semanas seguintes, Seu Jos\xE9 seca a lou\xE7a e rega
+        as plantas, enquanto M\xE1rcia cuida das contas, das consultas e dos hor\xE1rios.
+        Na consulta m\xE9dica, quando o doutor faz uma pergunta, \xE9 ela quem responde.
+        Seu Jos\xE9 ainda ajuda em casa, mas sente que as decis\xF5es sobre a pr\xF3pria
+        vida j\xE1 n\xE3o passam por ele. M\xE1rcia acredita estar ajudando o pai,
+        sem perceber que ele fala cada vez menos."
+      textoFeedback: "Deixar s\xF3 as tarefas f\xE1ceis para uma pessoa idosa pode
+        parecer uma forma de cuidado, mas tamb\xE9m transmite uma mensagem: \u201Cvoc\xEA
+        s\xF3 serve para isso\u201D. E responder por algu\xE9m, principalmente diante
+        de um m\xE9dico, \xE9 uma das formas mais comuns de apagar a voz de uma pessoa
+        idosa, mesmo sem inten\xE7\xE3o. Quem \xE9 tratado como incapaz de falar
+        por si mesmo, aos poucos, deixa de tentar.\n\nA ajuda mais respeitosa come\xE7a
+        por perguntar o que a pessoa quer e consegue fazer, em vez de decidir por
+        ela. Numa consulta, isso pode ser simples: deixar que ela responda primeiro
+        e s\xF3 completar se for preciso. Voc\xEA j\xE1 viu algu\xE9m responder por
+        uma pessoa mais velha, como se ela n\xE3o estivesse ali?"
+      pontuacao: 0
+      proximoQuadro: 12
+    - textoOpcao: "Deixaria que ele tentasse, mas assumiria as tarefas assim que
+        ficassem dif\xEDceis."
+      textoConsequencia: "Com o passar do tempo, M\xE1rcia come\xE7a a perceber que
+        nem sempre ajudar significa fazer as coisas pelo pai. Seu Jos\xE9 continua
+        enfrentando algumas dificuldades nas tarefas do dia a dia e tenta dizer quando
+        precisa de apoio e quando prefere tentar sozinho. Mas, na pressa da rotina,
+        M\xE1rcia muitas vezes se antecipa e termina as tarefas por ele. \xC0s vezes
+        ela espera, \xE0s vezes n\xE3o, e Seu Jos\xE9 nunca sabe ao certo se vai
+        poder terminar o que come\xE7ou."
+      textoFeedback: "Depois de um diagn\xF3stico, as tarefas do dia a dia podem
+        levar mais tempo,e isso n\xE3o significa que a pessoa n\xE3o consegue. Para
+        quem cuida, esperar pode ser dif\xEDcil, porque \xE9 mais r\xE1pido fazer
+        sozinho. Mas, para quem est\xE1 se adaptando, cada tarefa conclu\xEDda \xE9
+        uma prova de que ainda \xE9 capaz. Quando o outro termina por n\xF3s, a mensagem
+        \xE9 a oposta: voc\xEA n\xE3o d\xE1 conta.\n\nRespeitar o tempo de algu\xE9m
+        exige paci\xEAncia, e tamb\xE9m exige combinar antes. Perguntar \u201Cquer
+        que eu ajude ou prefere terminar sozinho?\u201D evita que a ajuda chegue
+        antes da hora. Quando voc\xEA ajuda algu\xE9m, costuma esperar que a pessoa
+        pe\xE7a, ou j\xE1 se antecipa?"
+      pontuacao: 0
+      proximoQuadro: 18
+    - textoOpcao: Perguntaria o que ele ainda consegue fazer sozinho e ajudaria no
+        restante.
+      textoConsequencia: "Aos poucos, Seu Jos\xE9 se adapta \xE0 nova realidade que
+        a doen\xE7a trouxe e consegue retomar parte das atividades que antes faziam
+        parte de sua rotina, como organizar suas contas e planejar pequenas sa\xEDdas.
+        M\xE1rcia respeita o ritmo do pai e passa a oferecer ajuda quando necess\xE1rio,
+        sem assumir todas as responsabilidades por ele. Nos dias em que a doen\xE7a
+        pesa mais, algumas tarefas ainda exigem adapta\xE7\xF5es e apoio, mas Seu
+        Jos\xE9 continua participando das decis\xF5es e fazendo suas pr\xF3prias
+        escolhas."
+      textoFeedback: "Adaptar-se a uma doen\xE7a n\xE3o \xE9 desistir das atividades,
+        e sim encontrar novas formas de continuar fazendo o que importa. Quando a
+        fam\xEDlia conversa antes de agir, a pessoa idosa ajuda a definir onde precisa
+        de apoio e onde quer seguir sozinha. Isso preserva a autoestima e mant\xE9m
+        ativas as capacidades que ela ainda tem. A ajuda deixa de ser uma substitui\xE7\xE3o
+        e passa a ser um complemento.\n\nAinda assim, em algumas situa\xE7\xF5es,
+        a palavra final continuou sendo da filha. O pr\xF3ximo passo \xE9 deixar
+        que a pr\xF3pria pessoa decida como quer se adaptar. Voc\xEA j\xE1 perguntou
+        a algu\xE9m mais velho o que ele gostaria de voltar a fazer, se tivesse o
+        apoio certo?"
+      pontuacao: 0
+      proximoQuadro: 24
+    - textoOpcao: "Conversaria com ele sobre as mudan\xE7as, respeitaria o ritmo
+        de adapta\xE7\xE3o e buscaria maneiras de manter sua independ\xEAncia mesmo
+        com as novas limita\xE7\xF5es."
+      textoConsequencia: "Seu Jos\xE9 e M\xE1rcia sentam juntos para pensar na nova
+        rotina. A doen\xE7a trouxe limites, mas \xE9 ele quem decide o que fazer
+        com o que ainda pode: quer voltar a caminhar pelo bairro. Os dois conversam
+        com o m\xE9dico, testam uma bengala e o caminho mais plano at\xE9 a pra\xE7a.
+        Seu Jos\xE9 tamb\xE9m aprende a pedir o transporte pelo celular para ir sozinho
+        \xE0s consultas.\n\nNo s\xE1bado seguinte, M\xE1rcia o v\xEA saindo de casa,
+        devagar, mas no ritmo dele.\nSeu Jos\xE9 <i> - Volto pro almo\xE7o, filha.
+        Pode deixar que eu me viro.</i>"
+      textoFeedback: "A doen\xE7a trouxe limites, mas n\xE3o tirou de Seu Jos\xE9
+        o direito de escolher o que fazer com o que ainda podia. Muitas pessoas idosas
+        se adaptam bem \xE0s perdas quando conseguem escolher o que \xE9 mais importante
+        para elas, se dedicar a isso e usar recursos para compensar as dificuldades,
+        como uma bengala ou um aplicativo. O papel da fam\xEDlia n\xE3o \xE9 decidir
+        por elas, e sim tornar essas escolhas poss\xEDveis.\n\nCuidar bem \xE9 ajudar
+        algu\xE9m a continuar sendo quem \xE9, mesmo quando muita coisa muda. Voc\xEA
+        sabe o que as pessoas mais velhas da sua fam\xEDlia mais sentiriam falta
+        de fazer?"
+      pontuacao: 0
+      proximoQuadro: 29
+    exigeEscolha: 1
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: 
+    texto: "M\xE1rcia chega \xE0 casa do pai com as sacolas do mercado. Seu Jos\xE9
+      est\xE1 \xE0 mesa da sala, conferindo as contas do m\xEAs."
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 7
+  - titulo: 
+    texto: "Seu Jos\xE9 <i> -Filha, eu ia fazer as compras amanh\xE3. J\xE1 at\xE9
+      fiz a lista.</i>"
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 8
+  - titulo: 
+    texto: "M\xE1rcia <i> -N\xE3o precisa mais, pai. A partir de agora, eu fa\xE7o
+      as compras, pago as contas e cuido das consultas. </i>"
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 9
+  - titulo: 
+    texto: "<i>Seu Jos\xE9 -Mas isso eu ainda consigo fazer.</i>"
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 10
+  - titulo: 
+    texto: "M\xE1rcia <i> -Deixa tudo comigo, pai. \xC9 melhor o senhor descansar
+      e n\xE3o se preocupar com essas coisas.</i>"
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 11
+  - titulo: 
+    texto: "M\xE1rcia recolhe os pap\xE9is da mesa. Seu Jos\xE9 guarda a lista de
+      compras no bolso, sem dizer mais nada."
+    imagem: {fileID: 1353276956731647769, guid: 62619546ed1541a4b9a959b6363a7be7, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "M\xE1rcia pega um papel e divide as tarefas da semana, sem perguntar
+      nada ao pai. Para ela, \xE9 uma forma pr\xE1tica de evitar riscos."
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 13
+  - titulo: 
+    texto: "M\xE1rcia <i>-Pai, fiz uma lista. O senhor fica com a lou\xE7a e com
+      as plantas. O resto, contas, mercado e consultas, fica comigo.</i>"
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 14
+  - titulo: 
+    texto: "Seu Jos\xE9 <i>-E as contas? Sempre fui eu que cuidei delas.</i>"
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 15
+  - titulo: 
+    texto: "M\xE1rcia <i>-Ah, pai, conta d\xE1 muita dor de cabe\xE7a. Deixa que
+      eu vejo isso.</i>"
+    imagem: {fileID: -5968061346828984869, guid: 754809cc0ef5daf42bf5f21632fc747f, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 16
+  - titulo: 
+    texto: "Seu Jos\xE9 prende a lista na geladeira e vai regar as plantas. Ainda
+      tem o que fazer em casa, mas nada do que ficou com ele \xE9 uma decis\xE3o."
+    imagem: {fileID: -2185070055771989, guid: 703d11170343cd14cbf05495b9bd4c30, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 17
+  - titulo: 
+    texto: "Seu jos\xE9 agora apenas auxilia sua filia na tarefas mais simples    "
+    imagem: {fileID: 4068027903160069178, guid: 64fa347324a9dfa429d3956fa777d295, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "Sentado \xE0 mesa da sala, Seu Jos\xE9 confere as contas da casa e anota
+      os pr\xF3ximos vencimentos. M\xE1rcia se senta ao lado e observa."
+    imagem: {fileID: 1668053149117505748, guid: e4cd37c83566ade479d87a58db0aea59, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 19
+  - titulo: 
+    texto: "M\xE1rcia <i>-Pode ir no seu tempo, pai. Se precisar, eu estou aqui.</i>"
+    imagem: {fileID: 1668053149117505748, guid: e4cd37c83566ade479d87a58db0aea59, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 20
+  - titulo: 
+    texto: "<i> Seu Jos\xE9 para em uma das contas e confere os n\xFAmeros de novo,
+      devagar. Antes que ele termine, M\xE1rcia puxa o papel.</i>"
+    imagem: {fileID: 1668053149117505748, guid: e4cd37c83566ade479d87a58db0aea59, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 21
+  - titulo: 
+    texto: "<i>M\xE1rcia -Deixa que eu termino essa, pai. Assim vai mais r\xE1pido.</i>"
+    imagem: {fileID: 1668053149117505748, guid: e4cd37c83566ade479d87a58db0aea59, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 22
+  - titulo: 
+    texto: "Seu Jos\xE9 n\xE3o reclama. Sabe que a filha quer ajudar, mas a conta
+      j\xE1 estava quase pronta."
+    imagem: {fileID: 5594819101839689006, guid: d24c48f1b9b77944bb34fa07e8de1b9d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 23
+  - titulo: 
+    texto: "M\xE1rcia termina tudo e guarda os pap\xE9is na pasta. S\xF3 ent\xE3o
+      percebe que o pai est\xE1 calado, olhando para a caneta que ficou na m\xE3o
+      dele. Ela entende que, na pressa de ajudar, n\xE3o deixou que ele terminasse
+      o que tinha come\xE7ado."
+    imagem: {fileID: 5594819101839689006, guid: d24c48f1b9b77944bb34fa07e8de1b9d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "M\xE1rcia <i>-Pai, me conta: o que o senhor faz quest\xE3o de continuar
+      fazendo do seu jeito, e em que prefere que eu ajude?</i>"
+    imagem: {fileID: 2004127006712290883, guid: 081eec5e3e5d4994e95b2bb963a59cdb, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 25
+  - titulo: 
+    texto: "Seu Jos\xE9 <i>-As contas eu quero continuar fazendo. E queria voltar
+      a caminhar at\xE9 a pra\xE7a.</i>"
+    imagem: {fileID: 2004127006712290883, guid: 081eec5e3e5d4994e95b2bb963a59cdb, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 26
+  - titulo: 
+    texto: "M\xE1rcia <i> - As contas s\xE3o do senhor, combinado. Mas caminhar sozinho
+      ainda n\xE3o, pai. Por enquanto, eu vou junto.</i>"
+    imagem: {fileID: 2004127006712290883, guid: 081eec5e3e5d4994e95b2bb963a59cdb, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 27
+  - titulo: 
+    texto: "Seu Jos\xE9 <i> -T\xE1 bom\u2026 Por enquanto.</i>"
+    imagem: {fileID: 2004127006712290883, guid: 081eec5e3e5d4994e95b2bb963a59cdb, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 28
+  - titulo: 
+    texto: "M\xE1rcia reorganiza parte da rotina do jeito que o pai pediu. Em algumas
+      coisas, ainda \xE9 ela quem d\xE1 a \xFAltima palavra, mas agora ele foi ouvido."
+    imagem: {fileID: 6570096326622401905, guid: 178e144aba0314245ab55b069d5b3b22, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
+  - titulo: 
+    texto: "M\xE1rcia chega com as compras da semana e se senta no sof\xE1, de frente
+      para o pai. Desta vez, antes de guardar qualquer coisa, ela quer ouvir o que
+      ele pensa."
+    imagem: {fileID: -8740537040534882625, guid: 3a72bdc76f6c5ba43b1299fd8b8284c0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 30
+  - titulo: 
+    texto: "M\xE1rcia <i>-Pai, essa doen\xE7a muda algumas coisas, mas quem decide
+      como o senhor quer viver \xE9 o senhor. O que \xE9 mais importante pro senhor
+      continuar fazendo?</i>"
+    imagem: {fileID: -8740537040534882625, guid: 3a72bdc76f6c5ba43b1299fd8b8284c0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 31
+  - titulo: 
+    texto: "Seu Jos\xE9 <i> -Eu queria voltar a fazer as minhas compras. E cuidar
+      das minhas coisas sozinho, sem ningu\xE9m arrumando por mim.</i>"
+    imagem: {fileID: -8740537040534882625, guid: 3a72bdc76f6c5ba43b1299fd8b8284c0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 32
+  - titulo: 
+    texto: "M\xE1rcia <i> -Ent\xE3o a gente adapta. Pro mercado, o senhor pode ir
+      de t\xE1xi. E aqui em casa a gente arruma tudo pra ficar mais f\xE1cil pro
+      senhor.</i>"
+    imagem: {fileID: -8740537040534882625, guid: 3a72bdc76f6c5ba43b1299fd8b8284c0, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 33
+  - titulo: 
+    texto: "Nos dias seguintes, M\xE1rcia ajuda a adaptar o quarto do pai: uma mesa
+      na altura certa e caixas com etiquetas para cada tipo de roupa. Seu Jos\xE9
+      passa a organizar as pr\xF3prias coisas, no ritmo dele. Da porta, M\xE1rcia
+      s\xF3 observa e faz sinal de positivo."
+    imagem: {fileID: 6645614068174629735, guid: 68b20efcf3d14974b96617ca83b1e07d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 34
