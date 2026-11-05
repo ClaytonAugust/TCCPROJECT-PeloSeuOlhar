@@ -10,51 +10,94 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c832e2ef55603488cb697eb71901c4, type: 3}
-  m_Name: cenario2
+  m_Name: Cenario2
   m_EditorClassIdentifier: Assembly-CSharp::DadosCenario
   imagemCapa: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
   nomeCenario: Deixa que eu resolvo
   imagemConclusao: {fileID: 0}
   quadros:
   - titulo: Deixa que eu resolvo
-    texto: "narra\xE7\xE3o: A luz da manh\xE3 entra pela janela da cozinha, iluminando
-      a mesa onde Dona Helena, aos 70 anos, organiza com cuidado a sua caixa de comprimidos
-      da semana e sua caderneta de consultas m\xE9dicas. Manter essa rotina em dia
-      \xE9 parte essencial de sua independ\xEAncia e sa\xFAde."
+    texto: "A luz da manh\xE3 entra pela janela da cozinha. Dona Helena, aos 70 anos,
+      est\xE1 sentada \xE0 mesa, separando os comprimidos da semana, um por um, em
+      cada divis\xF3ria da caixinha. Ao lado, a caderneta de consultas, preenchida
+      com a letra dela. H\xE1 anos, \xE9 assim que ela cuida de si mesma."
     imagem: {fileID: 5017739521265286653, guid: 488a82689950d9941a56197ad98b1425, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: Deixa que eu resolvo
-    texto: "Mas, ao dar uma olhada r\xE1pida na mesa, o Mateus o filho de Dona Helena
-      percebe que sua m\xE3e esqueceu de uma consulta m\xE9dica importante. Ele se
-      preocupa com a m\xE3e e acha que ela n\xE3o tem mais a capacidade de organizar
-      as coisas sozinha."
+    texto: "Mateus chega para o caf\xE9 e, ao se sentar, v\xEA um cart\xE3o de consulta
+      esquecido perto da fruteira. A data era a da \xFAltima segunda-feira."
     imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: Deixa que eu resolvo
-    texto: "Tomado pela preocupa\xE7\xE3o, Mateus come\xE7ou a revisar o planejamento
-      da pr\xF3xima sema mudando as anota\xE7\xF5es e conferindo os dias de consulta
-      para que ela n\xE3o se esque\xE7a de outra consulta , Dona Helena \_come\xE7a
-      a ficar incomodada pela intromiss\xE3o repentina do filho."
+    texto: "Mateus <i> -M\xE3e, essa consulta n\xE3o era segunda?</i>"
+    imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: "Narra\xE7\xE3o: Dona Helena procura na caderneta. A data n\xE3o est\xE1
+      l\xE1."
+    imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: Dona Helena <i> -Deve ter sido engano, filho. </i>
+    imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: Ela fecha a caderneta depressa e volta a separar os comprimidos, sem olhar
+      para ele.
+    imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: "Mateus sente um aperto no peito. E se ela esquecer um rem\xE9dio? Ou
+      uma consulta mais s\xE9ria? Ele se inclina sobre a mesa e come\xE7a a conferir
+      as datas da caderneta por cima do ombro da m\xE3e, apontando o que est\xE1
+      faltando."
     imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: Deixa que eu resolvo
-    texto: "Mateus se v\xEA diante de um equil\xEDbrio dif\xEDcil: como cuidar da
-      sa\xFAde da m\xE3e sem tirar dela o controle da pr\xF3pria vida?"
+    texto: Dona Helena <i> -Filho, eu sei cuidar das minhas coisas.</i>
+    imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: "Narra\xE7\xE3o: Ela puxa a caderneta um pouco mais para perto de si."
+    imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 0
+    proximoQuadroSemEscolha: 0
+  - titulo: Deixa que eu resolvo
+    texto: "Mateus olha para a caneta em cima da mesa. Pode resolver tudo sozinho,
+      do jeito dele, ou confiar na m\xE3e e encontrar outra forma de ajudar. Como
+      cuidar da sa\xFAde dela sem tirar dela o controle da pr\xF3pria vida?"
     imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
-  - titulo: "O que voc\xEA faria nessa situa\xE7\xE3o?"
+  - titulo: escolha
     texto: 
     imagem: {fileID: -3640470714710942638, guid: 8358030ac61a8ee4b85e802021aa38f3, type: 3}
     opcoes:
@@ -65,9 +108,19 @@ MonoBehaviour:
         ele. A caderneta, antes preenchida com a letra de Dona Helena, agora tem
         apenas a letra do filho. Com o tempo, ela J\xE1 n\xE3o pergunta, j\xE1 n\xE3o
         opina. Apenas espera e segue o que o filho escreveu ."
-      textoFeedback: teste
-      pontuacao: -2
-      proximoQuadro: 5
+      textoFeedback: "Quando algu\xE9m passa a fazer tudo por uma pessoa idosa, ela
+        tende a fazer cada vez menos. N\xE3o porque n\xE3o consegue, mas porque deixou
+        de ter espa\xE7o para tentar. Nesses casos, a depend\xEAncia n\xE3o vem da
+        idade: ela \xE9 criada pela pr\xF3pria ajuda. Um esquecimento isolado tamb\xE9m
+        n\xE3o significa que a pessoa perdeu a capacidade de cuidar de si. Esquecer
+        um compromisso acontece com qualquer pessoa, em qualquer idade, mas na velhice
+        costuma ser visto como sinal de decl\xEDnio.\n\nProteger algu\xE9m n\xE3o
+        deveria significar tirar dele a chance de participar da pr\xF3pria vida.
+        Antes de assumir uma tarefa, vale se perguntar: ela realmente n\xE3o consegue,
+        ou s\xF3 faz de um jeito diferente do meu? Voc\xEA j\xE1 fez por algu\xE9m
+        algo que essa pessoa poderia ter feito sozinha?"
+      pontuacao: 0
+      proximoQuadro: 11
     - textoOpcao: Organiza tudo para ela, mas avisa depois o que foi feito.
       textoConsequencia: "Com o passar dos dias, Mateus continua respons\xE1vel pela
         organiza\xE7\xE3o das consultas e dos medicamentos da m\xE3e. Dona Helena
@@ -76,20 +129,40 @@ MonoBehaviour:
         sa\xFAde, ela sente falta de cuidar das pr\xF3prias coisas e de ter suas
         escolhas respeitadas. Aos poucos, aquilo que deveria ser uma ajuda acaba
         se tornando uma depend\xEAncia que ela nunca desejou."
-      textoFeedback: 
-      pontuacao: -1
-      proximoQuadro: 6
+      textoFeedback: "Avisar n\xE3o \xE9 o mesmo que consultar. Quando a decis\xE3o
+        j\xE1 chega pronta, a pessoa idosa passa apenas a cumprir a pr\xF3pria rotina
+        de sa\xFAde, sem participar dela. Pode parecer um detalhe, mas cuidar dos
+        pr\xF3prios rem\xE9dios e consultas \xE9, para muitas pessoas idosas, uma
+        forma importante de manter o controle sobre a pr\xF3pria vida. Perder isso,
+        mesmo aos poucos, pode afetar a autoestima e a sensa\xE7\xE3o de ser capaz
+        e independente.\n\nUma simples pergunta antes de agir, como \u201Co que a
+        senhora acha?\u201D, muda o papel da pessoa: ela deixa de obedecer e passa
+        a participar. Isso n\xE3o toma mais tempo, mas faz toda a diferen\xE7a para
+        quem recebe a ajuda. Na sua fam\xEDlia, as decis\xF5es sobre os mais velhos
+        s\xE3o tomadas com eles ou apenas comunicadas a eles?"
+      pontuacao: 0
+      proximoQuadro: 17
     - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
         pedir."
-      textoConsequencia: "Nas semanas seguintes, Mateus passa a organizar as consultas
-        da m\xE3e, sempre procurando saber do que ela precisa. Dona Helena deixa
-        que ele cuide das datas e dos hor\xE1rios, mas continua montando sozinha
-        a caixa de comprimidos da semana. \xC0s vezes, quando o consult\xF3rio liga,
-        \xE9 Mateus quem atende, e ela s\xF3 fica sabendo da nova data depois. A
-        rotina segue em ordem, mas j\xE1 n\xE3o \xE9 inteiramente dela."
-      textoFeedback: 
+      textoConsequencia: "Narra\xE7\xE3o: Nas semanas seguintes, Mateus passa a organizar
+        as consultas da m\xE3e, sempre procurando saber do que ela precisa. Dona
+        Helena deixa que ele cuide das datas e dos hor\xE1rios, mas continua montando
+        sozinha a caixa de comprimidos da semana. \xC0s vezes, quando o consult\xF3rio
+        liga, \xE9 Mateus quem atende, e ela s\xF3 fica sabendo da nova data depois.
+        A rotina segue em ordem, mas j\xE1 n\xE3o \xE9 inteiramente dela."
+      textoFeedback: "Dividir as tarefas pode ser um bom caminho, desde que a divis\xE3o
+        seja escolhida e conversada pelos dois. Quando uma parte da rotina passa
+        para outra pessoa sem di\xE1logo, a pessoa idosa pode deixar de acompanhar
+        a pr\xF3pria sa\xFAde: n\xE3o sabe quando \xE9 a pr\xF3xima consulta, nem
+        por que algo mudou. A autonomia raramente se perde de uma vez. Ela vai diminuindo
+        em pequenas partes, quase sem que ningu\xE9m perceba, at\xE9 que a pessoa
+        j\xE1 n\xE3o reconhece a rotina como sua.\n\nAjudar tamb\xE9m \xE9 manter
+        a pessoa informada e envolvida, mesmo nas tarefas que voc\xEA assumiu por
+        ela. Contar o que mudou e por que mudou ajuda a pessoa a continuar se sentindo
+        parte das pr\xF3prias decis\xF5es. Quando voc\xEA ajuda algu\xE9m, essa pessoa
+        continua sabendo o que est\xE1 acontecendo?"
       pontuacao: 0
-      proximoQuadro: 8
+      proximoQuadro: 22
     - textoOpcao: "Ajuda a organizar as informa\xE7\xF5es, mas deixa que ela escolha
         como quer controlar seus pr\xF3prios cuidados."
       textoConsequencia: "Com o passar do tempo, Dona Helena consegue manter sua
@@ -97,125 +170,255 @@ MonoBehaviour:
         compartilhado ajudam a evitar esquecimentos, enquanto Mateus aprende a respeitar
         as escolhas da m\xE3e. Ela continua cuidando da pr\xF3pria sa\xFAde, agora
         com o filho por perto quando precisa."
-      textoFeedback: 
-      pontuacao: 1
-      proximoQuadro: 10
+      textoFeedback: "Uma boa ajuda se adapta \xE0 pessoa, e n\xE3o o contr\xE1rio.
+        Quando o apoio complementa o que a pessoa idosa j\xE1 faz, ela mant\xE9m
+        suas habilidades e a confian\xE7a em si mesma. Fazer junto pode levar mais
+        tempo do que fazer sozinho, mas preserva algo importante: a sensa\xE7\xE3o
+        de que ainda se \xE9 capaz. \xC9 a diferen\xE7a entre fazer pela pessoa e
+        fazer com ela.\n\nAinda assim, Mateus resolveu o problema sem perguntar por
+        que ele tinha acontecido. Os lembretes ajudaram, mas a causa do esquecimento
+        continuou desconhecida. Entender o motivo de uma dificuldade pode mudar completamente
+        a forma de ajudar. Quando algu\xE9m pr\xF3ximo tem uma dificuldade, voc\xEA
+        pergunta o motivo ou j\xE1 parte direto para a solu\xE7\xE3o?"
+      pontuacao: 0
+      proximoQuadro: 28
     - textoOpcao: "Conversa com ela, entende quais dificuldades realmente existem
         e oferece ferramentas e apoio para que ela continue participando das decis\xF5es
         sobre a pr\xF3pria sa\xFAde."
       textoConsequencia: "No domingo seguinte, os dois se sentam \xE0 mesa da cozinha.
         Dona Helena cola uma etiqueta colorida em cada cartela, uma cor para cada
         rem\xE9dio. Ao lado do telefone, deixa a caderneta aberta, para anotar na
-        hora qualquer consulta remarcada. Mateus s\xF3 observa.\n\nNa segunda de
-        manh\xE3, \xE9 o telefone dele que toca.\n\nDona Helena: J\xE1 t\xF4 pronta
-        pra consulta. Voc\xEA vem ou vou sozinha?"
-      textoFeedback: 
-      pontuacao: 2
-      proximoQuadro: 14
+        hora qualquer consulta remarcada. Mateus s\xF3 observa.\nNa segunda de manh\xE3,
+        \xE9 o telefone dele que toca.\nDona Helena <i>J\xE1 t\xF4 pronta pra consulta.
+        Voc\xEA vem ou vou sozinha?</i>"
+      textoFeedback: "Muitas pessoas idosas escondem dificuldades por vergonha ou
+        por medo de que algu\xE9m tome o controle da vida delas. Quando a rea\xE7\xE3o
+        a um erro \xE9 acolher, e n\xE3o intervir, fica mais f\xE1cil contar o que
+        est\xE1 acontecendo. E muitas vezes a causa nem est\xE1 na pessoa, mas no
+        ambiente: letras pequenas, embalagens iguais, informa\xE7\xF5es que mudam
+        de repente. Ajustar o ambiente pode resolver o que parecia ser um problema
+        de mem\xF3ria.\nEscutar antes de agir permitiu que Dona Helena continuasse
+        no comando da pr\xF3pria sa\xFAde, com o apoio do filho ao lado. Antes de
+        concluir que algu\xE9m n\xE3o consegue mais, vale perguntar o que est\xE1
+        dif\xEDcil. Voc\xEA j\xE1 escondeu uma dificuldade com medo da rea\xE7\xE3o
+        de algu\xE9m?"
+      pontuacao: 0
+      proximoQuadro: 34
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: 
-    texto: "narra\xE7\xE3o: Sem pedir licen\xE7a, Mateus toma a frente e assume o
-      controle total da rotina de sa\xFAde da m\xE3e. Ignorando suas vontades \_pois
-      \xE9 um mal necess\xE1rio ela j\xE1 n\xE3o tem capacidade de organizar sua
-      rotina mais."
+    texto: "Mateus pega a caderneta e a caixa de rem\xE9dios da mesa, sem perguntar
+      nada.\n"
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 12
+  - titulo: 
+    texto: "Dona Helena <i> -Filho, o que voc\xEA est\xE1 fazendo? Eu estava arrumando
+      isso.</i>\n"
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 13
+  - titulo: 
+    texto: "Mateus <i> -A senhora esqueceu a consulta de segunda, m\xE3e. Deixa que
+      eu resolvo.</i>"
     imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 14
   - titulo: 
-    texto: "narra\xE7\xE3o: Mateus toma a dianteira e reorganiza tudo por conta pr\xF3pria.
-      Ele n\xE3o pode confiar que sua m\xE3e fa\xE7a uma tarefa t\xE3o importante
-      sozinha"
-    imagem: {fileID: 452197297520804635, guid: 69ae19851a778a04bb3bfa90ca33b0ee, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 7
-  - titulo: 
-    texto: "fala: M\xE3e est\xE1 tudo organizado, s\xF3 precisa seguir o que est\xE1
-      escrito e n\xE3o se esque\xE7a que teremos uma consulta importante na segunda
-      de manh\xE3 ."
-    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "narra\xE7\xE3o: Mateus decide ajudar a sua m\xE3e e perguntando o que
-      ainda precisa ser, mas ele se torna o respons\xE1vel por organizar as consultas.\n"
-    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 9
-  - titulo: 
-    texto: "narra\xE7\xE3o:, Dona Helena entende a preocupa\xE7\xE3o do filho com
-      a sua sa\xFAde e aceita que ele tome conta dos dias de consulta."
-    imagem: {fileID: 7670775576156265414, guid: 4a789bc58d1e3e0458bbd820fb908847, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "narra\xE7\xE3o: Mateus decide ajudar a sua m\xE3e perguntando o que ainda
-      precisa ser feito e toda altera\xE7\xE3o que ele faz ele avisa a ela e pergunta
-      a sua opini\xE3o de sua m\xE3e ."
-    imagem: {fileID: 4326038619158674836, guid: 883ff1602acd19f41b313b421375093d, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 11
-  - titulo: 
-    texto: "narra\xE7\xE3o . Mateus l\xEA as datas das receitas em voz alta, e Dona
-      Helena escreve na caderneta com a letra dela.\n"
-    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 12
-  - titulo: 
-    texto: "Fala (Dona Helena): \u201CDevagar, menino T\xE1 indo muito r\xE1pido
-      .\u201D"
-    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 13
-  - titulo: 
-    texto: 'Mateus: ri e espera ela terminar'
-    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
-    opcoes: []
-    exigeEscolha: 0
-    definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 14
-  - titulo: 
-    texto: "Narra\xE7\xE3o: Mateus pensa em pegar a caneta, mas desiste e senta do
-      lado da m\xE3e."
-    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    texto: "Dona Helena <i> -Foi s\xF3 uma vez\u2026</i>"
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 15
   - titulo: 
-    texto: "Fala (Mateus): \u201CM\xE3e, n\xE3o vim brigar. O que aconteceu com a
-      consulta?\u201D"
-    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    texto: "Mateus <i> -Uma vez j\xE1 \xE9 o bastante. A partir de agora, eu cuido
+      disso.</i>"
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
     proximoQuadroSemEscolha: 16
   - titulo: 
-    texto: "Fala (Dona Helena): \u201CEsqueci, filho. Fiquei com vergonha de contar\u2026
-      A consulta foi remarcada por telefone e eu n\xE3o anotei. E \xE9 rem\xE9dio
-      demais, as cartelas s\xE3o todas parecidas.\u201D"
+    texto: Mateus leva tudo para o quarto. Dona Helena fica olhando para a mesa vazia,
+      onde antes estava a rotina dela.
+    imagem: {fileID: -2482212190511993145, guid: a743ea25d31a0934fbfddacb24d5eea3, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 40
+  - titulo: 
+    texto: "Enquanto Dona Helena descansa, Mateus se senta \xE0 mesa da cozinha e
+      reorganiza tudo: a caixa de rem\xE9dios, as receitas e as datas das consultas.
+      Quando ela volta, encontra a caderneta preenchida com a letra do filho"
+    imagem: {fileID: 452197297520804635, guid: 69ae19851a778a04bb3bfa90ca33b0ee, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 18
+  - titulo: 
+    texto: "Mateus <i> -M\xE3e, deixei tudo organizado. \xC9 s\xF3 seguir o que est\xE1
+      escrito a\xED. E n\xE3o vai esquecer a consulta de segunda, hein?</i>"
+    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 19
+  - titulo: 
+    texto: "Dona Helena <i>-Voc\xEA mudou os hor\xE1rios dos rem\xE9dios?</i>"
+    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 20
+  - titulo: 
+    texto: "Mateus <i>-Mudei. Assim fica mais f\xE1cil. Pode confiar.</i>"
+    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 21
+  - titulo: 
+    texto: "Dona Helena folheia a caderneta em sil\xEAncio. Est\xE1 tudo certo, mas
+      nada ali foi decidido por ela."
+    imagem: {fileID: 7944109743839845084, guid: b15c0884e444dce47b2a3550c5e98dea, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 40
+  - titulo: 
+    texto: "Mateus puxa uma cadeira e se senta ao lado da m\xE3e."
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 23
+  - titulo: 
+    texto: "Mateus <i>-M\xE3e, a senhora precisa de ajuda com isso?</i>"
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 24
+  - titulo: 
+    texto: "Dona Helena <i>-Com os rem\xE9dios, n\xE3o. Eu sei montar a caixinha.</i>"
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 25
+  - titulo: 
+    texto: "Mateus <i>-T\xE1 bom. Mas as consultas deixa comigo, t\xE1? Assim a gente
+      n\xE3o corre o risco de esquecer de novo.</i>"
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 26
+  - titulo: 
+    texto: "Dona Helena <i>-\u2026T\xE1 bom, filho.</i>"
+    imagem: {fileID: 6383120972177551673, guid: cda79b0ed59b48e409f664e377984e3a, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 27
+  - titulo: 
+    texto: Dona Helena volta a separar os comprimidos da semana. Ao lado dela, Mateus
+      copia as datas das consultas para o celular dele.
+    imagem: {fileID: 7670775576156265414, guid: 4a789bc58d1e3e0458bbd820fb908847, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 40
+  - titulo: 
+    texto: "Mateus se senta ao lado da m\xE3e e olha para a caderneta, sem peg\xE1-la."
+    imagem: {fileID: 4326038619158674836, guid: 883ff1602acd19f41b313b421375093d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 29
+  - titulo: 
+    texto: "Mateus<i> -M\xE3e, quer ajuda pra organizar as consultas? Posso colocar
+      um alarme no seu celular, ou a senhora prefere anotar do seu jeito?</i>"
+    imagem: {fileID: 4326038619158674836, guid: 883ff1602acd19f41b313b421375093d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 30
+  - titulo: 
+    texto: "Dona Helena<i> -Anoto eu. Mas pode p\xF4r o alarme tamb\xE9m.</i>"
+    imagem: {fileID: 4326038619158674836, guid: 883ff1602acd19f41b313b421375093d, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 31
+  - titulo: 
+    texto: "Mateus l\xEA as datas das receitas em voz alta, e Dona Helena escreve
+      na caderneta, com a letra dela. "
+    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 32
+  - titulo: 
+    texto: "Dona Helena <i> -Devagar, menino. T\xE1 indo muito r\xE1pido.</i>"
+    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 33
+  - titulo: 
+    texto: Mateus ri e espera ela terminar.
+    imagem: {fileID: -4718384341936715221, guid: e9f40d3e3933b5c42870592fa2cfe8be, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 40
+  - titulo: 
+    texto: "Mateus pensa em pegar a caneta, mas desiste e se senta ao lado da m\xE3e."
+    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 35
+  - titulo: 
+    texto: "Mateus <i>-M\xE3e, n\xE3o vim brigar. O que aconteceu com a consulta?</i>"
+    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 36
+  - titulo: 
+    texto: "Dona Helena <i>-Esqueci, filho. Fiquei com vergonha de contar\u2026 A
+      consulta foi remarcada por telefone e eu n\xE3o anotei. E \xE9 rem\xE9dio demais,
+      as cartelas s\xE3o todas parecidas.</i>"
+    imagem: {fileID: -5526605966550756343, guid: caf8da9eabd16b14daea82c579139d69, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 37
+  - titulo: 
+    texto: Mateus <i>-E se a gente marcasse cada cartela com uma cor? A senhora escolhe
+      as cores.</i>
     imagem: {fileID: -4427610741136733771, guid: cc83caccee733bb47b44450edde03b65, type: 3}
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 17
+    proximoQuadroSemEscolha: 38
+  - titulo: 
+    texto: Dona Helena <i> -Isso eu consigo fazer.</i>
+    imagem: {fileID: -4427610741136733771, guid: cc83caccee733bb47b44450edde03b65, type: 3}
+    opcoes: []
+    exigeEscolha: 0
+    definirProximoQuadroManualmente: 1
+    proximoQuadroSemEscolha: 39
   - titulo: 
     texto: "Mateus pega a m\xE3o dela. Combinam que ela segue cuidando da caderneta,
       e no domingo os dois olham a semana juntos."
@@ -223,4 +426,4 @@ MonoBehaviour:
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 18
+    proximoQuadroSemEscolha: 40

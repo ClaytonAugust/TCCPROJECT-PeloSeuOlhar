@@ -8380,7 +8380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ControladorNarrativa
   painelMenuInicial: {fileID: 903573063}
   cenarios:
-  - {fileID: 11400000, guid: 2fe447a2680798149b3b3f6955b7bb75, type: 2}
+  - {fileID: 11400000, guid: 8988eb3ee6e1812448c98723bc96f488, type: 2}
   - {fileID: 11400000, guid: 022d5f389aaa0aa4daf164d9ca67099c, type: 2}
   - {fileID: 11400000, guid: 29e62acb89f61dd4ea2e348abc53c217, type: 2}
   - {fileID: 11400000, guid: 22e20c0e41e8a47449ea9ebb8c5f4b57, type: 2}
