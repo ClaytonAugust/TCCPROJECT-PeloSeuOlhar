@@ -172,7 +172,7 @@ MonoBehaviour:
         e acabou ficando de fora delas. \xC0s vezes, pedir s\xF3 um pouco \xE9 aceitar
         menos do que se tem direito. Voc\xEA j\xE1 concordou com algo apenas porque
         a decis\xE3o j\xE1 estava tomada? E j\xE1 fez algu\xE9m concordar dessa forma?"
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 18
     - textoOpcao: "Perguntaria a Seu Roberto o que ele pensa antes de tomar qualquer
         decis\xE3o."
@@ -193,7 +193,7 @@ MonoBehaviour:
         influencia o que vem depois. Voc\xEA costuma perguntar a opini\xE3o de quem
         \xE9 mais velho sobre as decis\xF5es importantes, ou s\xF3 sobre as do dia
         a dia?"
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 25
     - textoOpcao: "Conversaria diretamente com Seu Roberto e provavelmente consideraria
         sua opini\xE3o"
@@ -215,7 +215,7 @@ MonoBehaviour:
         pessoa pode decidir, com a fam\xEDlia ao lado para apoiar. Quando voc\xEA
         discorda da escolha de algu\xE9m mais velho, costuma explicar seu ponto de
         vista ou simplesmente decidir por ele?"
-      pontuacao: 0
+      pontuacao: 3
       proximoQuadro: 32
     - textoOpcao: "Conversaria com Seu Roberto, ouviria suas prefer\xEAncias e respeitaria
         sua decis\xE3o."
@@ -235,7 +235,7 @@ MonoBehaviour:
         que conversem comigo, n\xE3o apenas sobre mim.\u201D \xC0s vezes, incluir
         algu\xE9m \xE9 t\xE3o simples quanto puxar uma cadeira. Na sua fam\xEDlia,
         quem ainda est\xE1 na poltrona, esperando ser chamado para a mesa?"
-      pontuacao: 0
+      pontuacao: 4
       proximoQuadro: 38
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

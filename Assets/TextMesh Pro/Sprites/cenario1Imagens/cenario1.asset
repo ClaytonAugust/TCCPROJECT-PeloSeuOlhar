@@ -124,7 +124,7 @@ MonoBehaviour:
         ouvir uma hist\xF3ria antiga ou simplesmente conversar sem um motivo j\xE1
         \xE9 uma forma de presen\xE7a. Voc\xEA costuma conversar de verdade com as
         pessoas que ama, ou s\xF3 confirmar se est\xE1 tudo bem?"
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 12
     - textoOpcao: "Pergunta se ele quer companhia, mas deixa a decis\xE3o totalmente
         por conta dele."
@@ -146,7 +146,7 @@ MonoBehaviour:
         e n\xE3o um favor, e tira de quem est\xE1 sofrendo o peso de ter que pedir.
         Voc\xEA j\xE1 deixou de procurar algu\xE9m por achar que estaria incomodando?
         E algu\xE9m j\xE1 deixou de procurar voc\xEA pelo mesmo motivo?"
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 17
     - textoOpcao: "Combina de visit\xE1-lo com mais frequ\xEAncia e procura manter
         contato durante a semana."
@@ -171,7 +171,7 @@ MonoBehaviour:
         preciso abrir espa\xE7o para falar de quem se foi. Voc\xEA costuma perguntar
         \xE0s pessoas mais velhas sobre a hist\xF3ria delas? E sobre o que elas est\xE3o
         sentindo agora?"
-      pontuacao: 0
+      pontuacao: 3
       proximoQuadro: 21
     - textoOpcao: "Conversa com ele sobre o que est\xE1 sentindo"
       textoConsequencia: "Em vez de apenas ligar, Catarina pergunta ao pai como ele
@@ -192,7 +192,7 @@ MonoBehaviour:
         a pergunta mais simples, \u201Ccomo voc\xEA est\xE1 de verdade?\u201D, \xE9
         a que abre espa\xE7o para o que estava guardado. Existe algu\xE9m na sua
         vida com quem voc\xEA nunca conversou sobre uma perda que voc\xEAs dois sentiram?"
-      pontuacao: 0
+      pontuacao: 4
       proximoQuadro: 26
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

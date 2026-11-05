@@ -144,7 +144,7 @@ MonoBehaviour:
         o relato de algu\xE9m n\xE3o exige ter certeza de tudo, exige n\xE3o descart\xE1-lo
         de antem\xE3o. Quando duas vers\xF5es se contradizem, voc\xEA costuma dar
         o mesmo peso \xE0 palavra de uma pessoa mais velha?"
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 16
     - textoOpcao: "Escutar todo mundo antes de tirar conclus\xF5es precipitadas"
       textoConsequencia: "Com o passar do tempo, o assunto perde espa\xE7o nas conversas
@@ -165,7 +165,7 @@ MonoBehaviour:
         o que ela deixou nas pessoas. \xC0s vezes, al\xE9m de descobrir o que aconteceu,
         \xE9 preciso dizer a quem foi julgado que a palavra dele importa. Na sua
         fam\xEDlia, quando surge um mal-entendido, quem costuma ser ouvido primeiro?"
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 21
     - textoOpcao: "Conversaria diretamente com Dona Maria e daria espa\xE7o para
         ela se explicar."
@@ -184,7 +184,7 @@ MonoBehaviour:
         a palavra dela diante dos outros. \xC0s vezes, o respeito tamb\xE9m precisa
         ser dito em voz alta. Quando algu\xE9m pr\xF3ximo \xE9 julgado injustamente,
         voc\xEA costuma ficar ao lado dele ou prefere n\xE3o se envolver?"
-      pontuacao: 0
+      pontuacao: 3
       proximoQuadro: 27
     - textoOpcao: "Evitaria espalhar falsas acusa\xE7\xF5es, e conversaria diretamente
         com ela buscando entender os fatos antes de fazer qualquer julgamento."
@@ -204,7 +204,7 @@ MonoBehaviour:
         porque significa contrariar outras pessoas da fam\xEDlia. Mas reconhecer
         o erro e pedir desculpas tamb\xE9m ensina a todos como agir da pr\xF3xima
         vez. Voc\xEA j\xE1 defendeu algu\xE9m que estava sendo julgado sem ser ouvido?"
-      pontuacao: 0
+      pontuacao: 4
       proximoQuadro: 32
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

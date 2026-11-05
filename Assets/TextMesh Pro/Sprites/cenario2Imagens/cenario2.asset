@@ -42,8 +42,7 @@ MonoBehaviour:
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: Deixa que eu resolvo
-    texto: "Narra\xE7\xE3o: Dona Helena procura na caderneta. A data n\xE3o est\xE1
-      l\xE1."
+    texto: "Dona Helena procura na caderneta. A data n\xE3o est\xE1 l\xE1."
     imagem: {fileID: -8046184631516179679, guid: 70582e4fa1302094083cae0019d8d7b6, type: 3}
     opcoes: []
     exigeEscolha: 0
@@ -82,7 +81,7 @@ MonoBehaviour:
     definirProximoQuadroManualmente: 0
     proximoQuadroSemEscolha: 0
   - titulo: Deixa que eu resolvo
-    texto: "Narra\xE7\xE3o: Ela puxa a caderneta um pouco mais para perto de si."
+    texto: Ela puxa a caderneta um pouco mais para perto de si.
     imagem: {fileID: 7534935296861606484, guid: 5d3c6a7ef5d11f0428d51f453a60aba4, type: 3}
     opcoes: []
     exigeEscolha: 0
@@ -141,7 +140,7 @@ MonoBehaviour:
         a participar. Isso n\xE3o toma mais tempo, mas faz toda a diferen\xE7a para
         quem recebe a ajuda. Na sua fam\xEDlia, as decis\xF5es sobre os mais velhos
         s\xE3o tomadas com eles ou apenas comunicadas a eles?"
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 17
     - textoOpcao: "Pergunta se ela precisa de ajuda e s\xF3 interfere quando ela
         pedir."
@@ -162,7 +161,7 @@ MonoBehaviour:
         ela. Contar o que mudou e por que mudou ajuda a pessoa a continuar se sentindo
         parte das pr\xF3prias decis\xF5es. Quando voc\xEA ajuda algu\xE9m, essa pessoa
         continua sabendo o que est\xE1 acontecendo?"
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 22
     - textoOpcao: "Ajuda a organizar as informa\xE7\xF5es, mas deixa que ela escolha
         como quer controlar seus pr\xF3prios cuidados."
@@ -181,7 +180,7 @@ MonoBehaviour:
         continuou desconhecida. Entender o motivo de uma dificuldade pode mudar completamente
         a forma de ajudar. Quando algu\xE9m pr\xF3ximo tem uma dificuldade, voc\xEA
         pergunta o motivo ou j\xE1 parte direto para a solu\xE7\xE3o?"
-      pontuacao: 0
+      pontuacao: 3
       proximoQuadro: 28
     - textoOpcao: "Conversa com ela, entende quais dificuldades realmente existem
         e oferece ferramentas e apoio para que ela continue participando das decis\xF5es
@@ -190,7 +189,7 @@ MonoBehaviour:
         Dona Helena cola uma etiqueta colorida em cada cartela, uma cor para cada
         rem\xE9dio. Ao lado do telefone, deixa a caderneta aberta, para anotar na
         hora qualquer consulta remarcada. Mateus s\xF3 observa.\nNa segunda de manh\xE3,
-        \xE9 o telefone dele que toca.\nDona Helena <i>J\xE1 t\xF4 pronta pra consulta.
+        \xE9 o telefone dele que toca.\nDona Helena <i>-J\xE1 t\xF4 pronta pra consulta.
         Voc\xEA vem ou vou sozinha?</i>"
       textoFeedback: "Muitas pessoas idosas escondem dificuldades por vergonha ou
         por medo de que algu\xE9m tome o controle da vida delas. Quando a rea\xE7\xE3o
@@ -203,7 +202,7 @@ MonoBehaviour:
         concluir que algu\xE9m n\xE3o consegue mais, vale perguntar o que est\xE1
         dif\xEDcil. Voc\xEA j\xE1 escondeu uma dificuldade com medo da rea\xE7\xE3o
         de algu\xE9m?"
-      pontuacao: 0
+      pontuacao: 4
       proximoQuadro: 34
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0

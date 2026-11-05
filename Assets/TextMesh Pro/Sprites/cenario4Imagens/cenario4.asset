@@ -105,7 +105,7 @@ MonoBehaviour:
         ela. Numa consulta, isso pode ser simples: deixar que ela responda primeiro
         e s\xF3 completar se for preciso. Voc\xEA j\xE1 viu algu\xE9m responder por
         uma pessoa mais velha, como se ela n\xE3o estivesse ali?"
-      pontuacao: 0
+      pontuacao: 1
       proximoQuadro: 12
     - textoOpcao: "Deixaria que ele tentasse, mas assumiria as tarefas assim que
         ficassem dif\xEDceis."
@@ -126,7 +126,7 @@ MonoBehaviour:
         que eu ajude ou prefere terminar sozinho?\u201D evita que a ajuda chegue
         antes da hora. Quando voc\xEA ajuda algu\xE9m, costuma esperar que a pessoa
         pe\xE7a, ou j\xE1 se antecipa?"
-      pontuacao: 0
+      pontuacao: 2
       proximoQuadro: 18
     - textoOpcao: Perguntaria o que ele ainda consegue fazer sozinho e ajudaria no
         restante.
@@ -148,7 +148,7 @@ MonoBehaviour:
         que a pr\xF3pria pessoa decida como quer se adaptar. Voc\xEA j\xE1 perguntou
         a algu\xE9m mais velho o que ele gostaria de voltar a fazer, se tivesse o
         apoio certo?"
-      pontuacao: 0
+      pontuacao: 3
       proximoQuadro: 24
     - textoOpcao: "Conversaria com ele sobre as mudan\xE7as, respeitaria o ritmo
         de adapta\xE7\xE3o e buscaria maneiras de manter sua independ\xEAncia mesmo
@@ -170,7 +170,7 @@ MonoBehaviour:
         algu\xE9m a continuar sendo quem \xE9, mesmo quando muita coisa muda. Voc\xEA
         sabe o que as pessoas mais velhas da sua fam\xEDlia mais sentiriam falta
         de fazer?"
-      pontuacao: 0
+      pontuacao: 4
       proximoQuadro: 29
     exigeEscolha: 1
     definirProximoQuadroManualmente: 0
