@@ -346,7 +346,7 @@ MonoBehaviour:
     opcoes: []
     exigeEscolha: 0
     definirProximoQuadroManualmente: 1
-    proximoQuadroSemEscolha: 28
+    proximoQuadroSemEscolha: 29
   - titulo: 
     texto: "neto <i> -A gente n\xE3o fez por mal, v\xF4.</i>"
     imagem: {fileID: -8033534013178356070, guid: e554539a8bb72164ba839ba4b045a593, type: 3}

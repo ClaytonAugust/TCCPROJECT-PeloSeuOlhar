@@ -906,16 +906,20 @@ public class ControladorNarrativa : MonoBehaviour
     {
         StringBuilder sb = new StringBuilder();
         int totalPontos = 0;
-        foreach (RegistroEscolha r in respostasJogador)
-            totalPontos += r.pontuacao;
 
-        // Feedback geral configurável por faixa de pontuação no Inspector.
+        // Soma os pontos das escolhas registradas durante todos os cenários.
+        foreach (RegistroEscolha resposta in respostasJogador)
+            totalPontos += resposta.pontuacao;
+
+        // Seleciona o feedback geral correspondente à faixa de pontuação.
         string feedbackGeral = feedbackPadraoFinal;
+
         if (faixasFeedbackFinal != null)
         {
             foreach (FaixaFeedbackFinal faixa in faixasFeedbackFinal)
             {
-                if (faixa != null && totalPontos >= faixa.pontuacaoMinima &&
+                if (faixa != null &&
+                    totalPontos >= faixa.pontuacaoMinima &&
                     totalPontos <= faixa.pontuacaoMaxima)
                 {
                     feedbackGeral = faixa.feedback;
@@ -927,50 +931,15 @@ public class ControladorNarrativa : MonoBehaviour
         if (!string.IsNullOrWhiteSpace(feedbackGeral))
             sb.Append(feedbackGeral.Trim());
 
-        sb.Append("\n\nSuas escolhas e feedbacks por cenário");
-        bool encontrou = false;
-
-        // Mostra a opção selecionada e o feedback cadastrado para cada escolha.
-        for (int i = 0; i < cenarios.Count; i++)
-        {
-            List<RegistroEscolha> registros;
-            if (!respostasPorCenario.TryGetValue(i, out registros) ||
-                registros == null || registros.Count == 0)
-                continue;
-
-            encontrou = true;
-            sb.Append("\n\n");
-            sb.Append(cenarios[i] != null ? cenarios[i].nomeCenario : "Cenário");
-
-            foreach (RegistroEscolha r in registros)
-            {
-                sb.Append("\nOpção ");
-                sb.Append(r.numeroOpcao);
-                sb.Append(" escolhida: ");
-                sb.Append(string.IsNullOrWhiteSpace(r.textoOpcao) ? "(sem texto cadastrado)" : r.textoOpcao);
-
-                if (!string.IsNullOrWhiteSpace(r.feedback))
-                {
-                    sb.Append("\nFeedback: ");
-                    sb.Append(r.feedback.Trim());
-                }
-                else
-                {
-                    sb.Append("\nFeedback: Nenhum feedback foi cadastrado para esta opção.");
-                }
-            }
-        }
-
-        if (!encontrou)
-            sb.Append("\n\nNenhuma escolha foi registrada durante os cenários.");
-
+        // Mantém apenas o aviso educativo. O resumo das escolhas e dos
+        // feedbacks individuais por cenário foi removido desta tela.
         sb.Append("\n\nAviso: este feedback tem finalidade exclusivamente educativa e reflexiva. " +
                   "Ele não representa uma avaliação psicológica, não mede empatia, " +
                   "não constitui diagnóstico e não deve ser interpretado como julgamento pessoal.");
 
         return sb.ToString();
     }
-
+        
     private void TocarClique()
     {
         if (controladorMenuInicial != null)
